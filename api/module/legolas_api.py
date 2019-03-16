@@ -13,10 +13,12 @@ def detection():
         Return: imagem em base64, lista vazia ou não 
     """
 
-    req = request.json()
-    base_64 = req['base64']
+    req = request.json
+    base_64 = req['base64'
 
-    bounding_boxes = detect_boxes_in_image(base_64, detector)
+    image = base64.decodebytes(base_64) 
+
+    bounding_boxes = detect_boxes_in_image(image, detector)
 
     data_dict = {'image': base_64, 'box': bounding_boxes}
 
@@ -30,7 +32,7 @@ def recognition():
         Return: (label, (bounding box))
     """
 
-    req = request.json()
+    req = request.json
 
     base_64 = req['base64'] 
     bounding_boxes = req['bounding_boxes']
@@ -47,10 +49,11 @@ def detection_and_recognition():
         Return: (label, (bounding box))
     """
     
-    req = request.json()
+    req = request.json
     base_64 = req['base64']
+    image = base64.decodebytes(base_64) 
 
-    bounding_boxes = detect_boxes_in_image(base_64, detector)
+    bounding_boxes = detect_boxes_in_image(image, detector)
 
     if bounding_boxes:
         image = base64.decodebytes(base_64) 
