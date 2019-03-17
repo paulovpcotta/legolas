@@ -198,15 +198,15 @@ def match_images_frame(q_plot, camera = None, model_path="weights/trained_cnn_lo
 
 
 if __name__ == "__main__":
-    # # STEP 1: Train the KNN classifier and save it to disk
-    # # Once the model is trained and saved, you can skip this step next time.
-    # print("Training KNN classifier...")
-    # classifier = train("../training_dataset", model_save_path="weights/trained_cnn_location_knn_model_dataset.clf", verbose=True, n_neighbors=9)
-    # print("Training complete!")
+    # STEP 1: Train the KNN classifier and save it to disk
+    # Once the model is trained and saved, you can skip this step next time.
+    print("Training KNN classifier...")
+    classifier = train("../training_dataset", model_save_path="weights/trained_cnn_location_knn_model_dataset.clf", verbose=True, n_neighbors=9)
+    print("Training complete!")
 
-    # STEP 2: Using the trained classifier, make predictions for unknown images from camera
-    q_plot = Queue()
-    p2 = Process(target=plot_frames, args=(q_plot,))
-    p2.start()
+    # # STEP 2: Using the trained classifier, make predictions for unknown images from camera
+    # q_plot = Queue()
+    # p2 = Process(target=plot_frames, args=(q_plot,))
+    # p2.start()
 
-    match_images_frame(q_plot, model_path="weights/trained_cnn_location_knn_model_dataset.clf", n_neighbors=9)
+    # match_images_frame(q_plot, model_path="weights/trained_cnn_location_knn_model_dataset.clf", n_neighbors=9)
