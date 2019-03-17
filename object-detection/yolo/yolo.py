@@ -214,6 +214,6 @@ def detect_boxes_in_image(image_as_base64, detector):
         #res_image.save('output.jpg')
         #res_image.show()
     
-    detector.close_session()
+    #detector.close_session()
 
     return boxes
