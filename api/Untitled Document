@@ -1,0 +1,262 @@
+   "workspaces": [
+        {
+            "name": "a dev V - 6",
+            "language": "pt-br",
+            "metadata": {
+                "api_version": {
+                    "major_version": "v1",
+                    "minor_version": "2018-09-20"
+                }
+            },
+            "description": "2e87cab0-fd8f-4169-b798-e753d68da71e - 27/02/2019 Vers\u00e3o: 6 Descri\u00e7\u00e3o: v6",
+            "workspace_id": "2e87cab0-fd8f-4169-b798-e753d68da71e",
+            "learning_opt_out": false
+        },
+        {
+            "name": "A_LAB V - 17",
+            "language": "pt-br",
+            "metadata": {
+                "api_version": {
+                    "major_version": "v1",
+                    "minor_version": "2018-09-20"
+                }
+            },
+            "description": "f6730039-59f3-4fd3-ad7e-16471006f157 - 07/02/2019 Vers\u00e3o: 17 Descri\u00e7\u00e3o: slot 3",
+            "workspace_id": "f6730039-59f3-4fd3-ad7e-16471006f157",
+            "learning_opt_out": false
+        },
+        {
+            "name": "A_LAB V - 20",
+            "language": "pt-br",
+            "metadata": {
+                "api_version": {
+                    "major_version": "v1",
+                    "minor_version": "2018-09-20"
+                }
+            },
+            "description": "3515c0e7-71e3-4aec-b65d-01348b3ba05f - 14/03/2019 Vers\u00e3o: 20 Descri\u00e7\u00e3o: quick replie no historico (2)",
+            "workspace_id": "3515c0e7-71e3-4aec-b65d-01348b3ba05f",
+            "learning_opt_out": false
+        },
+        {
+            "name": "a - local V - 5",
+            "language": "pt-br",
+            "metadata": {
+                "api_version": {
+                    "major_version": "v1",
+                    "minor_version": "2018-09-20"
+                }
+            },
+            "description": "26d4762c-9630-478f-8ca3-c8eaa73ea19e - 12/03/2019 Vers\u00e3o: 5 Descri\u00e7\u00e3o: v5",
+            "workspace_id": "26d4762c-9630-478f-8ca3-c8eaa73ea19e",
+            "learning_opt_out": false
+        },
+        {
+            "name": "a - local V - 98",
+            "language": "pt-br",
+            "metadata": {
+                "api_version": {
+                    "major_version": "v1",
+                    "minor_version": "2018-09-20"
+                }
+            },
+            "description": "12/02/2019 - Vers\u00e3o: 98 - Descri\u00e7\u00e3o: quick",
+            "workspace_id": "d2e30c85-eeab-42ac-8e12-5cee25647dac",
+            "learning_opt_out": false
+        },
+        {
+            "name": "Arq 3 - Suporte a clientes",
+            "language": "pt-br",
+            "metadata": {
+                "api_version": {
+                    "major_version": "v1",
+                    "minor_version": "2018-09-20"
+                }
+            },
+            "workspace_id": "7d15a2c2-84d5-4c92-918b-dc6dff083576",
+            "learning_opt_out": false
+        },
+        {
+            "name": "BK_FUSAO_PILOTO_ROTEADOR",
+            "language": "pt-br",
+            "metadata": {
+                "api_version": {
+                    "major_version": "v1",
+                    "minor_version": "2018-09-20"
+                }
+            },
+            "workspace_id": "9a0553c8-52b3-40f9-9552-8dfc38b37f24",
+            "learning_opt_out": false
+        },
+        {
+            "name": "BootCamp - Browsers - Debug",
+            "language": "pt-br",
+            "metadata": {
+                "api_version": {
+                    "major_version": "v1",
+                    "minor_version": "2018-09-20"
+                }
+            },
+            "workspace_id": "541b6ce8-07c3-406b-93ae-2b5b916ef264",
+            "learning_opt_out": false
+        },
+        {
+            "name": "corpus_indice_19022019",
+            "language": "pt-br",
+            "metadata": {
+                "api_version": {
+                    "major_version": "v1",
+                    "minor_version": "2018-09-20"
+                }
+            },
+            "workspace_id": "8b2cc0bc-61df-4b29-a818-ad2c72942e8f",
+            "learning_opt_out": false
+        },
+        {
+            "name": "Corpus Piloto",
+            "language": "pt-br",
+            "metadata": {
+                "api_version": {
+                    "major_version": "v1",
+                    "minor_version": "2018-09-20"
+                }
+            },
+            "workspace_id": "b9ffe8ec-f6aa-4273-a428-988ba0189fb8",
+            "learning_opt_out": false
+        },
+        {
+            "name": "NORMINHAROTEADOR",
+            "language": "pt-br",
+            "metadata": {
+                "api_version": {
+                    "major_version": "v1",
+                    "minor_version": "2018-09-20"
+                }
+            },
+            "workspace_id": "0a0afff8-4268-4ac9-b132-506daca5a0a8",
+            "learning_opt_out": false
+        },
+        {
+            "name": "***piloto**WSA - Cartao_ContaFacil_DIALOGO",
+            "language": "pt-br",
+            "metadata": {
+                "api_version": {
+                    "major_version": "v1",
+                    "minor_version": "2018-09-20"
+                }
+            },
+            "workspace_id": "2bccf270-3077-47a4-a34f-1978a0567ff5",
+            "learning_opt_out": false
+        },
+        {
+            "name": "Suporte Ag\u00eancias V - 12",
+            "language": "pt-br",
+            "metadata": {
+                "api_version": {
+                    "major_version": "v1",
+                    "minor_version": "2018-09-20"
+                }
+            },
+            "description": "a1b92a0b-41c6-4367-a32d-2f8fd6b4f407 - 29/01/2019 Vers\u00e3o: 12 Descri\u00e7\u00e3o: gerar vers\u00e3o dialogo",
+            "workspace_id": "a1b92a0b-41c6-4367-a32d-2f8fd6b4f407",
+            "learning_opt_out": false
+        },
+        {
+            "name": "TESTE IBM _DIALOGO",
+            "language": "pt-br",
+            "metadata": {
+                "api_version": {
+                    "major_version": "v1",
+                    "minor_version": "2018-09-20"
+                }
+            },
+            "description": "teste para nova tela de di\u00e1logo",
+            "workspace_id": "c6d78740-19f1-4b8f-9c9c-c13bedb62418",
+            "learning_opt_out": false
+        },
+        {
+            "name": "Teste Jair",
+            "language": "pt-br",
+            "metadata": {
+                "api_version": {
+                    "major_version": "v1",
+                    "minor_version": "2018-09-20"
+                }
+            },
+            "description": "",
+            "workspace_id": "d431b182-2155-49f0-a5d0-35e405cda8e2",
+            "learning_opt_out": false
+        },
+        {
+            "name": "tesx",
+            "language": "pt-br",
+            "metadata": {
+                "api_version": {
+                    "major_version": "v1",
+                    "minor_version": "2018-09-20"
+                }
+            },
+            "description": "",
+            "workspace_id": "c7775317-af11-4741-a5a7-5f204f4c2208",
+            "system_settings": {
+                "tooling": {
+                    "store_generic_responses": true
+                }
+            },
+            "learning_opt_out": false
+        },
+        {
+            "name": "UCI - An\u00e1lise de investimentos -Opera\u00e7\u00e3o",
+            "language": "pt-br",
+            "metadata": {
+                "api_version": {
+                    "major_version": "v1",
+                    "minor_version": "2018-09-20"
+                }
+            },
+            "workspace_id": "1013da6c-2624-4495-a5f8-f5d212fe4f32",
+            "learning_opt_out": false
+        },
+        {
+            "name": "WSA - API - ANALISE INVESTIMENTO - GUIADO V - 8",
+            "language": "pt-br",
+            "metadata": {
+                "api_version": {
+                    "major_version": "v1",
+                    "minor_version": "2018-09-20"
+                }
+            },
+            "description": "a86e674d-f556-4cb4-8927-2cb7ab7764e2 - 15/01/2019 Vers\u00e3o: 8 Descri\u00e7\u00e3o: TESTE123",
+            "workspace_id": "a86e674d-f556-4cb4-8927-2cb7ab7764e2",
+            "learning_opt_out": false
+        },
+        {
+            "name": "WSA - Cartao_ContaFacil_DIALOGO",
+            "language": "pt-br",
+            "metadata": {
+                "api_version": {
+                    "major_version": "v1",
+                    "minor_version": "2018-09-20"
+                }
+            },
+            "description": "teste para nova tela de di\u00e1logo",
+            "workspace_id": "da482656-9e01-4e4f-b2b8-d5a15459ac54",
+            "learning_opt_out": false
+        },
+        {
+            "name": "WSA - Guiado - An\u00e1lise de perfil de investimento",
+            "language": "pt-br",
+            "metadata": {
+                "api_version": {
+                    "major_version": "v1",
+                    "minor_version": "2018-09-20"
+                }
+            },
+            "workspace_id": "8af15efd-447f-41ec-a93b-bfdbe5c1c23b",
+            "learning_opt_out": false
+        }
+    ],
+    "pagination": {
+        "refresh_url": "/v1/workspaces?version=2018-09-20"
+    }
+}

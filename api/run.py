@@ -1,9 +1,11 @@
 from flask import Flask, Blueprint
 from module.legolas_api import api
+from module.chat_api import chat
 
 app = Flask(__name__)
 
 app.register_blueprint(api, url_prefix='/api')
+app.register_blueprint(chat, url_prefix='/chat')
 
 if __name__=='__main__':
 

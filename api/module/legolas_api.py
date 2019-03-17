@@ -14,7 +14,7 @@ def detection():
     """
 
     req = request.json
-    base_64 = req['base64'
+    base_64 = req['base64']
 
     image = base64.decodebytes(base_64) 
 
