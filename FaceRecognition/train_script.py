@@ -201,7 +201,7 @@ if __name__ == "__main__":
     # STEP 1: Train the KNN classifier and save it to disk
     # Once the model is trained and saved, you can skip this step next time.
     print("Training KNN classifier...")
-    classifier = train("../training_dataset", model_save_path="weights/trained_cnn_location_knn_model_dataset.clf", verbose=True, n_neighbors=9)
+    classifier = train("../training_dataset", model_save_path="weights/trained_cnn_location_knn_model_dataset.clf", verbose=True, n_neighbors=11)
     print("Training complete!")
 
     # # STEP 2: Using the trained classifier, make predictions for unknown images from camera
