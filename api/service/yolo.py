@@ -25,6 +25,8 @@ from keras.models import load_model
 from timeit import default_timer as timer
 from PIL import ImageDraw, Image
 
+import skimage.io
+
 import logging
 
 ####################################################################
@@ -58,27 +60,27 @@ class YOLO(object):
 
 #####################################################################
     def _generate(self):
-        model_path = os.path.expanduser(self.model_path)
-        assert model_path.endswith(
-            '.h5'), 'Keras model or weights must be a .h5 file'
+        logger = logging.getLogger(__name__)
 
-        # load model, or construct model and load weights
+        model_path = os.path.expanduser(self.model_path)
+        
+        assert model_path.endswith('.h5'), 'O modelo do Keras deve ser um arquivo do tipo .h5'
+
         num_anchors = len(self.anchors)
         num_classes = len(self.class_names)
+        
         try:
             self.yolo_model = load_model(model_path, compile=False)
         except:
-            # make sure model, anchors and classes match
             self.yolo_model.load_weights(self.model_path)
         else:
             assert self.yolo_model.layers[-1].output_shape[-1] == \
                    num_anchors / len(self.yolo_model.output) * (
                            num_classes + 5), \
-                'Mismatch between model and given anchor and class sizes'
-        print(
-            '*** {} model, anchors, and classes loaded.'.format(model_path))
+                'Mismatch entre modelo e imagens'
+        
+        logger.info('_generate: Modelo {}, âncores de classes foram carregados com sucesso'.format(model_path))
 
-        # generate colors for drawing bounding boxes
         hsv_tuples = [(x / len(self.class_names), 1., 1.)
                       for x in range(len(self.class_names))]
         self.colors = list(map(lambda x: colorsys.hsv_to_rgb(*x), hsv_tuples))
@@ -91,8 +93,10 @@ class YOLO(object):
         np.random.shuffle(self.colors)
         np.random.seed(None)
 
-        # generate output tensor targets for filtered bounding boxes.
+        logger.info('_generate: Executando o modelo para busca de bounding boxes na imagem')
+
         self.input_image_shape = K.placeholder(shape=(2,))
+        
         boxes, scores, classes = eval(self.yolo_model.output, self.anchors,
                                            len(self.class_names),
                                            self.input_image_shape,
@@ -107,23 +111,25 @@ class YOLO(object):
         start_time = timer()
 
         try:
+            logger.info('detect_boxes: Re-dimensionando a imagem')
+
             if self.model_image_size != (None, None):
-                assert self.model_image_size[0] % 32 == 0, 'Multiples of 32 required'
-                assert self.model_image_size[1] % 32 == 0, 'Multiples of 32 required'
+                assert self.model_image_size[0] % 32 == 0, 'É necessário que a imagem seja múltipla de 32'
+                assert self.model_image_size[1] % 32 == 0, 'É necessário que a imagem seja múltipla de 32'
 
                 boxed_image = letterbox_image(image, tuple(reversed(self.model_image_size)))
             else:
                 new_image_size = (image.width - (image.width % 32),
-                                image.height - (image.height % 32))
+                                  image.height - (image.height % 32))
 
                 boxed_image = letterbox_image(image, new_image_size)
-            
+
             image_data = np.array(boxed_image, dtype='float32')
 
             logger.info('detect_boxes: Tamanho da imagem: '+ str(image_data.shape))
 
             image_data /= 255.
-            # add batch dimension
+
             image_data = np.expand_dims(image_data, 0)
 
             logger.info('detect_boxes: Buscando faces na imagem...')
@@ -132,12 +138,12 @@ class YOLO(object):
                 [self.boxes, self.scores, self.classes],
                 feed_dict={
                     self.yolo_model.input: image_data,
-                    self.input_image_shape: [image.size[1], image.size[0]],
-                    K.learning_phase(): 0
+                    self.input_image_shape: [image.size[1], image.size[0]]#, K.learning_phase(): 0
                 })
 
             logger.info('detect_boxes: Foram encontradas {} face(s) nesta imagem'.format(len(out_boxes)))
-            
+            logger.info('detect_boxes: Obtendo a lista de boxes')
+
             boxes = list()
 
             for box in out_boxes:
@@ -148,7 +154,7 @@ class YOLO(object):
                 bottom = min(image.size[1], np.floor(bottom + 0.5).astype('int32'))
                 right = min(image.size[0], np.floor(right + 0.5).astype('int32'))
 
-                boxes.append((top, right, bottom, left))
+                boxes.append((int(top), int(right), int(bottom), int(left)))
 
             end_time = timer()
             
@@ -156,7 +162,7 @@ class YOLO(object):
             
             return boxes
         except:
-            logger.error('detect_boxes: Erro ao rpocessar a imagem', exc_info=True)
+            logger.error('detect_boxes: Erro ao processar a imagem', exc_info=True)
 
             return []
 
@@ -170,10 +176,9 @@ class YOLO(object):
 
 ####################################################################
 def letterbox_image(image, size):
-    '''Resize image with unchanged aspect ratio using padding'''
     logger = logging.getLogger(__name__)
 
-    logger.info('letterbox_image: Redimensionando a imagem sem perder o aspecto da imagem')
+    logger.info('letterbox_image: Redimensionando a imagem sem perder o aspecto da mesma')
 
     img_width, img_height = image.size
     w, h = size
@@ -191,6 +196,7 @@ def letterbox_image(image, size):
 ####################################################################
 def detect_boxes_in_image(image_as_base64, detector):
     logger = logging.getLogger(__name__)
+    boxes = []
 
     try:
         logger.info('detect_boxes_in_image: Decodificando o array contendo a imagem')
@@ -204,15 +210,14 @@ def detect_boxes_in_image(image_as_base64, detector):
 
         image = Image.open(io.BytesIO(image_data))
     except:
-        logger.info('detect_boxes_in_image: Erro ao obter a imagem')
+        logger.info('detect_boxes_in_image: Erro ao obter a imagem', exc_info=True)
+
+        return []
     else:
         logger.info('detect_boxes_in_image: Realizando a detecção')
 
         boxes = detector.detect_boxes(image)
 
-        #res_image.save('output.jpg')
-        #res_image.show()
-    
-    detector.close_session()
-
     return boxes
+
+

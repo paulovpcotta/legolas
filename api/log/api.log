@@ -1,0 +1,1657 @@
+2019-03-17 16:31:58,137 - INFO - werkzeug -  * Running on http://0.0.0.0:2931/ (Press CTRL+C to quit)
+2019-03-17 16:31:58,138 - INFO - werkzeug -  * Restarting with stat
+2019-03-17 16:32:09,670 - WARNING - werkzeug -  * Debugger is active!
+2019-03-17 16:32:09,670 - INFO - werkzeug -  * Debugger PIN: 166-786-377
+2019-03-17 16:32:29,690 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:32:29,690 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:32:29,690 - INFO - service.yolo - detect_boxes_in_image: Decodificando o array contendo a imagem
+2019-03-17 16:32:29,690 - INFO - service.yolo - detect_boxes_in_image: Obtendo a imagem em formato PIL
+2019-03-17 16:32:29,733 - INFO - service.yolo - detect_boxes_in_image: Realizando a detecção
+2019-03-17 16:32:29,733 - INFO - service.yolo - letterbox_image: Redimensionando a imagem sem perder o aspecto da imagem
+2019-03-17 16:32:29,749 - INFO - service.yolo - detect_boxes: Tamanho da imagem: (416, 416, 3)
+2019-03-17 16:32:29,749 - INFO - service.yolo - detect_boxes: Buscando faces na imagem...
+2019-03-17 16:32:32,189 - INFO - service.yolo - detect_boxes: Foram encontradas 1 face(s) nesta imagem
+2019-03-17 16:32:32,189 - INFO - service.yolo - detect_boxes: Processamento concluído em 2455.74ms
+2019-03-17 16:32:32,189 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 16:32:32,189 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 16:32:32,189 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 16:32:34,170 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:32:34] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 16:32:34,187 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:32:34,187 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:32:34,188 - INFO - service.yolo - detect_boxes_in_image: Decodificando o array contendo a imagem
+2019-03-17 16:32:34,188 - INFO - service.yolo - detect_boxes_in_image: Obtendo a imagem em formato PIL
+2019-03-17 16:32:34,188 - INFO - service.yolo - detect_boxes_in_image: Realizando a detecção
+2019-03-17 16:32:34,188 - INFO - service.yolo - letterbox_image: Redimensionando a imagem sem perder o aspecto da imagem
+2019-03-17 16:32:34,205 - INFO - service.yolo - detect_boxes: Tamanho da imagem: (416, 416, 3)
+2019-03-17 16:32:34,205 - INFO - service.yolo - detect_boxes: Buscando faces na imagem...
+2019-03-17 16:32:35,193 - INFO - service.yolo - detect_boxes: Foram encontradas 1 face(s) nesta imagem
+2019-03-17 16:32:35,194 - INFO - service.yolo - detect_boxes: Processamento concluído em 1005.74ms
+2019-03-17 16:32:35,194 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 16:32:35,194 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 16:32:35,194 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 16:32:35,213 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:32:35] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 16:32:35,231 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:32:35,231 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:32:35,231 - INFO - service.yolo - detect_boxes_in_image: Decodificando o array contendo a imagem
+2019-03-17 16:32:35,232 - INFO - service.yolo - detect_boxes_in_image: Obtendo a imagem em formato PIL
+2019-03-17 16:32:35,232 - INFO - service.yolo - detect_boxes_in_image: Realizando a detecção
+2019-03-17 16:32:35,232 - INFO - service.yolo - letterbox_image: Redimensionando a imagem sem perder o aspecto da imagem
+2019-03-17 16:32:35,244 - INFO - service.yolo - detect_boxes: Tamanho da imagem: (416, 416, 3)
+2019-03-17 16:32:35,245 - INFO - service.yolo - detect_boxes: Buscando faces na imagem...
+2019-03-17 16:32:36,384 - INFO - service.yolo - detect_boxes: Foram encontradas 1 face(s) nesta imagem
+2019-03-17 16:32:36,384 - INFO - service.yolo - detect_boxes: Processamento concluído em 1152.11ms
+2019-03-17 16:32:36,384 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 16:32:36,384 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 16:32:36,384 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 16:32:36,405 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:32:36] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 16:32:36,421 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:32:36,421 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:32:36,421 - INFO - service.yolo - detect_boxes_in_image: Decodificando o array contendo a imagem
+2019-03-17 16:32:36,421 - INFO - service.yolo - detect_boxes_in_image: Obtendo a imagem em formato PIL
+2019-03-17 16:32:36,421 - INFO - service.yolo - detect_boxes_in_image: Realizando a detecção
+2019-03-17 16:32:36,421 - INFO - service.yolo - letterbox_image: Redimensionando a imagem sem perder o aspecto da imagem
+2019-03-17 16:32:36,434 - INFO - service.yolo - detect_boxes: Tamanho da imagem: (416, 416, 3)
+2019-03-17 16:32:36,434 - INFO - service.yolo - detect_boxes: Buscando faces na imagem...
+2019-03-17 16:32:37,501 - INFO - service.yolo - detect_boxes: Foram encontradas 1 face(s) nesta imagem
+2019-03-17 16:32:37,501 - INFO - service.yolo - detect_boxes: Processamento concluído em 1079.67ms
+2019-03-17 16:32:37,501 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 16:32:37,501 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 16:32:37,501 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 16:32:37,519 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:32:37] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 16:32:37,538 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:32:37,538 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:32:37,538 - INFO - service.yolo - detect_boxes_in_image: Decodificando o array contendo a imagem
+2019-03-17 16:32:37,539 - INFO - service.yolo - detect_boxes_in_image: Obtendo a imagem em formato PIL
+2019-03-17 16:32:37,539 - INFO - service.yolo - detect_boxes_in_image: Realizando a detecção
+2019-03-17 16:32:37,539 - INFO - service.yolo - letterbox_image: Redimensionando a imagem sem perder o aspecto da imagem
+2019-03-17 16:32:37,551 - INFO - service.yolo - detect_boxes: Tamanho da imagem: (416, 416, 3)
+2019-03-17 16:32:37,551 - INFO - service.yolo - detect_boxes: Buscando faces na imagem...
+2019-03-17 16:32:38,562 - INFO - service.yolo - detect_boxes: Foram encontradas 1 face(s) nesta imagem
+2019-03-17 16:32:38,562 - INFO - service.yolo - detect_boxes: Processamento concluído em 1023.37ms
+2019-03-17 16:32:38,562 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 16:32:38,562 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 16:32:38,562 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 16:32:38,579 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:32:38] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 16:32:38,595 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:32:38,596 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:32:38,596 - INFO - service.yolo - detect_boxes_in_image: Decodificando o array contendo a imagem
+2019-03-17 16:32:38,596 - INFO - service.yolo - detect_boxes_in_image: Obtendo a imagem em formato PIL
+2019-03-17 16:32:38,596 - INFO - service.yolo - detect_boxes_in_image: Realizando a detecção
+2019-03-17 16:32:38,596 - INFO - service.yolo - letterbox_image: Redimensionando a imagem sem perder o aspecto da imagem
+2019-03-17 16:32:38,607 - INFO - service.yolo - detect_boxes: Tamanho da imagem: (416, 416, 3)
+2019-03-17 16:32:38,608 - INFO - service.yolo - detect_boxes: Buscando faces na imagem...
+2019-03-17 16:32:39,593 - INFO - service.yolo - detect_boxes: Foram encontradas 1 face(s) nesta imagem
+2019-03-17 16:32:39,593 - INFO - service.yolo - detect_boxes: Processamento concluído em 997.37ms
+2019-03-17 16:32:39,593 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 16:32:39,594 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 16:32:39,594 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 16:32:39,611 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:32:39] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 16:32:39,630 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:32:39,630 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:32:39,630 - INFO - service.yolo - detect_boxes_in_image: Decodificando o array contendo a imagem
+2019-03-17 16:32:39,630 - INFO - service.yolo - detect_boxes_in_image: Obtendo a imagem em formato PIL
+2019-03-17 16:32:39,630 - INFO - service.yolo - detect_boxes_in_image: Realizando a detecção
+2019-03-17 16:32:39,631 - INFO - service.yolo - letterbox_image: Redimensionando a imagem sem perder o aspecto da imagem
+2019-03-17 16:32:39,643 - INFO - service.yolo - detect_boxes: Tamanho da imagem: (416, 416, 3)
+2019-03-17 16:32:39,643 - INFO - service.yolo - detect_boxes: Buscando faces na imagem...
+2019-03-17 16:32:40,617 - INFO - service.yolo - detect_boxes: Foram encontradas 1 face(s) nesta imagem
+2019-03-17 16:32:40,617 - INFO - service.yolo - detect_boxes: Processamento concluído em 986.74ms
+2019-03-17 16:32:40,617 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 16:32:40,617 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 16:32:40,618 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 16:32:40,634 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:32:40] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 16:32:40,653 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:32:40,654 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:32:40,654 - INFO - service.yolo - detect_boxes_in_image: Decodificando o array contendo a imagem
+2019-03-17 16:32:40,654 - INFO - service.yolo - detect_boxes_in_image: Obtendo a imagem em formato PIL
+2019-03-17 16:32:40,654 - INFO - service.yolo - detect_boxes_in_image: Realizando a detecção
+2019-03-17 16:32:40,654 - INFO - service.yolo - letterbox_image: Redimensionando a imagem sem perder o aspecto da imagem
+2019-03-17 16:32:40,668 - INFO - service.yolo - detect_boxes: Tamanho da imagem: (416, 416, 3)
+2019-03-17 16:32:40,668 - INFO - service.yolo - detect_boxes: Buscando faces na imagem...
+2019-03-17 16:32:41,660 - INFO - service.yolo - detect_boxes: Foram encontradas 1 face(s) nesta imagem
+2019-03-17 16:32:41,660 - INFO - service.yolo - detect_boxes: Processamento concluído em 1005.72ms
+2019-03-17 16:32:41,660 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 16:32:41,660 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 16:32:41,660 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 16:32:41,677 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:32:41] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 16:32:41,694 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:32:41,694 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:32:41,694 - INFO - service.yolo - detect_boxes_in_image: Decodificando o array contendo a imagem
+2019-03-17 16:32:41,694 - INFO - service.yolo - detect_boxes_in_image: Obtendo a imagem em formato PIL
+2019-03-17 16:32:41,695 - INFO - service.yolo - detect_boxes_in_image: Realizando a detecção
+2019-03-17 16:32:41,695 - INFO - service.yolo - letterbox_image: Redimensionando a imagem sem perder o aspecto da imagem
+2019-03-17 16:32:41,707 - INFO - service.yolo - detect_boxes: Tamanho da imagem: (416, 416, 3)
+2019-03-17 16:32:41,707 - INFO - service.yolo - detect_boxes: Buscando faces na imagem...
+2019-03-17 16:32:42,691 - INFO - service.yolo - detect_boxes: Foram encontradas 1 face(s) nesta imagem
+2019-03-17 16:32:42,691 - INFO - service.yolo - detect_boxes: Processamento concluído em 996.44ms
+2019-03-17 16:32:42,691 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 16:32:42,691 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 16:32:42,691 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 16:32:42,707 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:32:42] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 16:32:42,737 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:32:42,737 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:32:42,738 - INFO - service.yolo - detect_boxes_in_image: Decodificando o array contendo a imagem
+2019-03-17 16:32:42,738 - INFO - service.yolo - detect_boxes_in_image: Obtendo a imagem em formato PIL
+2019-03-17 16:32:42,738 - INFO - service.yolo - detect_boxes_in_image: Realizando a detecção
+2019-03-17 16:32:42,738 - INFO - service.yolo - letterbox_image: Redimensionando a imagem sem perder o aspecto da imagem
+2019-03-17 16:32:42,750 - INFO - service.yolo - detect_boxes: Tamanho da imagem: (416, 416, 3)
+2019-03-17 16:32:42,750 - INFO - service.yolo - detect_boxes: Buscando faces na imagem...
+2019-03-17 16:32:43,758 - INFO - service.yolo - detect_boxes: Foram encontradas 1 face(s) nesta imagem
+2019-03-17 16:32:43,758 - INFO - service.yolo - detect_boxes: Processamento concluído em 1020.19ms
+2019-03-17 16:32:43,758 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 16:32:43,758 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 16:32:43,758 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 16:32:43,780 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:32:43] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 16:32:43,796 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:32:43,796 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:32:43,796 - INFO - service.yolo - detect_boxes_in_image: Decodificando o array contendo a imagem
+2019-03-17 16:32:43,796 - INFO - service.yolo - detect_boxes_in_image: Obtendo a imagem em formato PIL
+2019-03-17 16:32:43,796 - INFO - service.yolo - detect_boxes_in_image: Realizando a detecção
+2019-03-17 16:32:43,797 - INFO - service.yolo - letterbox_image: Redimensionando a imagem sem perder o aspecto da imagem
+2019-03-17 16:32:43,808 - INFO - service.yolo - detect_boxes: Tamanho da imagem: (416, 416, 3)
+2019-03-17 16:32:43,809 - INFO - service.yolo - detect_boxes: Buscando faces na imagem...
+2019-03-17 16:32:44,844 - INFO - service.yolo - detect_boxes: Foram encontradas 1 face(s) nesta imagem
+2019-03-17 16:32:44,845 - INFO - service.yolo - detect_boxes: Processamento concluído em 1048.08ms
+2019-03-17 16:32:44,845 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 16:32:44,845 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 16:32:44,845 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 16:32:44,860 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:32:44] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 16:32:44,876 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:32:44,876 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:32:44,876 - INFO - service.yolo - detect_boxes_in_image: Decodificando o array contendo a imagem
+2019-03-17 16:32:44,876 - INFO - service.yolo - detect_boxes_in_image: Obtendo a imagem em formato PIL
+2019-03-17 16:32:44,877 - INFO - service.yolo - detect_boxes_in_image: Realizando a detecção
+2019-03-17 16:32:44,877 - INFO - service.yolo - letterbox_image: Redimensionando a imagem sem perder o aspecto da imagem
+2019-03-17 16:32:44,888 - INFO - service.yolo - detect_boxes: Tamanho da imagem: (416, 416, 3)
+2019-03-17 16:32:44,889 - INFO - service.yolo - detect_boxes: Buscando faces na imagem...
+2019-03-17 16:32:45,920 - INFO - service.yolo - detect_boxes: Foram encontradas 1 face(s) nesta imagem
+2019-03-17 16:32:45,920 - INFO - service.yolo - detect_boxes: Processamento concluído em 1043.27ms
+2019-03-17 16:32:45,920 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 16:32:45,920 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 16:32:45,920 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 16:32:45,936 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:32:45] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 16:32:45,953 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:32:45,953 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:32:45,953 - INFO - service.yolo - detect_boxes_in_image: Decodificando o array contendo a imagem
+2019-03-17 16:32:45,954 - INFO - service.yolo - detect_boxes_in_image: Obtendo a imagem em formato PIL
+2019-03-17 16:32:45,954 - INFO - service.yolo - detect_boxes_in_image: Realizando a detecção
+2019-03-17 16:32:45,954 - INFO - service.yolo - letterbox_image: Redimensionando a imagem sem perder o aspecto da imagem
+2019-03-17 16:32:45,966 - INFO - service.yolo - detect_boxes: Tamanho da imagem: (416, 416, 3)
+2019-03-17 16:32:45,966 - INFO - service.yolo - detect_boxes: Buscando faces na imagem...
+2019-03-17 16:32:47,052 - INFO - service.yolo - detect_boxes: Foram encontradas 1 face(s) nesta imagem
+2019-03-17 16:32:47,052 - INFO - service.yolo - detect_boxes: Processamento concluído em 1098.15ms
+2019-03-17 16:32:47,052 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 16:32:47,052 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 16:32:47,052 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 16:32:47,069 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:32:47] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 16:32:47,089 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:32:47,089 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:32:47,089 - INFO - service.yolo - detect_boxes_in_image: Decodificando o array contendo a imagem
+2019-03-17 16:32:47,090 - INFO - service.yolo - detect_boxes_in_image: Obtendo a imagem em formato PIL
+2019-03-17 16:32:47,090 - INFO - service.yolo - detect_boxes_in_image: Realizando a detecção
+2019-03-17 16:32:47,090 - INFO - service.yolo - letterbox_image: Redimensionando a imagem sem perder o aspecto da imagem
+2019-03-17 16:32:47,102 - INFO - service.yolo - detect_boxes: Tamanho da imagem: (416, 416, 3)
+2019-03-17 16:32:47,102 - INFO - service.yolo - detect_boxes: Buscando faces na imagem...
+2019-03-17 16:32:48,166 - INFO - service.yolo - detect_boxes: Foram encontradas 1 face(s) nesta imagem
+2019-03-17 16:32:48,166 - INFO - service.yolo - detect_boxes: Processamento concluído em 1075.88ms
+2019-03-17 16:32:48,166 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 16:32:48,166 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 16:32:48,166 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 16:32:48,187 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:32:48] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 16:32:48,203 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:32:48,204 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:32:48,204 - INFO - service.yolo - detect_boxes_in_image: Decodificando o array contendo a imagem
+2019-03-17 16:32:48,204 - INFO - service.yolo - detect_boxes_in_image: Obtendo a imagem em formato PIL
+2019-03-17 16:32:48,204 - INFO - service.yolo - detect_boxes_in_image: Realizando a detecção
+2019-03-17 16:32:48,204 - INFO - service.yolo - letterbox_image: Redimensionando a imagem sem perder o aspecto da imagem
+2019-03-17 16:32:48,216 - INFO - service.yolo - detect_boxes: Tamanho da imagem: (416, 416, 3)
+2019-03-17 16:32:48,217 - INFO - service.yolo - detect_boxes: Buscando faces na imagem...
+2019-03-17 16:32:49,260 - INFO - service.yolo - detect_boxes: Foram encontradas 1 face(s) nesta imagem
+2019-03-17 16:32:49,260 - INFO - service.yolo - detect_boxes: Processamento concluído em 1056.52ms
+2019-03-17 16:32:49,261 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 16:32:49,261 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 16:32:49,261 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 16:32:49,277 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:32:49] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 16:32:49,295 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:32:49,295 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:32:49,296 - INFO - service.yolo - detect_boxes_in_image: Decodificando o array contendo a imagem
+2019-03-17 16:32:49,296 - INFO - service.yolo - detect_boxes_in_image: Obtendo a imagem em formato PIL
+2019-03-17 16:32:49,296 - INFO - service.yolo - detect_boxes_in_image: Realizando a detecção
+2019-03-17 16:32:49,296 - INFO - service.yolo - letterbox_image: Redimensionando a imagem sem perder o aspecto da imagem
+2019-03-17 16:32:49,309 - INFO - service.yolo - detect_boxes: Tamanho da imagem: (416, 416, 3)
+2019-03-17 16:32:49,309 - INFO - service.yolo - detect_boxes: Buscando faces na imagem...
+2019-03-17 16:32:50,491 - INFO - service.yolo - detect_boxes: Foram encontradas 1 face(s) nesta imagem
+2019-03-17 16:32:50,491 - INFO - service.yolo - detect_boxes: Processamento concluído em 1194.98ms
+2019-03-17 16:32:50,491 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 16:32:50,491 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 16:32:50,491 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 16:32:50,510 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:32:50] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 16:32:50,531 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:32:50,532 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:32:50,532 - INFO - service.yolo - detect_boxes_in_image: Decodificando o array contendo a imagem
+2019-03-17 16:32:50,532 - INFO - service.yolo - detect_boxes_in_image: Obtendo a imagem em formato PIL
+2019-03-17 16:32:50,532 - INFO - service.yolo - detect_boxes_in_image: Realizando a detecção
+2019-03-17 16:32:50,532 - INFO - service.yolo - letterbox_image: Redimensionando a imagem sem perder o aspecto da imagem
+2019-03-17 16:32:50,544 - INFO - service.yolo - detect_boxes: Tamanho da imagem: (416, 416, 3)
+2019-03-17 16:32:50,545 - INFO - service.yolo - detect_boxes: Buscando faces na imagem...
+2019-03-17 16:32:51,674 - INFO - service.yolo - detect_boxes: Foram encontradas 1 face(s) nesta imagem
+2019-03-17 16:32:51,674 - INFO - service.yolo - detect_boxes: Processamento concluído em 1142.02ms
+2019-03-17 16:32:51,674 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 16:32:51,674 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 16:32:51,674 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 16:32:51,691 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:32:51] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 16:32:51,708 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:32:51,709 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:32:51,709 - INFO - service.yolo - detect_boxes_in_image: Decodificando o array contendo a imagem
+2019-03-17 16:32:51,709 - INFO - service.yolo - detect_boxes_in_image: Obtendo a imagem em formato PIL
+2019-03-17 16:32:51,709 - INFO - service.yolo - detect_boxes_in_image: Realizando a detecção
+2019-03-17 16:32:51,709 - INFO - service.yolo - letterbox_image: Redimensionando a imagem sem perder o aspecto da imagem
+2019-03-17 16:32:51,722 - INFO - service.yolo - detect_boxes: Tamanho da imagem: (416, 416, 3)
+2019-03-17 16:32:51,722 - INFO - service.yolo - detect_boxes: Buscando faces na imagem...
+2019-03-17 16:32:52,760 - INFO - service.yolo - detect_boxes: Foram encontradas 1 face(s) nesta imagem
+2019-03-17 16:32:52,761 - INFO - service.yolo - detect_boxes: Processamento concluído em 1051.41ms
+2019-03-17 16:32:52,761 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 16:32:52,761 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 16:32:52,761 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 16:32:52,776 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:32:52] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 16:32:52,793 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:32:52,794 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:32:52,794 - INFO - service.yolo - detect_boxes_in_image: Decodificando o array contendo a imagem
+2019-03-17 16:32:52,794 - INFO - service.yolo - detect_boxes_in_image: Obtendo a imagem em formato PIL
+2019-03-17 16:32:52,795 - INFO - service.yolo - detect_boxes_in_image: Realizando a detecção
+2019-03-17 16:32:52,795 - INFO - service.yolo - letterbox_image: Redimensionando a imagem sem perder o aspecto da imagem
+2019-03-17 16:32:52,813 - INFO - service.yolo - detect_boxes: Tamanho da imagem: (416, 416, 3)
+2019-03-17 16:32:52,814 - INFO - service.yolo - detect_boxes: Buscando faces na imagem...
+2019-03-17 16:32:53,990 - INFO - service.yolo - detect_boxes: Foram encontradas 1 face(s) nesta imagem
+2019-03-17 16:32:53,990 - INFO - service.yolo - detect_boxes: Processamento concluído em 1195.26ms
+2019-03-17 16:32:53,990 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 16:32:53,990 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 16:32:53,990 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 16:32:54,007 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:32:54] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 16:32:54,024 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:32:54,024 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:32:54,024 - INFO - service.yolo - detect_boxes_in_image: Decodificando o array contendo a imagem
+2019-03-17 16:32:54,024 - INFO - service.yolo - detect_boxes_in_image: Obtendo a imagem em formato PIL
+2019-03-17 16:32:54,025 - INFO - service.yolo - detect_boxes_in_image: Realizando a detecção
+2019-03-17 16:32:54,025 - INFO - service.yolo - letterbox_image: Redimensionando a imagem sem perder o aspecto da imagem
+2019-03-17 16:32:54,041 - INFO - service.yolo - detect_boxes: Tamanho da imagem: (416, 416, 3)
+2019-03-17 16:32:54,041 - INFO - service.yolo - detect_boxes: Buscando faces na imagem...
+2019-03-17 16:32:55,121 - INFO - service.yolo - detect_boxes: Foram encontradas 1 face(s) nesta imagem
+2019-03-17 16:32:55,121 - INFO - service.yolo - detect_boxes: Processamento concluído em 1096.67ms
+2019-03-17 16:32:55,121 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 16:32:55,122 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 16:32:55,122 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 16:32:55,139 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:32:55] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 16:32:55,155 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:32:55,156 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:32:55,156 - INFO - service.yolo - detect_boxes_in_image: Decodificando o array contendo a imagem
+2019-03-17 16:32:55,156 - INFO - service.yolo - detect_boxes_in_image: Obtendo a imagem em formato PIL
+2019-03-17 16:32:55,156 - INFO - service.yolo - detect_boxes_in_image: Realizando a detecção
+2019-03-17 16:32:55,156 - INFO - service.yolo - letterbox_image: Redimensionando a imagem sem perder o aspecto da imagem
+2019-03-17 16:32:55,171 - INFO - service.yolo - detect_boxes: Tamanho da imagem: (416, 416, 3)
+2019-03-17 16:32:55,171 - INFO - service.yolo - detect_boxes: Buscando faces na imagem...
+2019-03-17 16:32:56,163 - INFO - service.yolo - detect_boxes: Foram encontradas 1 face(s) nesta imagem
+2019-03-17 16:32:56,163 - INFO - service.yolo - detect_boxes: Processamento concluído em 1006.69ms
+2019-03-17 16:32:56,163 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 16:32:56,163 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 16:32:56,163 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 16:32:56,181 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:32:56] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 16:32:56,201 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:32:56,201 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:32:56,202 - INFO - service.yolo - detect_boxes_in_image: Decodificando o array contendo a imagem
+2019-03-17 16:32:56,202 - INFO - service.yolo - detect_boxes_in_image: Obtendo a imagem em formato PIL
+2019-03-17 16:32:56,202 - INFO - service.yolo - detect_boxes_in_image: Realizando a detecção
+2019-03-17 16:32:56,203 - INFO - service.yolo - letterbox_image: Redimensionando a imagem sem perder o aspecto da imagem
+2019-03-17 16:32:56,215 - INFO - service.yolo - detect_boxes: Tamanho da imagem: (416, 416, 3)
+2019-03-17 16:32:56,216 - INFO - service.yolo - detect_boxes: Buscando faces na imagem...
+2019-03-17 16:32:57,304 - INFO - service.yolo - detect_boxes: Foram encontradas 1 face(s) nesta imagem
+2019-03-17 16:32:57,304 - INFO - service.yolo - detect_boxes: Processamento concluído em 1100.74ms
+2019-03-17 16:32:57,304 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 16:32:57,304 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 16:32:57,304 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 16:32:57,322 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:32:57] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 16:32:57,339 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:32:57,339 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:32:57,339 - INFO - service.yolo - detect_boxes_in_image: Decodificando o array contendo a imagem
+2019-03-17 16:32:57,340 - INFO - service.yolo - detect_boxes_in_image: Obtendo a imagem em formato PIL
+2019-03-17 16:32:57,340 - INFO - service.yolo - detect_boxes_in_image: Realizando a detecção
+2019-03-17 16:32:57,340 - INFO - service.yolo - letterbox_image: Redimensionando a imagem sem perder o aspecto da imagem
+2019-03-17 16:32:57,356 - INFO - service.yolo - detect_boxes: Tamanho da imagem: (416, 416, 3)
+2019-03-17 16:32:57,356 - INFO - service.yolo - detect_boxes: Buscando faces na imagem...
+2019-03-17 16:32:58,387 - INFO - service.yolo - detect_boxes: Foram encontradas 1 face(s) nesta imagem
+2019-03-17 16:32:58,387 - INFO - service.yolo - detect_boxes: Processamento concluído em 1046.99ms
+2019-03-17 16:32:58,387 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 16:32:58,387 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 16:32:58,387 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 16:32:58,403 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:32:58] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 16:32:58,420 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:32:58,421 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:32:58,421 - INFO - service.yolo - detect_boxes_in_image: Decodificando o array contendo a imagem
+2019-03-17 16:32:58,421 - INFO - service.yolo - detect_boxes_in_image: Obtendo a imagem em formato PIL
+2019-03-17 16:32:58,421 - INFO - service.yolo - detect_boxes_in_image: Realizando a detecção
+2019-03-17 16:32:58,421 - INFO - service.yolo - letterbox_image: Redimensionando a imagem sem perder o aspecto da imagem
+2019-03-17 16:32:58,434 - INFO - service.yolo - detect_boxes: Tamanho da imagem: (416, 416, 3)
+2019-03-17 16:32:58,434 - INFO - service.yolo - detect_boxes: Buscando faces na imagem...
+2019-03-17 16:32:59,469 - INFO - service.yolo - detect_boxes: Foram encontradas 1 face(s) nesta imagem
+2019-03-17 16:32:59,469 - INFO - service.yolo - detect_boxes: Processamento concluído em 1048.31ms
+2019-03-17 16:32:59,469 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 16:32:59,470 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 16:32:59,470 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 16:32:59,487 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:32:59] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 16:32:59,503 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:32:59,504 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:32:59,504 - INFO - service.yolo - detect_boxes_in_image: Decodificando o array contendo a imagem
+2019-03-17 16:32:59,504 - INFO - service.yolo - detect_boxes_in_image: Obtendo a imagem em formato PIL
+2019-03-17 16:32:59,504 - INFO - service.yolo - detect_boxes_in_image: Realizando a detecção
+2019-03-17 16:32:59,504 - INFO - service.yolo - letterbox_image: Redimensionando a imagem sem perder o aspecto da imagem
+2019-03-17 16:32:59,517 - INFO - service.yolo - detect_boxes: Tamanho da imagem: (416, 416, 3)
+2019-03-17 16:32:59,517 - INFO - service.yolo - detect_boxes: Buscando faces na imagem...
+2019-03-17 16:33:00,595 - INFO - service.yolo - detect_boxes: Foram encontradas 1 face(s) nesta imagem
+2019-03-17 16:33:00,595 - INFO - service.yolo - detect_boxes: Processamento concluído em 1090.94ms
+2019-03-17 16:33:00,595 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 16:33:00,595 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 16:33:00,595 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 16:33:00,616 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:33:00] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 16:33:00,632 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:33:00,632 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:33:00,632 - INFO - service.yolo - detect_boxes_in_image: Decodificando o array contendo a imagem
+2019-03-17 16:33:00,633 - INFO - service.yolo - detect_boxes_in_image: Obtendo a imagem em formato PIL
+2019-03-17 16:33:00,633 - INFO - service.yolo - detect_boxes_in_image: Realizando a detecção
+2019-03-17 16:33:00,633 - INFO - service.yolo - letterbox_image: Redimensionando a imagem sem perder o aspecto da imagem
+2019-03-17 16:33:00,647 - INFO - service.yolo - detect_boxes: Tamanho da imagem: (416, 416, 3)
+2019-03-17 16:33:00,648 - INFO - service.yolo - detect_boxes: Buscando faces na imagem...
+2019-03-17 16:33:01,731 - INFO - service.yolo - detect_boxes: Foram encontradas 1 face(s) nesta imagem
+2019-03-17 16:33:01,731 - INFO - service.yolo - detect_boxes: Processamento concluído em 1098.49ms
+2019-03-17 16:33:01,732 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 16:33:01,732 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 16:33:01,732 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 16:33:01,748 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:33:01] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 16:33:01,766 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:33:01,766 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:33:01,766 - INFO - service.yolo - detect_boxes_in_image: Decodificando o array contendo a imagem
+2019-03-17 16:33:01,766 - INFO - service.yolo - detect_boxes_in_image: Obtendo a imagem em formato PIL
+2019-03-17 16:33:01,767 - INFO - service.yolo - detect_boxes_in_image: Realizando a detecção
+2019-03-17 16:33:01,767 - INFO - service.yolo - letterbox_image: Redimensionando a imagem sem perder o aspecto da imagem
+2019-03-17 16:33:01,779 - INFO - service.yolo - detect_boxes: Tamanho da imagem: (416, 416, 3)
+2019-03-17 16:33:01,779 - INFO - service.yolo - detect_boxes: Buscando faces na imagem...
+2019-03-17 16:33:02,823 - INFO - service.yolo - detect_boxes: Foram encontradas 1 face(s) nesta imagem
+2019-03-17 16:33:02,823 - INFO - service.yolo - detect_boxes: Processamento concluído em 1056.27ms
+2019-03-17 16:33:02,823 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 16:33:02,823 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 16:33:02,823 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 16:33:02,841 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:33:02] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 16:33:02,862 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:33:02,862 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:33:02,862 - INFO - service.yolo - detect_boxes_in_image: Decodificando o array contendo a imagem
+2019-03-17 16:33:02,862 - INFO - service.yolo - detect_boxes_in_image: Obtendo a imagem em formato PIL
+2019-03-17 16:33:02,863 - INFO - service.yolo - detect_boxes_in_image: Realizando a detecção
+2019-03-17 16:33:02,863 - INFO - service.yolo - letterbox_image: Redimensionando a imagem sem perder o aspecto da imagem
+2019-03-17 16:33:02,874 - INFO - service.yolo - detect_boxes: Tamanho da imagem: (416, 416, 3)
+2019-03-17 16:33:02,874 - INFO - service.yolo - detect_boxes: Buscando faces na imagem...
+2019-03-17 16:33:03,902 - INFO - service.yolo - detect_boxes: Foram encontradas 1 face(s) nesta imagem
+2019-03-17 16:33:03,902 - INFO - service.yolo - detect_boxes: Processamento concluído em 1039.88ms
+2019-03-17 16:33:03,903 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 16:33:03,903 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 16:33:03,903 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 16:33:03,922 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:33:03] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 16:33:12,942 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:33:12,942 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:33:12,942 - INFO - service.yolo - detect_boxes_in_image: Decodificando o array contendo a imagem
+2019-03-17 16:33:12,942 - INFO - service.yolo - detect_boxes_in_image: Obtendo a imagem em formato PIL
+2019-03-17 16:33:12,943 - INFO - service.yolo - detect_boxes_in_image: Realizando a detecção
+2019-03-17 16:33:12,943 - INFO - service.yolo - letterbox_image: Redimensionando a imagem sem perder o aspecto da imagem
+2019-03-17 16:33:12,955 - INFO - service.yolo - detect_boxes: Tamanho da imagem: (416, 416, 3)
+2019-03-17 16:33:12,956 - INFO - service.yolo - detect_boxes: Buscando faces na imagem...
+2019-03-17 16:33:13,948 - INFO - service.yolo - detect_boxes: Foram encontradas 1 face(s) nesta imagem
+2019-03-17 16:33:13,948 - INFO - service.yolo - detect_boxes: Processamento concluído em 1005.50ms
+2019-03-17 16:33:13,948 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 16:33:13,948 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 16:33:13,948 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 16:33:13,965 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:33:13] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 16:33:15,993 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:33:15,994 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:33:15,994 - INFO - service.yolo - detect_boxes_in_image: Decodificando o array contendo a imagem
+2019-03-17 16:33:15,994 - INFO - service.yolo - detect_boxes_in_image: Obtendo a imagem em formato PIL
+2019-03-17 16:33:15,994 - INFO - service.yolo - detect_boxes_in_image: Realizando a detecção
+2019-03-17 16:33:15,995 - INFO - service.yolo - letterbox_image: Redimensionando a imagem sem perder o aspecto da imagem
+2019-03-17 16:33:16,012 - INFO - service.yolo - detect_boxes: Tamanho da imagem: (416, 416, 3)
+2019-03-17 16:33:16,012 - INFO - service.yolo - detect_boxes: Buscando faces na imagem...
+2019-03-17 16:33:17,035 - INFO - service.yolo - detect_boxes: Foram encontradas 1 face(s) nesta imagem
+2019-03-17 16:33:17,036 - INFO - service.yolo - detect_boxes: Processamento concluído em 1041.11ms
+2019-03-17 16:33:17,036 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 16:33:17,036 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 16:33:17,036 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 16:33:17,054 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:33:17] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 16:33:19,083 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:33:19,084 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:33:19,084 - INFO - service.yolo - detect_boxes_in_image: Decodificando o array contendo a imagem
+2019-03-17 16:33:19,084 - INFO - service.yolo - detect_boxes_in_image: Obtendo a imagem em formato PIL
+2019-03-17 16:33:19,084 - INFO - service.yolo - detect_boxes_in_image: Realizando a detecção
+2019-03-17 16:33:19,084 - INFO - service.yolo - letterbox_image: Redimensionando a imagem sem perder o aspecto da imagem
+2019-03-17 16:33:19,098 - INFO - service.yolo - detect_boxes: Tamanho da imagem: (416, 416, 3)
+2019-03-17 16:33:19,099 - INFO - service.yolo - detect_boxes: Buscando faces na imagem...
+2019-03-17 16:33:20,144 - INFO - service.yolo - detect_boxes: Foram encontradas 1 face(s) nesta imagem
+2019-03-17 16:33:20,144 - INFO - service.yolo - detect_boxes: Processamento concluído em 1059.76ms
+2019-03-17 16:33:20,144 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 16:33:20,144 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 16:33:20,144 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 16:33:20,162 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:33:20] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 16:33:22,179 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:33:22,179 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:33:22,179 - INFO - service.yolo - detect_boxes_in_image: Decodificando o array contendo a imagem
+2019-03-17 16:33:22,179 - INFO - service.yolo - detect_boxes_in_image: Obtendo a imagem em formato PIL
+2019-03-17 16:33:22,180 - INFO - service.yolo - detect_boxes_in_image: Realizando a detecção
+2019-03-17 16:33:22,180 - INFO - service.yolo - letterbox_image: Redimensionando a imagem sem perder o aspecto da imagem
+2019-03-17 16:33:22,194 - INFO - service.yolo - detect_boxes: Tamanho da imagem: (416, 416, 3)
+2019-03-17 16:33:22,195 - INFO - service.yolo - detect_boxes: Buscando faces na imagem...
+2019-03-17 16:33:23,207 - INFO - service.yolo - detect_boxes: Foram encontradas 1 face(s) nesta imagem
+2019-03-17 16:33:23,207 - INFO - service.yolo - detect_boxes: Processamento concluído em 1027.21ms
+2019-03-17 16:33:23,207 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 16:33:23,207 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 16:33:23,207 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 16:33:23,224 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:33:23] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 16:33:25,270 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:33:25,271 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:33:25,271 - INFO - service.yolo - detect_boxes_in_image: Decodificando o array contendo a imagem
+2019-03-17 16:33:25,271 - INFO - service.yolo - detect_boxes_in_image: Obtendo a imagem em formato PIL
+2019-03-17 16:33:25,271 - INFO - service.yolo - detect_boxes_in_image: Realizando a detecção
+2019-03-17 16:33:25,271 - INFO - service.yolo - letterbox_image: Redimensionando a imagem sem perder o aspecto da imagem
+2019-03-17 16:33:25,285 - INFO - service.yolo - detect_boxes: Tamanho da imagem: (416, 416, 3)
+2019-03-17 16:33:25,285 - INFO - service.yolo - detect_boxes: Buscando faces na imagem...
+2019-03-17 16:33:26,278 - INFO - service.yolo - detect_boxes: Foram encontradas 1 face(s) nesta imagem
+2019-03-17 16:33:26,278 - INFO - service.yolo - detect_boxes: Processamento concluído em 1006.40ms
+2019-03-17 16:33:26,278 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 16:33:26,278 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 16:33:26,278 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 16:33:26,295 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:33:26] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 16:33:28,315 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:33:28,315 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:33:28,315 - INFO - service.yolo - detect_boxes_in_image: Decodificando o array contendo a imagem
+2019-03-17 16:33:28,315 - INFO - service.yolo - detect_boxes_in_image: Obtendo a imagem em formato PIL
+2019-03-17 16:33:28,315 - INFO - service.yolo - detect_boxes_in_image: Realizando a detecção
+2019-03-17 16:33:28,315 - INFO - service.yolo - letterbox_image: Redimensionando a imagem sem perder o aspecto da imagem
+2019-03-17 16:33:28,328 - INFO - service.yolo - detect_boxes: Tamanho da imagem: (416, 416, 3)
+2019-03-17 16:33:28,328 - INFO - service.yolo - detect_boxes: Buscando faces na imagem...
+2019-03-17 16:33:29,307 - INFO - service.yolo - detect_boxes: Foram encontradas 1 face(s) nesta imagem
+2019-03-17 16:33:29,308 - INFO - service.yolo - detect_boxes: Processamento concluído em 992.19ms
+2019-03-17 16:33:29,308 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 16:33:29,308 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 16:33:29,308 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 16:33:29,324 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:33:29] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 16:33:31,360 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:33:31,361 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:33:31,361 - INFO - service.yolo - detect_boxes_in_image: Decodificando o array contendo a imagem
+2019-03-17 16:33:31,361 - INFO - service.yolo - detect_boxes_in_image: Obtendo a imagem em formato PIL
+2019-03-17 16:33:31,361 - INFO - service.yolo - detect_boxes_in_image: Realizando a detecção
+2019-03-17 16:33:31,362 - INFO - service.yolo - letterbox_image: Redimensionando a imagem sem perder o aspecto da imagem
+2019-03-17 16:33:31,377 - INFO - service.yolo - detect_boxes: Tamanho da imagem: (416, 416, 3)
+2019-03-17 16:33:31,377 - INFO - service.yolo - detect_boxes: Buscando faces na imagem...
+2019-03-17 16:33:32,373 - INFO - service.yolo - detect_boxes: Foram encontradas 1 face(s) nesta imagem
+2019-03-17 16:33:32,373 - INFO - service.yolo - detect_boxes: Processamento concluído em 1011.28ms
+2019-03-17 16:33:32,373 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 16:33:32,373 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 16:33:32,373 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 16:33:32,392 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:33:32] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 16:33:34,437 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:33:34,437 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:33:34,437 - INFO - service.yolo - detect_boxes_in_image: Decodificando o array contendo a imagem
+2019-03-17 16:33:34,437 - INFO - service.yolo - detect_boxes_in_image: Obtendo a imagem em formato PIL
+2019-03-17 16:33:34,437 - INFO - service.yolo - detect_boxes_in_image: Realizando a detecção
+2019-03-17 16:33:34,437 - INFO - service.yolo - letterbox_image: Redimensionando a imagem sem perder o aspecto da imagem
+2019-03-17 16:33:34,453 - INFO - service.yolo - detect_boxes: Tamanho da imagem: (416, 416, 3)
+2019-03-17 16:33:34,454 - INFO - service.yolo - detect_boxes: Buscando faces na imagem...
+2019-03-17 16:33:35,416 - INFO - service.yolo - detect_boxes: Foram encontradas 1 face(s) nesta imagem
+2019-03-17 16:33:35,416 - INFO - service.yolo - detect_boxes: Processamento concluído em 979.12ms
+2019-03-17 16:33:35,417 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 16:33:35,417 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 16:33:35,417 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 16:33:35,435 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:33:35] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 16:33:37,482 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:33:37,483 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:33:37,483 - INFO - service.yolo - detect_boxes_in_image: Decodificando o array contendo a imagem
+2019-03-17 16:33:37,483 - INFO - service.yolo - detect_boxes_in_image: Obtendo a imagem em formato PIL
+2019-03-17 16:33:37,483 - INFO - service.yolo - detect_boxes_in_image: Realizando a detecção
+2019-03-17 16:33:37,484 - INFO - service.yolo - letterbox_image: Redimensionando a imagem sem perder o aspecto da imagem
+2019-03-17 16:33:37,499 - INFO - service.yolo - detect_boxes: Tamanho da imagem: (416, 416, 3)
+2019-03-17 16:33:37,500 - INFO - service.yolo - detect_boxes: Buscando faces na imagem...
+2019-03-17 16:33:38,451 - INFO - service.yolo - detect_boxes: Foram encontradas 1 face(s) nesta imagem
+2019-03-17 16:33:38,451 - INFO - service.yolo - detect_boxes: Processamento concluído em 967.52ms
+2019-03-17 16:33:38,451 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 16:33:38,451 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 16:33:38,451 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 16:33:38,469 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:33:38] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 16:34:43,120 - INFO - werkzeug -  * Detected change in '/home/hialo/python/legolas-git/api/module/legolas_api.py', reloading
+2019-03-17 16:34:44,105 - INFO - werkzeug -  * Restarting with stat
+2019-03-17 16:34:58,077 - WARNING - werkzeug -  * Debugger is active!
+2019-03-17 16:34:58,077 - INFO - werkzeug -  * Debugger PIN: 166-786-377
+2019-03-17 16:37:32,498 - INFO - werkzeug -  * Detected change in '/home/hialo/python/legolas-git/api/service/yolo.py', reloading
+2019-03-17 16:37:33,031 - INFO - werkzeug -  * Restarting with stat
+2019-03-17 16:37:46,509 - WARNING - werkzeug -  * Debugger is active!
+2019-03-17 16:37:46,509 - INFO - werkzeug -  * Debugger PIN: 166-786-377
+2019-03-17 16:38:03,204 - INFO - werkzeug -  * Detected change in '/home/hialo/python/legolas-git/api/service/yolo.py', reloading
+2019-03-17 16:38:03,734 - INFO - werkzeug -  * Restarting with stat
+2019-03-17 16:38:15,770 - WARNING - werkzeug -  * Debugger is active!
+2019-03-17 16:38:15,771 - INFO - werkzeug -  * Debugger PIN: 166-786-377
+2019-03-17 16:38:24,129 - INFO - werkzeug -  * Detected change in '/home/hialo/python/legolas-git/api/service/yolo.py', reloading
+2019-03-17 16:38:24,649 - INFO - werkzeug -  * Restarting with stat
+2019-03-17 16:38:36,609 - WARNING - werkzeug -  * Debugger is active!
+2019-03-17 16:38:36,610 - INFO - werkzeug -  * Debugger PIN: 166-786-377
+2019-03-17 16:38:37,635 - INFO - werkzeug -  * Detected change in '/home/hialo/python/legolas-git/api/service/yolo.py', reloading
+2019-03-17 16:38:38,164 - INFO - werkzeug -  * Restarting with stat
+2019-03-17 16:38:50,348 - WARNING - werkzeug -  * Debugger is active!
+2019-03-17 16:38:50,348 - INFO - werkzeug -  * Debugger PIN: 166-786-377
+2019-03-17 16:39:10,246 - INFO - werkzeug -  * Detected change in '/home/hialo/python/legolas-git/api/service/yolo.py', reloading
+2019-03-17 16:39:10,797 - INFO - werkzeug -  * Restarting with stat
+2019-03-17 16:39:23,725 - WARNING - werkzeug -  * Debugger is active!
+2019-03-17 16:39:23,726 - INFO - werkzeug -  * Debugger PIN: 166-786-377
+2019-03-17 16:41:39,001 - INFO - werkzeug -  * Detected change in '/home/hialo/python/legolas-git/api/service/yolo.py', reloading
+2019-03-17 16:41:39,550 - INFO - werkzeug -  * Restarting with stat
+2019-03-17 16:41:52,484 - WARNING - werkzeug -  * Debugger is active!
+2019-03-17 16:41:52,484 - INFO - werkzeug -  * Debugger PIN: 166-786-377
+2019-03-17 16:42:21,460 - INFO - werkzeug -  * Detected change in '/home/hialo/python/legolas-git/api/service/yolo.py', reloading
+2019-03-17 16:42:22,003 - INFO - werkzeug -  * Restarting with stat
+2019-03-17 16:47:34,513 - INFO - werkzeug -  * Running on http://0.0.0.0:2931/ (Press CTRL+C to quit)
+2019-03-17 16:47:34,514 - INFO - werkzeug -  * Restarting with stat
+2019-03-17 16:47:46,347 - WARNING - werkzeug -  * Debugger is active!
+2019-03-17 16:47:46,347 - INFO - werkzeug -  * Debugger PIN: 166-786-377
+2019-03-17 16:48:06,371 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:48:06,371 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:48:08,290 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:48:08] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:48:08,309 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:48:08,309 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:48:09,325 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:48:09] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:48:09,341 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:48:09,342 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:48:10,366 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:48:10] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:48:10,382 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:48:10,382 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:48:11,434 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:48:11] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:48:11,451 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:48:11,452 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:48:12,488 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:48:12] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:48:12,507 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:48:12,507 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:48:13,514 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:48:13] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:48:13,531 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:48:13,531 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:48:14,504 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:48:14] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:48:14,519 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:48:14,520 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:48:15,532 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:48:15] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:48:15,548 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:48:15,548 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:48:16,558 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:48:16] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:48:16,573 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:48:16,574 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:48:17,545 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:48:17] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:48:17,561 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:48:17,561 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:48:18,539 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:48:18] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:48:18,554 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:48:18,555 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:48:19,528 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:48:19] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:48:19,546 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:48:19,546 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:48:20,555 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:48:20] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:48:20,570 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:48:20,570 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:48:21,544 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:48:21] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:48:21,565 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:48:21,566 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:48:22,515 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:48:22] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:48:22,531 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:48:22,531 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:48:23,494 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:48:23] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:48:23,511 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:48:23,512 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:48:24,452 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:48:24] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:48:24,468 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:48:24,468 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:48:25,435 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:48:25] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:48:25,452 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:48:25,452 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:48:26,401 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:48:26] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:48:26,417 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:48:26,418 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:48:27,364 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:48:27] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:48:27,382 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:48:27,383 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:48:28,341 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:48:28] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:48:28,357 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:48:28,357 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:48:29,314 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:48:29] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:48:29,332 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:48:29,333 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:48:30,286 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:48:30] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:48:30,302 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:48:30,302 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:48:31,260 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:48:31] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:48:31,278 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:48:31,279 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:48:32,263 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:48:32] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:48:32,281 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:48:32,281 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:48:33,309 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:48:33] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:48:33,325 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:48:33,325 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:48:34,279 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:48:34] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:48:34,296 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:48:34,296 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:48:35,257 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:48:35] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:48:35,274 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:48:35,274 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:48:36,313 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:48:36] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:48:36,329 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:48:36,330 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:48:37,350 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:48:37] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:48:37,366 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:48:37,366 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:48:38,413 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:48:38] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:48:38,429 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:48:38,430 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:48:39,433 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:48:39] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:48:39,449 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:48:39,449 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:48:40,439 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:48:40] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:48:40,457 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:48:40,457 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:48:41,452 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:48:41] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:48:41,470 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:48:41,470 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:48:42,465 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:48:42] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:48:42,485 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:48:42,485 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:48:43,506 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:48:43] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:48:43,522 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:48:43,522 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:48:44,514 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:48:44] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:48:44,530 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:48:44,531 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:48:45,527 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:48:45] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:48:45,544 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:48:45,544 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:48:46,563 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:48:46] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:48:46,581 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:48:46,581 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:48:47,603 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:48:47] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:48:47,622 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:48:47,622 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:48:48,616 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:48:48] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:48:48,635 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:48:48,635 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:48:49,604 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:48:49] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:48:49,620 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:48:49,621 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:48:50,595 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:48:50] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:48:50,612 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:48:50,613 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:48:51,761 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:48:51] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:48:51,778 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:48:51,779 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:48:52,813 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:48:52] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:48:52,835 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:48:52,835 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:48:53,846 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:48:53] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:48:53,862 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:48:53,863 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:48:54,829 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:48:54] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:48:54,849 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:48:54,850 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:48:55,856 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:48:55] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:48:55,879 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:48:55,879 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:48:56,872 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:48:56] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:48:56,890 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:48:56,890 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:48:57,877 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:48:57] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:48:57,898 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:48:57,898 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:48:58,896 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:48:58] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:48:58,913 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:48:58,914 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:49:00,086 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:49:00] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:49:00,106 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:49:00,106 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:49:01,110 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:49:01] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:49:01,127 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:49:01,127 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:49:02,144 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:49:02] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:49:02,161 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:49:02,161 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:49:03,152 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:49:03] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:49:03,168 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:49:03,169 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:49:04,170 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:49:04] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:49:04,187 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:49:04,187 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:49:05,189 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:49:05] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:49:05,205 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:49:05,205 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:49:06,159 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:49:06] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:49:06,176 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:49:06,176 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:49:07,151 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:49:07] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:49:07,167 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:49:07,167 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:49:08,155 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:49:08] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:49:08,171 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:49:08,171 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:49:09,183 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:49:09] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:49:09,200 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:49:09,200 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:49:10,182 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:49:10] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:49:10,199 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:49:10,199 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:49:11,193 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:49:11] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:49:11,209 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:49:11,209 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:49:12,209 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:49:12] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:49:12,226 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:49:12,227 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:49:13,253 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:49:13] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:49:13,272 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:49:13,272 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:49:14,309 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:49:14] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:49:14,325 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:49:14,325 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:49:15,322 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:49:15] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:49:15,339 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:49:15,339 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:49:16,438 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:49:16] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:49:16,455 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:49:16,456 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:49:17,597 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:49:17] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:49:17,616 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:49:17,616 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:49:18,700 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:49:18] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:49:18,718 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:49:18,718 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:49:19,861 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:49:19] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:49:19,879 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:49:19,880 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:49:21,033 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:49:21] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:49:21,051 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:49:21,052 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:49:22,151 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:49:22] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:49:22,168 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:49:22,168 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:49:23,183 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:49:23] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:49:23,199 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:49:23,199 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:49:24,241 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:49:24] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:49:24,259 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:49:24,259 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:49:25,339 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:49:25] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:49:25,357 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:49:25,358 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:49:26,443 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:49:26] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:49:26,461 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:49:26,461 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:49:27,528 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:49:27] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:49:27,544 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:49:27,544 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:49:28,564 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:49:28] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:49:28,581 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:49:28,582 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:49:29,633 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:49:29] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:49:29,652 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:49:29,652 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:49:30,700 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:49:30] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:49:30,716 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:49:30,717 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:49:31,789 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:49:31] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:49:31,836 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:49:31,837 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:49:32,895 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:49:32] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:49:32,922 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:49:32,922 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:49:33,972 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:49:33] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:49:33,990 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:49:33,990 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:49:35,027 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:49:35] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:49:35,047 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:49:35,048 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:49:36,063 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:49:36] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:49:36,082 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:49:36,082 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:49:37,114 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:49:37] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:49:37,131 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:49:37,131 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:49:38,106 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:49:38] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:49:38,121 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:49:38,122 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:49:39,110 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:49:39] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:49:39,126 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:49:39,127 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:49:40,136 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:49:40] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:49:40,155 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:49:40,155 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:49:41,144 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:49:41] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:49:41,161 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:49:41,162 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:49:42,137 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:49:42] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:49:42,154 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:49:42,154 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:49:43,158 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:49:43] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:49:43,174 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:49:43,174 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:49:44,208 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:49:44] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:49:44,223 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:49:44,224 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:49:45,278 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:49:45] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:49:45,297 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:49:45,297 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:49:46,299 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:49:46] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:49:46,315 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:49:46,316 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:49:47,273 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:49:47] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:49:47,288 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:49:47,289 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:49:48,242 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:49:48] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:49:48,259 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:49:48,259 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:49:49,209 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:49:49] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:49:49,224 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:49:49,224 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:49:50,197 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:49:50] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:49:50,212 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:49:50,212 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:49:51,159 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:49:51] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:49:51,175 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:49:51,175 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:49:52,120 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:49:52] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:49:52,135 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:49:52,135 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:49:53,106 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:49:53] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:49:53,121 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:49:53,121 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:49:54,111 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:49:54] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:49:54,128 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:49:54,128 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:49:55,124 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:49:55] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:49:55,140 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:49:55,140 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:49:56,131 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:49:56] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:49:56,153 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:49:56,154 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:49:57,164 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:49:57] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:49:57,181 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:49:57,182 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:49:58,180 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:49:58] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:49:58,199 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:49:58,199 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:49:59,176 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:49:59] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:49:59,192 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:49:59,193 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:50:00,245 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:50:00] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:50:00,261 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:50:00,262 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:50:01,246 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:50:01] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:50:01,262 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:50:01,262 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:50:02,236 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:50:02] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:50:02,252 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:50:02,253 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:50:03,221 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 16:50:03,221 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 16:50:03,222 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 16:50:05,559 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:50:05] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 16:50:07,605 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:50:07,606 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:50:08,552 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 16:50:08,552 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 16:50:08,552 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 16:50:08,570 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:50:08] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 16:50:10,609 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:50:10,609 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:50:11,567 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 16:50:11,567 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 16:50:11,567 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 16:50:11,585 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:50:11] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 16:50:13,616 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:50:13,616 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:50:14,592 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:50:14] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:50:14,609 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:50:14,609 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:50:15,596 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:50:15] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:50:15,614 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:50:15,614 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:50:16,692 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:50:16] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:50:16,708 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:50:16,709 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:50:17,708 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:50:17] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:50:17,724 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:50:17,724 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:50:18,702 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:50:18] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:50:18,718 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:50:18,718 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:50:19,703 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:50:19] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:50:19,719 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:50:19,719 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:50:20,687 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:50:20] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:50:20,704 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:50:20,704 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:50:21,716 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:50:21] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:50:21,732 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:50:21,732 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:50:22,745 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:50:22] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:50:22,763 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:50:22,764 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:50:23,744 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:50:23] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:50:23,763 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:50:23,763 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:50:24,743 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:50:24] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:50:24,760 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:50:24,760 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:50:25,727 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:50:25] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:50:25,746 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:50:25,747 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:50:26,696 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:50:26] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:50:26,712 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:50:26,712 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:50:27,666 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:50:27] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:50:27,682 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:50:27,683 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:50:28,623 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:50:28] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:50:28,638 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:50:28,639 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:50:29,582 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:50:29] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:50:29,599 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:50:29,600 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:50:30,555 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:50:30] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:50:30,571 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:50:30,571 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:50:31,516 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:50:31] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:50:31,533 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:50:31,534 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:50:32,524 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:50:32] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:50:32,542 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:50:32,542 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:50:33,493 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:50:33] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:50:33,510 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:50:33,510 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:50:34,469 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:50:34] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:50:34,484 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:50:34,485 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:50:35,435 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:50:35] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:50:35,452 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:50:35,453 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:50:36,436 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:50:36] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:50:36,453 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:50:36,454 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:50:37,471 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:50:37] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 16:53:30,973 - INFO - werkzeug -  * Running on http://0.0.0.0:2931/ (Press CTRL+C to quit)
+2019-03-17 16:53:30,974 - INFO - werkzeug -  * Restarting with stat
+2019-03-17 16:53:43,129 - WARNING - werkzeug -  * Debugger is active!
+2019-03-17 16:53:43,130 - INFO - werkzeug -  * Debugger PIN: 166-786-377
+2019-03-17 16:54:03,151 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:54:03,152 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:54:04,988 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 16:54:04,988 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 16:54:04,988 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 16:54:06,997 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:54:06] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 16:54:09,034 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:54:09,035 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:54:10,040 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 16:54:10,040 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 16:54:10,040 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 16:54:10,056 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:54:10] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 16:54:12,074 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:54:12,074 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:54:13,195 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 16:54:13,195 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 16:54:13,196 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 16:54:13,211 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:54:13] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 16:54:15,257 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:54:15,257 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:54:16,227 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 16:54:16,227 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 16:54:16,227 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 16:54:16,245 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:54:16] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 16:54:18,288 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:54:18,288 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:54:19,243 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 16:54:19,243 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 16:54:19,243 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 16:54:19,263 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:54:19] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 16:54:21,310 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:54:21,310 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:54:22,256 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 16:54:22,256 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 16:54:22,256 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 16:54:22,273 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:54:22] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 16:54:24,313 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:54:24,313 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:54:25,259 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 16:54:25,259 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 16:54:25,259 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 16:54:25,276 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:54:25] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 16:54:27,313 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:54:27,313 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:54:28,277 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 16:54:28,277 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 16:54:28,277 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 16:54:28,294 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:54:28] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 16:54:30,331 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:54:30,332 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:54:31,290 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 16:54:31,290 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 16:54:31,290 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 16:54:31,307 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:54:31] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 16:54:33,354 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:54:33,354 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:54:34,298 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 16:54:34,298 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 16:54:34,298 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 16:54:34,313 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:54:34] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 16:54:36,353 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:54:36,353 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:54:37,406 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 16:54:37,406 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 16:54:37,406 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 16:54:37,423 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:54:37] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 16:54:39,454 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:54:39,455 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:54:40,451 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 16:54:40,452 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 16:54:40,452 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 16:54:40,469 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:54:40] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 16:54:42,496 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:54:42,496 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:54:43,485 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 16:54:43,485 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 16:54:43,485 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 16:54:43,503 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:54:43] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 16:54:45,548 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:54:45,549 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:54:46,534 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 16:54:46,534 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 16:54:46,535 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 16:54:46,554 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:54:46] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 16:54:48,573 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:54:48,573 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:54:49,613 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 16:54:49,613 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 16:54:49,614 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 16:54:49,630 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:54:49] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 16:54:51,649 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:54:51,650 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:54:52,730 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 16:54:52,730 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 16:54:52,730 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 16:54:52,745 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:54:52] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 16:54:54,761 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:54:54,761 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:54:55,789 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 16:54:55,789 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 16:54:55,790 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 16:54:55,807 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:54:55] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 16:54:57,836 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:54:57,837 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:54:58,939 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 16:54:58,939 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 16:54:58,939 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 16:54:58,957 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:54:58] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 16:55:01,002 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:55:01,003 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:55:02,005 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 16:55:02,005 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 16:55:02,005 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 16:55:02,022 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:55:02] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 16:55:04,054 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:55:04,054 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:55:05,036 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 16:55:05,036 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 16:55:05,037 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 16:55:05,053 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:55:05] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 16:55:07,099 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:55:07,099 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:55:08,106 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 16:55:08,107 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 16:55:08,107 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 16:55:08,125 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:55:08] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 16:55:10,157 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:55:10,157 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:55:11,145 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 16:55:11,145 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 16:55:11,145 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 16:55:11,162 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:55:11] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 16:55:13,225 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:55:13,226 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:55:14,364 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 16:55:14,365 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 16:55:14,365 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 16:55:14,381 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:55:14] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 16:55:16,442 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:55:16,442 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:55:17,585 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 16:55:17,585 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 16:55:17,585 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 16:55:17,602 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:55:17] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 16:55:19,649 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:55:19,650 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:55:20,793 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 16:55:20,793 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 16:55:20,793 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 16:55:20,810 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:55:20] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 16:55:22,828 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:55:22,829 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:55:23,883 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 16:55:23,883 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 16:55:23,883 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 16:55:23,905 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:55:23] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 16:55:25,925 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:55:25,925 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:55:27,078 - INFO - werkzeug -  * Detected change in '/home/hialo/python/legolas-git/api/module/legolas_api.py', reloading
+2019-03-17 16:55:27,722 - INFO - werkzeug -  * Restarting with stat
+2019-03-17 16:57:39,274 - INFO - werkzeug -  * Running on http://0.0.0.0:2931/ (Press CTRL+C to quit)
+2019-03-17 16:57:39,275 - INFO - werkzeug -  * Restarting with stat
+2019-03-17 16:57:50,782 - WARNING - werkzeug -  * Debugger is active!
+2019-03-17 16:57:50,783 - INFO - werkzeug -  * Debugger PIN: 166-786-377
+2019-03-17 16:58:56,191 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:58:56,192 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:58:58,140 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 16:58:58,140 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 16:58:58,140 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 16:59:00,127 - ERROR - module.legolas_api - detection_and_recognition: Erro ao executar a operação: list() takes at most 1 argument (2 given)
+Traceback (most recent call last):
+  File "/home/hialo/python/legolas-git/api/module/legolas_api.py", line 117, in detection_and_recognition
+    data_dict = {'image': image_as_base64, 'predict': predict_frame(image, bounding_boxes)}
+  File "/home/hialo/python/legolas-git/api/service/recognition.py", line 46, in predict_frame
+    predictions.append(list(pred, loc))
+TypeError: list() takes at most 1 argument (2 given)
+2019-03-17 16:59:00,129 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:59:00] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 16:59:02,150 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:59:02,150 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:59:03,127 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 16:59:03,128 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 16:59:03,128 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 16:59:03,143 - ERROR - module.legolas_api - detection_and_recognition: Erro ao executar a operação: list() takes at most 1 argument (2 given)
+Traceback (most recent call last):
+  File "/home/hialo/python/legolas-git/api/module/legolas_api.py", line 117, in detection_and_recognition
+    data_dict = {'image': image_as_base64, 'predict': predict_frame(image, bounding_boxes)}
+  File "/home/hialo/python/legolas-git/api/service/recognition.py", line 46, in predict_frame
+    predictions.append(list(pred, loc))
+TypeError: list() takes at most 1 argument (2 given)
+2019-03-17 16:59:03,144 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:59:03] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 16:59:05,185 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:59:05,185 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:59:06,160 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 16:59:06,160 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 16:59:06,160 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 16:59:06,176 - ERROR - module.legolas_api - detection_and_recognition: Erro ao executar a operação: list() takes at most 1 argument (2 given)
+Traceback (most recent call last):
+  File "/home/hialo/python/legolas-git/api/module/legolas_api.py", line 117, in detection_and_recognition
+    data_dict = {'image': image_as_base64, 'predict': predict_frame(image, bounding_boxes)}
+  File "/home/hialo/python/legolas-git/api/service/recognition.py", line 46, in predict_frame
+    predictions.append(list(pred, loc))
+TypeError: list() takes at most 1 argument (2 given)
+2019-03-17 16:59:06,177 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:59:06] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 16:59:08,215 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:59:08,215 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:59:09,202 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 16:59:09,202 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 16:59:09,202 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 16:59:09,219 - ERROR - module.legolas_api - detection_and_recognition: Erro ao executar a operação: list() takes at most 1 argument (2 given)
+Traceback (most recent call last):
+  File "/home/hialo/python/legolas-git/api/module/legolas_api.py", line 117, in detection_and_recognition
+    data_dict = {'image': image_as_base64, 'predict': predict_frame(image, bounding_boxes)}
+  File "/home/hialo/python/legolas-git/api/service/recognition.py", line 46, in predict_frame
+    predictions.append(list(pred, loc))
+TypeError: list() takes at most 1 argument (2 given)
+2019-03-17 16:59:09,220 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:59:09] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 16:59:11,264 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:59:11,264 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:59:12,246 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 16:59:12,246 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 16:59:12,246 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 16:59:12,262 - ERROR - module.legolas_api - detection_and_recognition: Erro ao executar a operação: list() takes at most 1 argument (2 given)
+Traceback (most recent call last):
+  File "/home/hialo/python/legolas-git/api/module/legolas_api.py", line 117, in detection_and_recognition
+    data_dict = {'image': image_as_base64, 'predict': predict_frame(image, bounding_boxes)}
+  File "/home/hialo/python/legolas-git/api/service/recognition.py", line 46, in predict_frame
+    predictions.append(list(pred, loc))
+TypeError: list() takes at most 1 argument (2 given)
+2019-03-17 16:59:12,262 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:59:12] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 16:59:14,283 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:59:14,284 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:59:15,350 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 16:59:15,350 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 16:59:15,350 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 16:59:15,365 - ERROR - module.legolas_api - detection_and_recognition: Erro ao executar a operação: list() takes at most 1 argument (2 given)
+Traceback (most recent call last):
+  File "/home/hialo/python/legolas-git/api/module/legolas_api.py", line 117, in detection_and_recognition
+    data_dict = {'image': image_as_base64, 'predict': predict_frame(image, bounding_boxes)}
+  File "/home/hialo/python/legolas-git/api/service/recognition.py", line 46, in predict_frame
+    predictions.append(list(pred, loc))
+TypeError: list() takes at most 1 argument (2 given)
+2019-03-17 16:59:15,366 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:59:15] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 16:59:17,394 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:59:17,394 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:59:18,438 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 16:59:18,438 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 16:59:18,438 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 16:59:18,457 - ERROR - module.legolas_api - detection_and_recognition: Erro ao executar a operação: list() takes at most 1 argument (2 given)
+Traceback (most recent call last):
+  File "/home/hialo/python/legolas-git/api/module/legolas_api.py", line 117, in detection_and_recognition
+    data_dict = {'image': image_as_base64, 'predict': predict_frame(image, bounding_boxes)}
+  File "/home/hialo/python/legolas-git/api/service/recognition.py", line 46, in predict_frame
+    predictions.append(list(pred, loc))
+TypeError: list() takes at most 1 argument (2 given)
+2019-03-17 16:59:18,457 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:59:18] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 16:59:20,477 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:59:20,478 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:59:21,551 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 16:59:21,551 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 16:59:21,551 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 16:59:21,567 - ERROR - module.legolas_api - detection_and_recognition: Erro ao executar a operação: list() takes at most 1 argument (2 given)
+Traceback (most recent call last):
+  File "/home/hialo/python/legolas-git/api/module/legolas_api.py", line 117, in detection_and_recognition
+    data_dict = {'image': image_as_base64, 'predict': predict_frame(image, bounding_boxes)}
+  File "/home/hialo/python/legolas-git/api/service/recognition.py", line 46, in predict_frame
+    predictions.append(list(pred, loc))
+TypeError: list() takes at most 1 argument (2 given)
+2019-03-17 16:59:21,567 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:59:21] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 16:59:23,606 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:59:23,606 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:59:24,737 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 16:59:24,737 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 16:59:24,737 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 16:59:24,755 - ERROR - module.legolas_api - detection_and_recognition: Erro ao executar a operação: list() takes at most 1 argument (2 given)
+Traceback (most recent call last):
+  File "/home/hialo/python/legolas-git/api/module/legolas_api.py", line 117, in detection_and_recognition
+    data_dict = {'image': image_as_base64, 'predict': predict_frame(image, bounding_boxes)}
+  File "/home/hialo/python/legolas-git/api/service/recognition.py", line 46, in predict_frame
+    predictions.append(list(pred, loc))
+TypeError: list() takes at most 1 argument (2 given)
+2019-03-17 16:59:24,756 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:59:24] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 16:59:26,786 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:59:26,787 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:59:27,818 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 16:59:27,818 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 16:59:27,818 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 16:59:27,836 - ERROR - module.legolas_api - detection_and_recognition: Erro ao executar a operação: list() takes at most 1 argument (2 given)
+Traceback (most recent call last):
+  File "/home/hialo/python/legolas-git/api/module/legolas_api.py", line 117, in detection_and_recognition
+    data_dict = {'image': image_as_base64, 'predict': predict_frame(image, bounding_boxes)}
+  File "/home/hialo/python/legolas-git/api/service/recognition.py", line 46, in predict_frame
+    predictions.append(list(pred, loc))
+TypeError: list() takes at most 1 argument (2 given)
+2019-03-17 16:59:27,837 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:59:27] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 16:59:29,876 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 16:59:29,876 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 16:59:31,100 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 16:59:31,100 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 16:59:31,100 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 16:59:31,115 - ERROR - module.legolas_api - detection_and_recognition: Erro ao executar a operação: list() takes at most 1 argument (2 given)
+Traceback (most recent call last):
+  File "/home/hialo/python/legolas-git/api/module/legolas_api.py", line 117, in detection_and_recognition
+    data_dict = {'image': image_as_base64, 'predict': predict_frame(image, bounding_boxes)}
+  File "/home/hialo/python/legolas-git/api/service/recognition.py", line 46, in predict_frame
+    predictions.append(list(pred, loc))
+TypeError: list() takes at most 1 argument (2 given)
+2019-03-17 16:59:31,116 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 16:59:31] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 17:00:40,465 - INFO - werkzeug -  * Running on http://0.0.0.0:2931/ (Press CTRL+C to quit)
+2019-03-17 17:00:40,466 - INFO - werkzeug -  * Restarting with stat
+2019-03-17 17:00:51,629 - WARNING - werkzeug -  * Debugger is active!
+2019-03-17 17:00:51,630 - INFO - werkzeug -  * Debugger PIN: 166-786-377
+2019-03-17 17:01:38,985 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 17:01:38,986 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 17:01:40,832 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 17:01:40,832 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 17:01:40,832 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 17:01:42,190 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 17:01:42] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 17:01:44,215 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 17:01:44,216 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 17:01:45,252 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 17:01:45,253 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 17:01:45,253 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 17:01:45,269 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 17:01:45] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 17:01:47,286 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 17:01:47,287 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 17:01:48,319 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 17:01:48,320 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 17:01:48,320 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 17:01:48,336 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 17:01:48] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 17:01:50,354 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 17:01:50,354 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 17:01:51,384 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 17:01:51,385 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 17:01:51,385 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 17:01:51,401 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 17:01:51] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 17:01:53,420 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 17:01:53,420 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 17:01:54,452 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 17:01:54,452 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 17:01:54,452 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 17:01:54,467 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 17:01:54] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 17:01:56,511 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 17:01:56,512 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 17:01:57,582 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 17:01:57,582 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 17:01:57,582 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 17:01:57,599 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 17:01:57] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 17:10:26,487 - INFO - werkzeug -  * Detected change in '/home/hialo/python/legolas-git/api/module/legolas_api.py', reloading
+2019-03-17 17:10:27,148 - INFO - werkzeug -  * Restarting with stat
+2019-03-17 17:10:39,296 - WARNING - werkzeug -  * Debugger is active!
+2019-03-17 17:10:39,297 - INFO - werkzeug -  * Debugger PIN: 166-786-377
+2019-03-17 17:10:59,323 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 17:10:59,325 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 17:11:01,303 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 17:11:01,303 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 17:11:01,303 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 17:11:02,165 - ERROR - module.legolas_api - detection_and_recognition: Erro ao executar a operação: 0
+Traceback (most recent call last):
+  File "/home/hialo/python/legolas-git/api/module/legolas_api.py", line 128, in detection_and_recognition
+    print(type(data_dict['predict'][0][0]))
+KeyError: 0
+2019-03-17 17:11:02,165 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 17:11:02] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 17:11:04,212 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 17:11:04,212 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 17:11:05,249 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 17:11:05,249 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 17:11:05,249 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 17:11:05,265 - ERROR - module.legolas_api - detection_and_recognition: Erro ao executar a operação: 0
+Traceback (most recent call last):
+  File "/home/hialo/python/legolas-git/api/module/legolas_api.py", line 128, in detection_and_recognition
+    print(type(data_dict['predict'][0][0]))
+KeyError: 0
+2019-03-17 17:11:05,266 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 17:11:05] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 17:11:07,336 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 17:11:07,337 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 17:11:08,437 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 17:11:08,437 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 17:11:08,437 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 17:11:08,453 - ERROR - module.legolas_api - detection_and_recognition: Erro ao executar a operação: 0
+Traceback (most recent call last):
+  File "/home/hialo/python/legolas-git/api/module/legolas_api.py", line 128, in detection_and_recognition
+    print(type(data_dict['predict'][0][0]))
+KeyError: 0
+2019-03-17 17:11:08,454 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 17:11:08] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 17:11:10,520 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 17:11:10,522 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 17:11:11,584 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 17:11:11,585 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 17:11:11,585 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 17:11:11,601 - ERROR - module.legolas_api - detection_and_recognition: Erro ao executar a operação: 0
+Traceback (most recent call last):
+  File "/home/hialo/python/legolas-git/api/module/legolas_api.py", line 128, in detection_and_recognition
+    print(type(data_dict['predict'][0][0]))
+KeyError: 0
+2019-03-17 17:11:11,602 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 17:11:11] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 17:11:13,671 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 17:11:13,672 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 17:11:14,778 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 17:11:14,779 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 17:11:14,779 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 17:11:14,796 - ERROR - module.legolas_api - detection_and_recognition: Erro ao executar a operação: 0
+Traceback (most recent call last):
+  File "/home/hialo/python/legolas-git/api/module/legolas_api.py", line 128, in detection_and_recognition
+    print(type(data_dict['predict'][0][0]))
+KeyError: 0
+2019-03-17 17:11:14,796 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 17:11:14] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 17:11:16,855 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 17:11:16,856 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 17:11:18,019 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 17:11:18,019 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 17:11:18,019 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 17:11:18,035 - ERROR - module.legolas_api - detection_and_recognition: Erro ao executar a operação: 0
+Traceback (most recent call last):
+  File "/home/hialo/python/legolas-git/api/module/legolas_api.py", line 128, in detection_and_recognition
+    print(type(data_dict['predict'][0][0]))
+KeyError: 0
+2019-03-17 17:11:18,036 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 17:11:18] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 17:11:20,079 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 17:11:20,079 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 17:11:21,152 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 17:11:21,153 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 17:11:21,153 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 17:11:21,169 - ERROR - module.legolas_api - detection_and_recognition: Erro ao executar a operação: 0
+Traceback (most recent call last):
+  File "/home/hialo/python/legolas-git/api/module/legolas_api.py", line 128, in detection_and_recognition
+    print(type(data_dict['predict'][0][0]))
+KeyError: 0
+2019-03-17 17:11:21,170 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 17:11:21] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 17:11:23,197 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 17:11:23,197 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 17:11:24,411 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 17:11:24,411 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 17:11:24,411 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 17:11:24,431 - ERROR - module.legolas_api - detection_and_recognition: Erro ao executar a operação: 0
+Traceback (most recent call last):
+  File "/home/hialo/python/legolas-git/api/module/legolas_api.py", line 128, in detection_and_recognition
+    print(type(data_dict['predict'][0][0]))
+KeyError: 0
+2019-03-17 17:11:24,431 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 17:11:24] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 17:11:26,503 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 17:11:26,504 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 17:11:27,660 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 17:11:27,660 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 17:11:27,660 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 17:11:27,675 - ERROR - module.legolas_api - detection_and_recognition: Erro ao executar a operação: 0
+Traceback (most recent call last):
+  File "/home/hialo/python/legolas-git/api/module/legolas_api.py", line 128, in detection_and_recognition
+    print(type(data_dict['predict'][0][0]))
+KeyError: 0
+2019-03-17 17:11:27,676 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 17:11:27] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 17:11:29,738 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 17:11:29,740 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 17:11:30,853 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 17:11:30,853 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 17:11:30,853 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 17:11:30,871 - ERROR - module.legolas_api - detection_and_recognition: Erro ao executar a operação: 0
+Traceback (most recent call last):
+  File "/home/hialo/python/legolas-git/api/module/legolas_api.py", line 128, in detection_and_recognition
+    print(type(data_dict['predict'][0][0]))
+KeyError: 0
+2019-03-17 17:11:30,872 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 17:11:30] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 17:11:32,930 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 17:11:32,931 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 17:11:34,036 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 17:11:34,036 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 17:11:34,036 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 17:11:34,052 - ERROR - module.legolas_api - detection_and_recognition: Erro ao executar a operação: 0
+Traceback (most recent call last):
+  File "/home/hialo/python/legolas-git/api/module/legolas_api.py", line 128, in detection_and_recognition
+    print(type(data_dict['predict'][0][0]))
+KeyError: 0
+2019-03-17 17:11:34,053 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 17:11:34] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 17:11:36,123 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 17:11:36,125 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 17:11:37,163 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 17:11:37,163 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 17:11:37,163 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 17:11:37,179 - ERROR - module.legolas_api - detection_and_recognition: Erro ao executar a operação: 0
+Traceback (most recent call last):
+  File "/home/hialo/python/legolas-git/api/module/legolas_api.py", line 128, in detection_and_recognition
+    print(type(data_dict['predict'][0][0]))
+KeyError: 0
+2019-03-17 17:11:37,179 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 17:11:37] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 17:11:39,225 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 17:11:39,225 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 17:11:40,378 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 17:11:40,378 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 17:11:40,378 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 17:11:40,394 - ERROR - module.legolas_api - detection_and_recognition: Erro ao executar a operação: 0
+Traceback (most recent call last):
+  File "/home/hialo/python/legolas-git/api/module/legolas_api.py", line 128, in detection_and_recognition
+    print(type(data_dict['predict'][0][0]))
+KeyError: 0
+2019-03-17 17:11:40,395 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 17:11:40] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 17:11:55,817 - INFO - werkzeug -  * Detected change in '/home/hialo/python/legolas-git/api/module/legolas_api.py', reloading
+2019-03-17 17:11:56,479 - INFO - werkzeug -  * Restarting with stat
+2019-03-17 17:12:08,159 - WARNING - werkzeug -  * Debugger is active!
+2019-03-17 17:12:08,160 - INFO - werkzeug -  * Debugger PIN: 166-786-377
+2019-03-17 17:12:28,178 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 17:12:28,179 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 17:12:30,055 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 17:12:30,055 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 17:12:30,055 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 17:12:30,905 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 17:12:30] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 17:12:32,945 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 17:12:32,945 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 17:12:33,933 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 17:12:33,933 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 17:12:33,933 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 17:12:33,951 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 17:12:33] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 17:12:35,994 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 17:12:35,994 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 17:12:37,158 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 17:12:37,158 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 17:12:37,158 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 17:12:37,177 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 17:12:37] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 17:12:39,195 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 17:12:39,195 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 17:12:40,204 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 17:12:40,204 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 17:12:40,204 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 17:12:40,221 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 17:12:40] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 17:12:42,244 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 17:12:42,245 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 17:12:43,225 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 17:12:43,225 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 17:12:43,225 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 17:12:43,241 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 17:12:43] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 17:12:45,303 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 17:12:45,304 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 17:12:46,331 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 17:12:46,331 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 17:12:46,331 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 17:12:46,349 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 17:12:46] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 17:12:48,382 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 17:12:48,382 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 17:12:49,428 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 17:12:49,428 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 17:12:49,428 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 17:12:49,447 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 17:12:49] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 17:12:51,485 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 17:12:51,485 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 17:12:52,483 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 17:12:52,483 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 17:12:52,483 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 17:12:52,499 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 17:12:52] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 17:12:54,536 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 17:12:54,536 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 17:12:55,577 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 17:12:55,577 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 17:12:55,577 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 17:12:55,594 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 17:12:55] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 17:12:57,612 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 17:12:57,612 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 17:12:58,615 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 17:12:58,615 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 17:12:58,615 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 17:12:58,631 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 17:12:58] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 17:13:00,666 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 17:13:00,667 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 17:13:01,664 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 17:13:01,664 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 17:13:01,664 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 17:13:01,680 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 17:13:01] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 17:13:03,744 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 17:13:03,745 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 17:13:04,766 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 17:13:04,766 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 17:13:04,766 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 17:13:04,782 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 17:13:04] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 17:13:06,801 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 17:13:06,802 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 17:13:07,797 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 17:13:07,797 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 17:13:07,797 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 17:13:07,814 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 17:13:07] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 17:13:09,885 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 17:13:09,886 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 17:13:10,899 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 17:13:10,899 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 17:13:10,900 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 17:13:10,916 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 17:13:10] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 17:13:12,966 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 17:13:12,967 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 17:13:13,991 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 17:13:13] "[1m[35mPOST /api/detection_recognition HTTP/1.1[0m" 500 -
+2019-03-17 17:13:14,008 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 17:13:14,009 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 17:13:15,031 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 17:13:15,031 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 17:13:15,035 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 17:13:15,052 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 17:13:15] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 17:13:17,091 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 17:13:17,091 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 17:13:18,103 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 17:13:18,103 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 17:13:18,103 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 17:13:18,119 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 17:13:18] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 17:13:20,161 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 17:13:20,161 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 17:13:21,196 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 17:13:21,196 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 17:13:21,196 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 17:13:21,213 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 17:13:21] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 17:13:23,242 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 17:13:23,242 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 17:13:24,337 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 17:13:24,338 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 17:13:24,338 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 17:13:24,363 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 17:13:24] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 17:13:26,382 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 17:13:26,382 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 17:13:27,393 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 17:13:27,393 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 17:13:27,393 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 17:13:27,410 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 17:13:27] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 17:13:29,428 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 17:13:29,428 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 17:13:30,454 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 17:13:30,454 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 17:13:30,454 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 17:13:30,477 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 17:13:30] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 17:13:32,556 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 17:13:32,557 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 17:13:33,651 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 17:13:33,651 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 17:13:33,651 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 17:13:33,669 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 17:13:33] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 17:13:35,740 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 17:13:35,742 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 17:13:36,770 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 17:13:36,770 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 17:13:36,771 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 17:13:36,787 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 17:13:36] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 17:13:38,814 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 17:13:38,814 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 17:13:39,852 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 17:13:39,852 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 17:13:39,852 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 17:13:39,867 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 17:13:39] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 17:13:41,901 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 17:13:41,901 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 17:13:42,913 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 17:13:42,913 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 17:13:42,913 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 17:13:42,929 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 17:13:42] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 17:13:44,947 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 17:13:44,948 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 17:13:45,922 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 17:13:45,922 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 17:13:45,922 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 17:13:45,939 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 17:13:45] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 17:13:47,985 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 17:13:47,985 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 17:13:49,050 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 17:13:49,050 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 17:13:49,050 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 17:13:49,066 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 17:13:49] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 17:13:51,117 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 17:13:51,117 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 17:13:52,098 - INFO - module.legolas_api - detection_and_recognition: 1 bounding boxes encontrados.
+2019-03-17 17:13:52,098 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 17:13:52,098 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 17:13:52,114 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 17:13:52] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 17:13:54,190 - INFO - module.legolas_api - detection_and_recognition: Obtendo dados da requisição
+2019-03-17 17:13:54,191 - INFO - module.legolas_api - detection_and_recognition: Verificando se existem faces na imagem
+2019-03-17 17:13:55,251 - INFO - module.legolas_api - detection_and_recognition: 2 bounding boxes encontrados.
+2019-03-17 17:13:55,251 - INFO - module.legolas_api - detection_and_recognition: Buscando faces na imagem
+2019-03-17 17:13:55,251 - INFO - service.utils - decode_image_from_base64: Decodificando a imagem em formato base64
+2019-03-17 17:13:55,273 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 17:13:55] "[37mPOST /api/detection_recognition HTTP/1.1[0m" 200 -
+2019-03-17 17:20:08,890 - INFO - werkzeug -  * Detected change in '/home/hialo/python/legolas-git/api/module/legolas_api.py', reloading
+2019-03-17 17:20:09,546 - INFO - werkzeug -  * Restarting with stat
