@@ -15,7 +15,7 @@ assistant = Assistant()
 def start():
     """
     Used to open a conversation with the watson chatbot and a user.
-    Route: localhost:2931/chat/start_conversation
+    Uri: localhost:2931/chat/start_conversation
 
     Params:
         - name: The name of the person who started de conversation or logged in a app.
@@ -32,7 +32,7 @@ def start():
 def send():
     """
     Used to continue a conversation already started with the watson chatbot and a user.
-    Route: localhost:2931/chat/send_message
+    Uri: localhost:2931/chat/send_message
 
     CAUTION: if the conversation aren't started, the application may have some issues.
 

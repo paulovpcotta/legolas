@@ -22,7 +22,7 @@ def detection():
 
     link to yoloface: https://github.com/davidsandberg/facenet
 
-    Route: localhost:2931/api/detection
+    Uri: localhost:2931/api/detection
 
     Params:    
         - base64: a image encode as base 64.
@@ -48,7 +48,7 @@ def recognition():
     """
     The face recognition method used in here is based in a KNN model.
 
-    Route: localhost:2931/api/detection
+    Uri: localhost:2931/api/detection
 
     Params:    
         - base64: a image encode as base 64.
@@ -73,7 +73,7 @@ def detection_and_recognition():
     Join of dectection and recognition, here we verify first if exist a face in the image
     using the face detection method, if found a face then we do the face recognition.
 
-    Route: localhost:2931/api/detection_recognition  
+    Uri: localhost:2931/api/detection_recognition  
 
     Input: 
         - base64: a image encode as base 64.

@@ -9,7 +9,7 @@ from pymongo import MongoClient
 import datetime
 
 class DataBase():
-    #TODO: new methods with necessary
+    #TODO: new methods and URI for dev and production with necessary 
 
     def __init__(self):
         URI_LOCAL = "mongodb://localhost:27017"
