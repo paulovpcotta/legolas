@@ -23,7 +23,7 @@ class DataBase():
         """
         Verify if a conversation id are in use.
 
-        Paras:
+        Params:
             - conversation_id: the id of conversation to check.
 
         """
@@ -39,7 +39,7 @@ class DataBase():
         """
         Insert a new conversation recently started with the watson chatbot.
 
-        Paras:
+        Params:
             - conversation_id: The id of the conversation. (Used as Primary Key)
             - messages: New messages to update the array of messages.
             - user: Person who started the conversation
@@ -59,7 +59,7 @@ class DataBase():
         """
         Used to update a array of messages inserting a new one in the collection conversation.
 
-        Paras:
+        Params:
             - conversation_id: The id of the conversation. (Used as Primary Key)
             - messages: New messages to update the array of messages.
 
@@ -69,3 +69,21 @@ class DataBase():
 
         if self.check_conversation(conversation_id):
             [collection.update({'conversation_id': conversation_id}, {'$push': {'messages': {'message': message, 'time': datetime.datetime.today()}}}) for message in messages]
+        
+    def insert_video_base64(self, base_64 : str , user : str):
+        """
+        Insert a video encoded in base 64 in the legola's database.
+
+        Params:
+            - user: the user who logged in the application.
+            - base_64: a video encoded in base 64.
+        """
+
+        collection = self.database['video']
+
+        video = {
+            'video': base_64,
+            'user': user
+        } 
+
+        collection.insert_one(video)

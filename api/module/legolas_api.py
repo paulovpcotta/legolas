@@ -101,7 +101,7 @@ def recognition():
 
             image = decode_image_from_base64(image_as_base64)
 
-            data_dict = {'image': image_as_base64, 'predict': predict_frame(image, bounding_boxes)}
+            data_dict = {'image': image_as_base64, 'predict': predict_frame(image, bounding_boxes, n_neighbors=11)}
 
             return jsonify(data_dict)
         else:
@@ -151,7 +151,7 @@ def detection_and_recognition():
 
             image = decode_image_from_base64(image_as_base64)
 
-            predictions = predict_frame(image, bounding_boxes)
+            predictions = predict_frame(image, bounding_boxes, n_neighbors=11)
 
             pred_list = []
             for prediction in predictions:
