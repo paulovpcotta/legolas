@@ -19,12 +19,12 @@ class DataBase():
     def close_connection(self):
         self.client.close()
 
-    def check_conversation(self, conversation_id):
+    def check_conversation(self, conversation_id:str) -> bool:
         """
         Verify if a conversation id are in use.
 
         Paras:
-            - conversation_id: the if of conversation to check.
+            - conversation_id: the id of conversation to check.
 
         """
 

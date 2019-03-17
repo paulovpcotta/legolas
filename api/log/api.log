@@ -1817,3 +1817,29 @@ requests.exceptions.SSLError: HTTPSConnectionPool(host='iam.bluemix.net', port=4
 2019-03-17 18:06:58,226 - INFO - module.chat_api - send_message: Getting parameters from request
 2019-03-17 18:06:58,226 - INFO - module.chat_api - send_message: Conversation 120fa39c-5968-4e27-8396-5cca86879022 continued
 2019-03-17 18:06:59,591 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 18:06:59] "[37mPOST /chat/send_message HTTP/1.1[0m" 200 -
+2019-03-17 18:20:24,097 - INFO - werkzeug -  * Running on http://0.0.0.0:2931/ (Press CTRL+C to quit)
+2019-03-17 18:20:24,100 - INFO - werkzeug -  * Restarting with stat
+2019-03-17 18:20:43,628 - INFO - werkzeug -  * Running on http://0.0.0.0:2931/ (Press CTRL+C to quit)
+2019-03-17 18:20:43,631 - INFO - werkzeug -  * Restarting with stat
+2019-03-17 18:20:43,987 - WARNING - werkzeug -  * Debugger is active!
+2019-03-17 18:20:43,988 - INFO - werkzeug -  * Debugger PIN: 230-100-481
+2019-03-17 18:20:45,509 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 18:20:45] "[37mGET /status HTTP/1.1[0m" 200 -
+2019-03-17 18:20:45,580 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 18:20:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2019-03-17 18:21:02,228 - INFO - werkzeug -  * Detected change in '/home/gabriel/Desktop/legolas/api/run.py', reloading
+2019-03-17 18:21:02,562 - INFO - werkzeug -  * Restarting with stat
+2019-03-17 18:21:03,028 - WARNING - werkzeug -  * Debugger is active!
+2019-03-17 18:21:03,028 - INFO - werkzeug -  * Debugger PIN: 230-100-481
+2019-03-17 18:21:03,095 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 18:21:03] "[37mGET /status HTTP/1.1[0m" 200 -
+2019-03-17 18:23:08,004 - INFO - werkzeug -  * Detected change in '/home/gabriel/Desktop/legolas/api/run.py', reloading
+2019-03-17 18:23:08,248 - INFO - werkzeug -  * Restarting with stat
+2019-03-17 18:23:08,693 - WARNING - werkzeug -  * Debugger is active!
+2019-03-17 18:23:08,693 - INFO - werkzeug -  * Debugger PIN: 230-100-481
+2019-03-17 18:23:16,689 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 18:23:16] "[37mGET /status HTTP/1.1[0m" 200 -
+2019-03-17 18:24:46,042 - INFO - werkzeug -  * Detected change in '/home/gabriel/Desktop/legolas/api/service/watson.py', reloading
+2019-03-17 18:24:46,362 - INFO - werkzeug -  * Restarting with stat
+2019-03-17 18:24:46,763 - WARNING - werkzeug -  * Debugger is active!
+2019-03-17 18:24:46,764 - INFO - werkzeug -  * Debugger PIN: 230-100-481
+2019-03-17 18:24:59,965 - INFO - werkzeug -  * Detected change in '/home/gabriel/Desktop/legolas/api/service/watson.py', reloading
+2019-03-17 18:25:00,324 - INFO - werkzeug -  * Restarting with stat
+2019-03-17 18:25:00,755 - WARNING - werkzeug -  * Debugger is active!
+2019-03-17 18:25:00,756 - INFO - werkzeug -  * Debugger PIN: 230-100-481

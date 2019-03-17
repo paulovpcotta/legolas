@@ -22,7 +22,7 @@ class Assistant():
             url='https://gateway.watsonplatform.net/assistant/api'
         )
 
-    def start_conversation(self, user, persist=True) -> dict:   
+    def start_conversation(self, user:str, persist=True) -> dict:   
         """
         This function start a new conversation with the user who are logged in and watson chatbot.
 
@@ -50,7 +50,7 @@ class Assistant():
 
         return {'id': conversation_id, 'messages': messages}
 
-    def continue_conversation(self, user, conversation_id, message, persist=True) -> dict:
+    def continue_conversation(self, user:str, conversation_id:str, message:str, persist=True) -> dict:
         """
         Continue a conversation already started with the watson chatbot.
 

@@ -1,13 +1,18 @@
 import logging.config
 
 from flask import Flask, Blueprint
-from module.legolas_api import api
+# from module.legolas_api import api
 from module.chat_api import chat
 
 app = Flask(__name__)
 
-app.register_blueprint(api, url_prefix='/api')
+# app.register_blueprint(api, url_prefix='/api')
 app.register_blueprint(chat, url_prefix='/chat')
+
+@app.route("/status")
+def status():
+
+    return "<h1>You have my bow.</h1>" 
 
 if __name__=='__main__':
     logging.config.fileConfig('log/logger.conf')

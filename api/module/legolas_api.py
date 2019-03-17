@@ -1,7 +1,7 @@
 # *******************************************************************
 #
-# Author : Gabriel Nogueira, 2019
-# C-Key  : c1297800
+# Author : Gabriel Nogueira & Hialo Muniz, 2019
+# C-Key  : c1297800, c1298437
 # Project Github : https://github.com/paulovpcotta/legolas
 #
 # *******************************************************************
