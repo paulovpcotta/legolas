@@ -2341,3 +2341,30 @@ pymongo.errors.ServerSelectionTimeoutError: localhost:27017: [Errno 111] Connect
 2019-03-18 11:25:32,763 - INFO - module.chat_api - send_message: Conversation da57ee2b-54fe-46f7-be7a-61d6560140f9 continuing
 2019-03-18 11:25:32,763 - INFO - service.watson - Assistant::continue_conversation: Continuing conversation da57ee2b-54fe-46f7-be7a-61d6560140f9
 2019-03-18 11:25:35,439 - INFO - werkzeug - 127.0.0.1 - - [18/Mar/2019 11:25:35] "[37mPOST /chat/send_message HTTP/1.1[0m" 200 -
+2019-03-18 12:19:19,184 - INFO - werkzeug -  * Running on http://0.0.0.0:2931/ (Press CTRL+C to quit)
+2019-03-18 12:19:19,186 - INFO - werkzeug -  * Restarting with stat
+2019-03-18 12:35:16,985 - INFO - werkzeug -  * Running on http://0.0.0.0:2931/ (Press CTRL+C to quit)
+2019-03-18 12:35:16,989 - INFO - werkzeug -  * Restarting with stat
+2019-03-18 12:37:06,917 - INFO - werkzeug -  * Running on http://0.0.0.0:2931/ (Press CTRL+C to quit)
+2019-03-18 12:37:06,919 - INFO - werkzeug -  * Restarting with stat
+2019-03-18 12:38:00,216 - INFO - werkzeug -  * Running on http://0.0.0.0:2931/ (Press CTRL+C to quit)
+2019-03-18 12:38:05,751 - INFO - werkzeug - 127.0.0.1 - - [18/Mar/2019 12:38:05] "[37mGET /status HTTP/1.1[0m" 200 -
+2019-03-18 12:38:05,903 - INFO - werkzeug - 127.0.0.1 - - [18/Mar/2019 12:38:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2019-03-18 12:39:27,365 - INFO - module.chat_api - start_conversation: Getting parameters from request
+2019-03-18 12:39:27,366 - INFO - module.chat_api - start_conversation: Starting a new conversation
+2019-03-18 12:39:27,367 - INFO - service.watson - Assistant::start_conversation: Starting new conversation with Watson
+2019-03-18 12:39:32,223 - INFO - service.watson - Tts::synthesize: Synthesizing audio from text
+2019-03-18 12:39:34,497 - INFO - service.watson - Tts::synthesize: Synthesizing audio from text
+2019-03-18 12:39:35,746 - INFO - werkzeug - 127.0.0.1 - - [18/Mar/2019 12:39:35] "[37mPOST /chat/start_conversation HTTP/1.1[0m" 200 -
+2019-03-18 12:40:27,274 - INFO - module.chat_api - start_conversation: Getting parameters from request
+2019-03-18 12:40:27,275 - ERROR - module.chat_api - start_conversation: Error getting parameters from request
+2019-03-18 12:40:27,276 - INFO - werkzeug - 127.0.0.1 - - [18/Mar/2019 12:40:27] "[37mPOST /chat/start_conversation HTTP/1.1[0m" 200 -
+2019-03-18 12:40:41,799 - INFO - module.chat_api - start_conversation: Getting parameters from request
+2019-03-18 12:40:41,801 - INFO - module.chat_api - start_conversation: Starting a new conversation
+2019-03-18 12:40:41,802 - INFO - service.watson - Assistant::start_conversation: Starting new conversation with Watson
+2019-03-18 12:40:42,835 - INFO - werkzeug - 127.0.0.1 - - [18/Mar/2019 12:40:42] "[37mPOST /chat/start_conversation HTTP/1.1[0m" 200 -
+2019-03-18 12:40:46,530 - INFO - module.chat_api - start_conversation: Getting parameters from request
+2019-03-18 12:40:46,531 - INFO - module.chat_api - start_conversation: Starting a new conversation
+2019-03-18 12:40:46,532 - INFO - service.watson - Assistant::start_conversation: Starting new conversation with Watson
+2019-03-18 12:40:47,206 - INFO - werkzeug - 127.0.0.1 - - [18/Mar/2019 12:40:47] "[37mPOST /chat/start_conversation HTTP/1.1[0m" 200 -
+2019-03-18 12:42:54,717 - INFO - werkzeug -  * Running on http://0.0.0.0:2931/ (Press CTRL+C to quit)

@@ -14,9 +14,15 @@ class DataBase():
     #TODO: new methods and URI for dev and production with necessary 
 
     def __init__(self):
+        """
+        Change between URI to get acess to different mongodb.
+        """
         URI_LOCAL = "mongodb://localhost:27017"
-        self.client = MongoClient(URI_LOCAL) 
-        self.database = self.client.chat_legolas
+        # URI_DEV =
+        # URI_PROD = 
+ 
+        self.client = MongoClient(URI_LOCAL) # Change URI in here
+        self.database = self.client.chat_legolas # Change the after after the last dot to acess other database
 
     def close_connection(self):
         self.client.close()
