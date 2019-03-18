@@ -12,6 +12,8 @@ import json
 from service.database import DataBase
 # from database import DataBase # Use only when is local test
 
+import logging
+
 db = DataBase()
 
 class Assistant():
@@ -39,19 +41,29 @@ class Assistant():
         TODO: Treat exceptions.
 
         """
+        logger = logging.getLogger(__name__)
 
-        response = self.assistant.message(
-            workspace_id='911ed507-9118-425c-8fd8-594b547f8583',
-            context={'cliente': user}
-        ).get_result()
+        try:
 
-        conversation_id = response['context']['conversation_id']
-        messages = response['output']['text']
+            logger.info('Assistant::start_conversation: Starting new conversation with Watson')
 
-        if persist:
-            db.insert_new_conversation(conversation_id, user, messages)
+            response = self.assistant.message(
+                workspace_id='911ed507-9118-425c-8fd8-594b547f8583',
+                context={'cliente': user}
+            ).get_result()
 
-        return {'id': conversation_id, 'messages': messages}
+            conversation_id = response['context']['conversation_id']
+            messages = response['output']['text']
+
+            if persist:
+                db.insert_new_conversation(conversation_id, user, messages)
+
+            return {'id': conversation_id, 'messages': messages}
+        
+        except:
+            logger.error('Assistant::start_conversation: Error starting new conversation with Watson', exc_info=True)
+
+            return {'id': None, 'messages': None}
 
     def continue_conversation(self, user:str, conversation_id:str, message:str, persist=True) -> dict:
         """
@@ -66,22 +78,30 @@ class Assistant():
         Return:
             - Dict with the id of the conversation and the messages sent by the user and the answer of the bot.
 
-        TODO: Treat exceptions.
-
         """
 
-        response = self.assistant.message(
-            workspace_id='911ed507-9118-425c-8fd8-594b547f8583',
-            context={'cliente': user, 'conversation_id': conversation_id},
-            input={'text': message}
-        ).get_result()
+        logger = logging.getLogger(__name__)
 
-        messages = [message] + response['output']['text']
+        try:
+            logger.info(f'Assistant::continue_conversation: Continuing conversation {conversation_id}')
 
-        if persist:
-            db.update_conversation(conversation_id, messages)
+            response = self.assistant.message(
+                workspace_id='911ed507-9118-425c-8fd8-594b547f8583',
+                context={'cliente': user, 'conversation_id': conversation_id},
+                input={'text': message}
+            ).get_result()
 
-        return {'id': conversation_id, 'messages': messages}
+            messages = [message] + response['output']['text']
+
+            if persist:
+                db.update_conversation(conversation_id, messages)
+
+            return {'id': conversation_id, 'messages': messages}
+        
+        except:
+            logger.info(f'Assistant::continue_conversation: Error continuing conversation {conversation_id}', exc_info=True)
+
+            return {'id': conversation_id, 'messages': None}
 
 class Stt():
 
@@ -94,14 +114,33 @@ class Stt():
 
 
     def recognize(self, audio:bytes) -> dict:
+        """
+        Receive input as a byte represantation of an audio in format mp3, then convert it
+        to text using the speech to text api.
 
-        response  = self.stt.recognize(
-            audio=audio,
-            content_type='audio/mp3',
-            model='pt-BR_BroadbandModel'
-            ).get_result()
+        Params:
+            - audio: Byte representation of an audio in format mp3.
+        Return:
+            A string recognized in the audio.  
 
-        return response['results'][0]['alternatives'][0]['transcript']
+        """
+        logger = logging.getLogger(__name__)
+
+        try:
+            logger.info('Stt::recognize: Translating audio to text')
+
+            response  = self.stt.recognize(
+                audio=audio,
+                content_type='audio/mp3',
+                model='pt-BR_BroadbandModel'
+                ).get_result()
+
+            return response['results'][0]['alternatives'][0]['transcript']
+
+        except:
+            logger.error('Stt::recognize: Error translating audio to text', exc_info=True)
+
+            return None
 
 class Tts():
 
@@ -113,12 +152,30 @@ class Tts():
         )
 
     def synthesize(self, text:str) -> bytes:
-        
-        response = self.text_to_speech.synthesize(
-                        text,
-                        'audio/mp3',
-                        'pt-BR_IsabelaVoice'
-                    ).get_result().content
+        """
+        Translate a text to it representation as audio in format mp3.
 
+        Params:
+            - text: A string to be transformed in an audio.
+        Return: 
+            A byte representation of the audio in format mp3.
 
-        return response
+        """
+        logger = logging.getLogger(__name__)
+
+        try:
+
+            logger.info('Tts::synthesize: Synthesizing audio from text')
+
+            response = self.text_to_speech.synthesize(
+                            text,
+                            'audio/mp3',
+                            'pt-BR_IsabelaVoice'
+                        ).get_result().content
+
+            return response
+            
+        except:
+            logger.error('Tts::synthesize: Error synthesizing audio from text', exc_info=True)
+
+            return None

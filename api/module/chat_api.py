@@ -19,13 +19,16 @@ tts = Tts()
 @chat.route('/start_conversation', methods=['POST'])
 def start():
     """
-    Used to open a conversation with the watson chatbot and a user.
+    Used to open a conversation with the watson chatbot and a user
     Uri: localhost:2931/chat/start_conversation
 
     Params:
         - name: The name of the person who started de conversation or logged in a app.
+        - persist: Used to persist or not the conversation in the database. (default = True) 
+        - audio: Used to make a representations of messages in audio. (default = None)
     Return:
-        - Dict with the id of the conversation and the messages of the bot at the start of the conversation.
+        Dict with the id of the conversation and a list of messages of the bot at the start of the conversation,
+        is audio is set as True, return an audio representation of the messages.
     """
     logger = logging.getLogger(__name__)
 
@@ -43,7 +46,7 @@ def start():
         return jsonify({'id': None, 'messages': None}, 400)
 
     try:
-        logger.info("start_conversation: Started a new conversation")
+        logger.info("start_conversation: Starting a new conversation")
 
         data_dict = assistant.start_conversation(name, persist=persist)
 
@@ -69,9 +72,13 @@ def send():
     Params:
         - name: The name of the person who started de conversation or logged in a app.
         - id: Conversation id that is sent to watson to recovery the conversation already started.
-        - message: A string of the message of the user.
+        - message: A string of the message of the user. (default = None)
+        - persist: Used to persist or not the conversation in the database. (default = True) 
+        - audio: Used to make a representations of messages in audio. (default = None) - Not implemented yet
+        - base64: Message sent from the user as audio encoded in base64. (default = None)
     Return:
-        - Dict with the id of the conversation and the messages of the bot at the start of the conversation.
+        Dict with the id of the conversation and a list of messages of the bot at the start of the conversation,
+        is audio is set as True, return an audio representation of the messages.
     """
     logger = logging.getLogger(__name__)
     try:
@@ -82,7 +89,7 @@ def send():
         conversation_id = req['id'] 
         message = req['message'] if req.get('message') is not None else None
         persist = req['persist'] if req.get('persist') is not None else True
-        audio = req['audio'] if req.get('audio') is not None else None
+        # audio = req['audio'] if req.get('audio') is not None else None
         base_64 = req['base64'] if req.get('base64') is not None else None
 
     except:
@@ -91,9 +98,9 @@ def send():
         return jsonify({'id': None, 'messages': None}, 400)
 
     try:
-        logger.info(f"send_message: Conversation {conversation_id} continued")
+        logger.info(f"send_message: Conversation {conversation_id} continuing")
 
-        if audio and base_64:
+        if base_64:
             
             speech = base64.decodebytes(base_64.encode())
             text = stt.recognize(speech)
