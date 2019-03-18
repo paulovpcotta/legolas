@@ -50,14 +50,14 @@ def detection():
     except:
         logger.error('detection: O conteúdo da requisição está vazio ou é inválido')
 
-        return jsonify({'image': None, 'bounding_boxes': None}, 400)
+        return jsonify({'bounding_boxes': None}, 400)
 
     try:
         logger.info("detection: Verificando se existem faces na imagem")
 
         bounding_boxes = detect_boxes_in_image(image_as_base64, detector)
 
-        data_dict = {'image': image_as_base64, 'bounding_boxes': bounding_boxes}
+        data_dict = {'bounding_boxes': bounding_boxes}
 
         return jsonify(data_dict)
         
@@ -65,7 +65,7 @@ def detection():
 
         logger.error('detection: Erro ao executar a operação: %s', str(err), exc_info=True)
 
-        return jsonify({'image': None, 'bounding_boxes': None})
+        return jsonify({'bounding_boxes': None})
 
 ####################################################################
 @api.route('/recognition', methods=['POST'])
@@ -93,7 +93,7 @@ def recognition():
     except:
         logger.error('recognition: O conteúdo da requisição está vazio ou é inválido')
 
-        return jsonify({'image': None, 'box': None}, 400)
+        return jsonify({'box': None}, 400)
 
     try:
         if bounding_boxes:
@@ -101,15 +101,15 @@ def recognition():
 
             image = decode_image_from_base64(image_as_base64)
 
-            data_dict = {'image': image_as_base64, 'predict': predict_frame(image, bounding_boxes, n_neighbors=11)}
+            data_dict = {'predict': predict_frame(image, bounding_boxes, n_neighbors=11)}
 
             return jsonify(data_dict)
         else:
-            return jsonify({'image': image_as_base64, 'predict': None})
+            return jsonify({'predict': None})
     except Exception as err:
         logger.error('recognition: Erro ao executar a operação: %s', str(err), exc_info=True)
 
-        return jsonify({'image': None, 'predict': None})
+        return jsonify({'predict': None})
 
 ####################################################################
 @api.route('/detection_recognition', methods=['POST'])
@@ -138,7 +138,7 @@ def detection_and_recognition():
     except:
         logger.error('detection_and_recognition: O conteúdo da requisição está vazio ou é inválido')
 
-        return jsonify({'image': None, 'box': None}, 400)
+        return jsonify({'box': None}, 400)
 
     try:
         logger.info("detection_and_recognition: Verificando se existem faces na imagem")
@@ -157,13 +157,13 @@ def detection_and_recognition():
             for prediction in predictions:
                 pred_list.append({'name': prediction[0], 'box': prediction[1]})
 
-            data_dict = {'image': image_as_base64, 'predict': pred_list}
+            data_dict = {'predict': pred_list}
 
             return jsonify(data_dict)
         else:
-            return jsonify({'image': image_as_base64, 'predict': None})
+            return jsonify({'predict': None})
     except Exception as err:
         logger.error('detection_and_recognition: Erro ao executar a operação: %s', str(err), exc_info=True)
 
-        return jsonify({'image': None, 'predict': None})
+        return jsonify({'predict': None})
     
