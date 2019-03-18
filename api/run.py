@@ -20,4 +20,4 @@ if __name__=='__main__':
     LOGGER = logging.getLogger(__name__)
 
     app.secret_key = '65b46g4f68g4f6s4g6a5v465afg8aa5'
-    app.run(host='0.0.0.0', port=2931, debug=True)
+    app.run(host='0.0.0.0', port=2933, debug=True)

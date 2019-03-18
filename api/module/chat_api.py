@@ -6,13 +6,15 @@
 #
 # *******************************************************************
 from flask import Flask, request, Blueprint, jsonify
-from service.watson import Assistant
+import base64
+from service.watson import Assistant, Stt, Tts
 
 import logging
 
 chat = Blueprint('chat', __name__)
 assistant = Assistant()
-
+stt = Stt()
+tts = Tts()
 
 @chat.route('/start_conversation', methods=['POST'])
 def start():
@@ -32,6 +34,9 @@ def start():
 
         req = request.json
         name = req['name']
+        persist = req['persist'] if req.get('persist') is not None else True
+        audio = req['audio'] if req.get('audio') is not None else None
+
     except:
         logger.error("start_conversation: Error getting parameters from request")
 
@@ -40,7 +45,10 @@ def start():
     try:
         logger.info("start_conversation: Started a new conversation")
 
-        data_dict = assistant.start_conversation(name)
+        data_dict = assistant.start_conversation(name, persist=persist)
+
+        if audio:
+            data_dict['speechs'] = [base64.encodebytes(tts.synthesize(message)).decode("utf-8") for message in data_dict['messages']]
 
         return jsonify(data_dict)
 
@@ -71,8 +79,11 @@ def send():
 
         req = request.json
         name = req['name']
-        conversation_id = req['id']
-        message = req['message']
+        conversation_id = req['id'] 
+        message = req['message'] if req.get('message') is not None else None
+        persist = req['persist'] if req.get('persist') is not None else True
+        audio = req['audio'] if req.get('audio') is not None else None
+        base_64 = req['base64'] if req.get('base64') is not None else None
 
     except:
         logger.error("send_message: Error getting parameters from request")
@@ -82,7 +93,18 @@ def send():
     try:
         logger.info(f"send_message: Conversation {conversation_id} continued")
 
-        data_dict = assistant.continue_conversation(name, conversation_id, message)
+        if audio and base_64:
+            
+            speech = base64.decodebytes(base_64.encode())
+            text = stt.recognize(speech)
+
+            data_dict = assistant.continue_conversation(name, conversation_id, text, persist=persist)
+            data_dict['speechs'] = [base64.encodebytes(tts.synthesize(message)).decode("utf-8") for message in data_dict['messages']]
+
+        elif message:
+            data_dict = assistant.continue_conversation(name, conversation_id, message, persist=persist)
+        else:
+            return jsonify({'id': None, 'messages': None}) 
 
         return jsonify(data_dict)
     

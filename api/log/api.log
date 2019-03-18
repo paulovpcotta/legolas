@@ -1843,3 +1843,399 @@ requests.exceptions.SSLError: HTTPSConnectionPool(host='iam.bluemix.net', port=4
 2019-03-17 18:25:00,324 - INFO - werkzeug -  * Restarting with stat
 2019-03-17 18:25:00,755 - WARNING - werkzeug -  * Debugger is active!
 2019-03-17 18:25:00,756 - INFO - werkzeug -  * Debugger PIN: 230-100-481
+2019-03-17 22:00:16,126 - INFO - werkzeug -  * Running on http://0.0.0.0:2931/ (Press CTRL+C to quit)
+2019-03-17 22:00:16,140 - INFO - werkzeug -  * Restarting with stat
+2019-03-17 22:00:16,533 - WARNING - werkzeug -  * Debugger is active!
+2019-03-17 22:00:16,565 - INFO - werkzeug -  * Debugger PIN: 297-921-390
+2019-03-17 22:02:43,289 - INFO - module.chat_api - send_message: Getting parameters from request
+2019-03-17 22:02:43,289 - ERROR - module.chat_api - send_message: Error getting parameters from request
+2019-03-17 22:02:43,290 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 22:02:43] "[37mPOST /chat/send_message HTTP/1.1[0m" 200 -
+2019-03-17 22:03:13,492 - INFO - module.chat_api - audio_mode: 
+2019-03-17 22:03:13,492 - ERROR - module.chat_api - audio_mode: 
+2019-03-17 22:03:13,492 - INFO - module.chat_api - audio_mode: 
+2019-03-17 22:03:13,492 - ERROR - module.chat_api - audio_mode: 
+Traceback (most recent call last):
+  File "/home/gabriel/Desktop/legolas/api/module/chat_api.py", line 115, in mode_audio
+    text = stt.recognize(speech)
+UnboundLocalError: local variable 'speech' referenced before assignment
+2019-03-17 22:03:13,493 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 22:03:13] "[37mPOST /chat/audio_mode HTTP/1.1[0m" 200 -
+2019-03-17 22:04:51,473 - INFO - werkzeug -  * Detected change in '/home/gabriel/Desktop/legolas/api/module/chat_api.py', reloading
+2019-03-17 22:04:51,947 - INFO - werkzeug -  * Restarting with stat
+2019-03-17 22:04:52,357 - WARNING - werkzeug -  * Debugger is active!
+2019-03-17 22:04:52,358 - INFO - werkzeug -  * Debugger PIN: 297-921-390
+2019-03-17 22:05:03,499 - INFO - werkzeug -  * Detected change in '/home/gabriel/Desktop/legolas/api/module/chat_api.py', reloading
+2019-03-17 22:05:03,934 - INFO - werkzeug -  * Restarting with stat
+2019-03-17 22:05:04,408 - WARNING - werkzeug -  * Debugger is active!
+2019-03-17 22:05:04,409 - INFO - werkzeug -  * Debugger PIN: 297-921-390
+2019-03-17 22:05:07,916 - INFO - module.chat_api - audio_mode: 
+2019-03-17 22:05:07,916 - ERROR - module.chat_api - audio_mode: 
+2019-03-17 22:05:07,916 - INFO - module.chat_api - audio_mode: 
+2019-03-17 22:05:07,916 - ERROR - module.chat_api - audio_mode: 
+Traceback (most recent call last):
+  File "/home/gabriel/Desktop/legolas/api/module/chat_api.py", line 116, in mode_audio
+    text = stt.recognize(speech)
+UnboundLocalError: local variable 'speech' referenced before assignment
+2019-03-17 22:05:07,917 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 22:05:07] "[37mPOST /chat/audio_mode HTTP/1.1[0m" 200 -
+2019-03-17 22:05:21,640 - INFO - werkzeug -  * Detected change in '/home/gabriel/Desktop/legolas/api/module/chat_api.py', reloading
+2019-03-17 22:05:21,986 - INFO - werkzeug -  * Restarting with stat
+2019-03-17 22:05:22,417 - WARNING - werkzeug -  * Debugger is active!
+2019-03-17 22:05:22,418 - INFO - werkzeug -  * Debugger PIN: 297-921-390
+2019-03-17 22:05:24,046 - INFO - module.chat_api - audio_mode: 
+2019-03-17 22:05:24,046 - ERROR - module.chat_api - audio_mode: Error
+2019-03-17 22:05:24,046 - INFO - module.chat_api - audio_mode: 
+2019-03-17 22:05:24,046 - ERROR - module.chat_api - audio_mode: 
+Traceback (most recent call last):
+  File "/home/gabriel/Desktop/legolas/api/module/chat_api.py", line 116, in mode_audio
+    text = stt.recognize(speech)
+UnboundLocalError: local variable 'speech' referenced before assignment
+2019-03-17 22:05:24,047 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 22:05:24] "[37mPOST /chat/audio_mode HTTP/1.1[0m" 200 -
+2019-03-17 22:06:00,906 - INFO - werkzeug -  * Detected change in '/home/gabriel/Desktop/legolas/api/module/chat_api.py', reloading
+2019-03-17 22:06:01,018 - INFO - werkzeug -  * Restarting with stat
+2019-03-17 22:06:01,522 - WARNING - werkzeug -  * Debugger is active!
+2019-03-17 22:06:01,522 - INFO - werkzeug -  * Debugger PIN: 297-921-390
+2019-03-17 22:06:02,704 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 22:06:02] "[1m[31mPOST /chat/audio_mode HTTP/1.1[0m" 400 -
+2019-03-17 22:41:36,448 - INFO - werkzeug -  * Running on http://0.0.0.0:2931/ (Press CTRL+C to quit)
+2019-03-17 22:41:36,451 - INFO - werkzeug -  * Restarting with stat
+2019-03-17 22:41:36,858 - WARNING - werkzeug -  * Debugger is active!
+2019-03-17 22:41:36,859 - INFO - werkzeug -  * Debugger PIN: 297-921-390
+2019-03-17 22:42:18,510 - INFO - werkzeug -  * Detected change in '/home/gabriel/Desktop/legolas/api/module/chat_api.py', reloading
+2019-03-17 22:42:18,973 - INFO - werkzeug -  * Restarting with stat
+2019-03-17 22:42:19,345 - WARNING - werkzeug -  * Debugger is active!
+2019-03-17 22:42:19,346 - INFO - werkzeug -  * Debugger PIN: 297-921-390
+2019-03-17 22:44:54,980 - INFO - module.chat_api - audio_mode: 
+2019-03-17 22:44:54,980 - ERROR - module.chat_api - audio_mode: Error
+2019-03-17 22:44:54,980 - INFO - module.chat_api - audio_mode: 
+2019-03-17 22:44:54,980 - ERROR - module.chat_api - audio_mode: 
+Traceback (most recent call last):
+  File "/home/gabriel/Desktop/legolas/api/module/chat_api.py", line 116, in mode_audio
+    text = stt.recognize(speech)
+UnboundLocalError: local variable 'speech' referenced before assignment
+2019-03-17 22:44:54,981 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 22:44:54] "[37mPOST /chat/audio_mode HTTP/1.1[0m" 200 -
+2019-03-17 22:45:17,847 - INFO - werkzeug -  * Detected change in '/home/gabriel/Desktop/legolas/api/module/chat_api.py', reloading
+2019-03-17 22:45:18,142 - INFO - werkzeug -  * Restarting with stat
+2019-03-17 22:45:18,647 - WARNING - werkzeug -  * Debugger is active!
+2019-03-17 22:45:18,647 - INFO - werkzeug -  * Debugger PIN: 297-921-390
+2019-03-17 22:45:22,845 - INFO - module.chat_api - audio_mode: 
+2019-03-17 22:45:22,846 - ERROR - module.chat_api - audio_mode: Error
+2019-03-17 22:45:22,848 - INFO - module.chat_api - audio_mode: 
+2019-03-17 22:45:22,848 - ERROR - module.chat_api - audio_mode: 
+Traceback (most recent call last):
+  File "/home/gabriel/Desktop/legolas/api/module/chat_api.py", line 117, in mode_audio
+    text = stt.recognize(speech)
+UnboundLocalError: local variable 'speech' referenced before assignment
+2019-03-17 22:45:22,850 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 22:45:22] "[37mPOST /chat/audio_mode HTTP/1.1[0m" 200 -
+2019-03-17 22:46:23,251 - INFO - module.chat_api - audio_mode: 
+2019-03-17 22:46:23,251 - ERROR - module.chat_api - audio_mode: Error
+2019-03-17 22:46:23,251 - INFO - module.chat_api - audio_mode: 
+2019-03-17 22:46:23,251 - ERROR - module.chat_api - audio_mode: 
+Traceback (most recent call last):
+  File "/home/gabriel/Desktop/legolas/api/module/chat_api.py", line 117, in mode_audio
+    text = stt.recognize(speech)
+UnboundLocalError: local variable 'speech' referenced before assignment
+2019-03-17 22:46:23,252 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 22:46:23] "[37mPOST /chat/audio_mode HTTP/1.1[0m" 200 -
+2019-03-17 22:46:47,957 - INFO - werkzeug -  * Detected change in '/home/gabriel/Desktop/legolas/api/module/chat_api.py', reloading
+2019-03-17 22:46:48,308 - INFO - werkzeug -  * Restarting with stat
+2019-03-17 22:46:48,715 - WARNING - werkzeug -  * Debugger is active!
+2019-03-17 22:46:48,715 - INFO - werkzeug -  * Debugger PIN: 297-921-390
+2019-03-17 22:47:01,906 - INFO - werkzeug -  * Detected change in '/home/gabriel/Desktop/legolas/api/module/chat_api.py', reloading
+2019-03-17 22:47:02,285 - INFO - werkzeug -  * Restarting with stat
+2019-03-17 22:47:02,709 - WARNING - werkzeug -  * Debugger is active!
+2019-03-17 22:47:02,710 - INFO - werkzeug -  * Debugger PIN: 297-921-390
+2019-03-17 22:47:07,780 - INFO - werkzeug -  * Detected change in '/home/gabriel/Desktop/legolas/api/module/chat_api.py', reloading
+2019-03-17 22:47:08,262 - INFO - werkzeug -  * Restarting with stat
+2019-03-17 22:47:08,645 - WARNING - werkzeug -  * Debugger is active!
+2019-03-17 22:47:08,646 - INFO - werkzeug -  * Debugger PIN: 297-921-390
+2019-03-17 22:47:28,972 - INFO - werkzeug -  * Detected change in '/home/gabriel/Desktop/legolas/api/module/chat_api.py', reloading
+2019-03-17 22:47:29,235 - INFO - werkzeug -  * Restarting with stat
+2019-03-17 22:47:29,643 - WARNING - werkzeug -  * Debugger is active!
+2019-03-17 22:47:29,644 - INFO - werkzeug -  * Debugger PIN: 297-921-390
+2019-03-17 22:47:34,726 - INFO - module.chat_api - audio_mode: 
+2019-03-17 22:47:34,727 - ERROR - module.chat_api - audio_mode: Error
+2019-03-17 22:47:34,727 - INFO - module.chat_api - audio_mode: 
+2019-03-17 22:47:34,727 - ERROR - module.chat_api - audio_mode: 
+Traceback (most recent call last):
+  File "/home/gabriel/Desktop/legolas/api/module/chat_api.py", line 116, in mode_audio
+    text = stt.recognize(speech)
+UnboundLocalError: local variable 'speech' referenced before assignment
+2019-03-17 22:47:34,728 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 22:47:34] "[37mPOST /chat/audio_mode HTTP/1.1[0m" 200 -
+2019-03-17 22:47:47,937 - INFO - werkzeug -  * Detected change in '/home/gabriel/Desktop/legolas/api/module/chat_api.py', reloading
+2019-03-17 22:47:48,216 - INFO - werkzeug -  * Restarting with stat
+2019-03-17 22:47:48,619 - WARNING - werkzeug -  * Debugger is active!
+2019-03-17 22:47:48,619 - INFO - werkzeug -  * Debugger PIN: 297-921-390
+2019-03-17 22:48:15,938 - INFO - werkzeug -  * Detected change in '/home/gabriel/Desktop/legolas/api/module/chat_api.py', reloading
+2019-03-17 22:48:16,206 - INFO - werkzeug -  * Restarting with stat
+2019-03-17 22:48:16,643 - WARNING - werkzeug -  * Debugger is active!
+2019-03-17 22:48:16,643 - INFO - werkzeug -  * Debugger PIN: 297-921-390
+2019-03-17 22:48:21,222 - INFO - module.chat_api - audio_mode: 
+2019-03-17 22:48:21,223 - ERROR - module.chat_api - audio_mode: Error
+2019-03-17 22:48:21,224 - INFO - module.chat_api - audio_mode: 
+2019-03-17 22:48:21,224 - ERROR - module.chat_api - audio_mode: 
+Traceback (most recent call last):
+  File "/home/gabriel/Desktop/legolas/api/module/chat_api.py", line 116, in mode_audio
+    text = stt.recognize(speech)
+UnboundLocalError: local variable 'speech' referenced before assignment
+2019-03-17 22:48:21,227 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 22:48:21] "[37mPOST /chat/audio_mode HTTP/1.1[0m" 200 -
+2019-03-17 22:48:46,060 - INFO - werkzeug -  * Detected change in '/home/gabriel/Desktop/legolas/api/module/chat_api.py', reloading
+2019-03-17 22:48:46,223 - INFO - werkzeug -  * Restarting with stat
+2019-03-17 22:48:46,646 - WARNING - werkzeug -  * Debugger is active!
+2019-03-17 22:48:46,647 - INFO - werkzeug -  * Debugger PIN: 297-921-390
+2019-03-17 22:48:51,761 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 22:48:51] "[1m[35mPOST /chat/audio_mode HTTP/1.1[0m" 500 -
+2019-03-17 22:49:04,894 - INFO - werkzeug -  * Detected change in '/home/gabriel/Desktop/legolas/api/module/chat_api.py', reloading
+2019-03-17 22:49:05,219 - INFO - werkzeug -  * Restarting with stat
+2019-03-17 22:49:05,597 - WARNING - werkzeug -  * Debugger is active!
+2019-03-17 22:49:05,598 - INFO - werkzeug -  * Debugger PIN: 297-921-390
+2019-03-17 22:49:13,237 - INFO - module.chat_api - audio_mode: 
+2019-03-17 22:49:13,238 - ERROR - module.chat_api - audio_mode: Error
+2019-03-17 22:49:13,238 - INFO - module.chat_api - audio_mode: 
+2019-03-17 22:49:13,238 - ERROR - module.chat_api - audio_mode: 
+Traceback (most recent call last):
+  File "/home/gabriel/Desktop/legolas/api/module/chat_api.py", line 121, in mode_audio
+    text = stt.recognize(speech)
+UnboundLocalError: local variable 'speech' referenced before assignment
+2019-03-17 22:49:13,238 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 22:49:13] "[37mPOST /chat/audio_mode HTTP/1.1[0m" 200 -
+2019-03-17 22:50:13,594 - INFO - werkzeug -  * Detected change in '/home/gabriel/Desktop/legolas/api/module/chat_api.py', reloading
+2019-03-17 22:50:13,726 - INFO - werkzeug -  * Restarting with stat
+2019-03-17 22:50:14,148 - WARNING - werkzeug -  * Debugger is active!
+2019-03-17 22:50:14,148 - INFO - werkzeug -  * Debugger PIN: 297-921-390
+2019-03-17 22:50:20,235 - INFO - werkzeug -  * Detected change in '/home/gabriel/Desktop/legolas/api/module/chat_api.py', reloading
+2019-03-17 22:50:20,698 - INFO - werkzeug -  * Restarting with stat
+2019-03-17 22:50:51,880 - INFO - werkzeug -  * Running on http://0.0.0.0:2932/ (Press CTRL+C to quit)
+2019-03-17 22:50:51,883 - INFO - werkzeug -  * Restarting with stat
+2019-03-17 22:50:52,267 - WARNING - werkzeug -  * Debugger is active!
+2019-03-17 22:50:52,268 - INFO - werkzeug -  * Debugger PIN: 297-921-390
+2019-03-17 22:51:33,120 - INFO - module.chat_api - audio_mode: 
+2019-03-17 22:51:33,120 - ERROR - module.chat_api - audio_mode: Error
+2019-03-17 22:51:33,120 - INFO - module.chat_api - audio_mode: 
+2019-03-17 22:51:33,120 - ERROR - module.chat_api - audio_mode: 
+Traceback (most recent call last):
+  File "/home/gabriel/Desktop/legolas/api/module/chat_api.py", line 121, in mode_audio
+    text = stt.recognize(speech)
+UnboundLocalError: local variable 'speech' referenced before assignment
+2019-03-17 22:51:33,120 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 22:51:33] "[37mPOST /chat/audio_mode HTTP/1.1[0m" 200 -
+2019-03-17 22:52:54,920 - INFO - module.chat_api - audio_mode: 
+2019-03-17 22:52:54,920 - INFO - module.chat_api - audio_mode: 
+2019-03-17 22:53:02,612 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 22:53:02] "[37mPOST /chat/audio_mode HTTP/1.1[0m" 200 -
+2019-03-17 22:54:12,180 - INFO - werkzeug -  * Detected change in '/home/gabriel/Desktop/legolas/api/module/chat_api.py', reloading
+2019-03-17 22:54:12,589 - INFO - werkzeug -  * Restarting with stat
+2019-03-17 22:54:13,000 - WARNING - werkzeug -  * Debugger is active!
+2019-03-17 22:54:13,001 - INFO - werkzeug -  * Debugger PIN: 297-921-390
+2019-03-17 22:54:20,096 - INFO - werkzeug -  * Detected change in '/home/gabriel/Desktop/legolas/api/module/chat_api.py', reloading
+2019-03-17 22:54:20,571 - INFO - werkzeug -  * Restarting with stat
+2019-03-17 22:54:20,987 - WARNING - werkzeug -  * Debugger is active!
+2019-03-17 22:54:20,988 - INFO - werkzeug -  * Debugger PIN: 297-921-390
+2019-03-17 22:54:25,969 - INFO - module.chat_api - audio_mode: 
+2019-03-17 22:54:25,969 - INFO - module.chat_api - audio_mode: 
+2019-03-17 22:54:33,137 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 22:54:33] "[37mPOST /chat/audio_mode HTTP/1.1[0m" 200 -
+2019-03-17 22:55:00,615 - INFO - werkzeug -  * Detected change in '/home/gabriel/Desktop/legolas/api/module/chat_api.py', reloading
+2019-03-17 22:55:01,093 - INFO - werkzeug -  * Restarting with stat
+2019-03-17 22:55:01,516 - WARNING - werkzeug -  * Debugger is active!
+2019-03-17 22:55:01,517 - INFO - werkzeug -  * Debugger PIN: 297-921-390
+2019-03-17 22:55:19,793 - INFO - werkzeug -  * Detected change in '/home/gabriel/Desktop/legolas/api/module/chat_api.py', reloading
+2019-03-17 22:55:20,097 - INFO - werkzeug -  * Restarting with stat
+2019-03-17 22:55:20,543 - WARNING - werkzeug -  * Debugger is active!
+2019-03-17 22:55:20,544 - INFO - werkzeug -  * Debugger PIN: 297-921-390
+2019-03-17 22:55:43,598 - INFO - module.chat_api - audio_mode: Getting parameters from request
+2019-03-17 22:55:43,600 - INFO - module.chat_api - audio_mode: Processing speech to text
+2019-03-17 22:55:50,089 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 22:55:50] "[37mPOST /chat/audio_mode HTTP/1.1[0m" 200 -
+2019-03-17 22:55:57,631 - INFO - werkzeug -  * Running on http://0.0.0.0:2932/ (Press CTRL+C to quit)
+2019-03-17 22:55:57,634 - INFO - werkzeug -  * Restarting with stat
+2019-03-17 22:55:58,092 - WARNING - werkzeug -  * Debugger is active!
+2019-03-17 22:55:58,093 - INFO - werkzeug -  * Debugger PIN: 297-921-390
+2019-03-17 22:56:26,396 - INFO - module.chat_api - audio_mode: Getting parameters from request
+2019-03-17 22:56:26,397 - INFO - module.chat_api - audio_mode: Processing speech to text
+2019-03-17 22:56:33,561 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 22:56:33] "[37mPOST /chat/audio_mode HTTP/1.1[0m" 200 -
+2019-03-17 22:57:25,330 - INFO - werkzeug -  * Detected change in '/home/gabriel/Desktop/legolas/api/module/chat_api.py', reloading
+2019-03-17 22:57:25,791 - INFO - werkzeug -  * Restarting with stat
+2019-03-17 22:57:26,157 - WARNING - werkzeug -  * Debugger is active!
+2019-03-17 22:57:26,158 - INFO - werkzeug -  * Debugger PIN: 297-921-390
+2019-03-17 22:58:48,480 - INFO - werkzeug -  * Detected change in '/home/gabriel/Desktop/legolas/api/module/chat_api.py', reloading
+2019-03-17 22:58:48,830 - INFO - werkzeug -  * Restarting with stat
+2019-03-17 22:58:49,226 - WARNING - werkzeug -  * Debugger is active!
+2019-03-17 22:58:49,226 - INFO - werkzeug -  * Debugger PIN: 297-921-390
+2019-03-17 22:59:43,071 - INFO - werkzeug -  * Detected change in '/home/gabriel/Desktop/legolas/api/module/chat_api.py', reloading
+2019-03-17 22:59:43,358 - INFO - werkzeug -  * Restarting with stat
+2019-03-17 22:59:43,749 - WARNING - werkzeug -  * Debugger is active!
+2019-03-17 22:59:43,749 - INFO - werkzeug -  * Debugger PIN: 297-921-390
+2019-03-17 23:00:29,402 - INFO - werkzeug -  * Detected change in '/home/gabriel/Desktop/legolas/api/module/chat_api.py', reloading
+2019-03-17 23:00:29,856 - INFO - werkzeug -  * Restarting with stat
+2019-03-17 23:00:30,262 - WARNING - werkzeug -  * Debugger is active!
+2019-03-17 23:00:30,263 - INFO - werkzeug -  * Debugger PIN: 297-921-390
+2019-03-17 23:02:07,634 - INFO - werkzeug -  * Detected change in '/home/gabriel/Desktop/legolas/api/module/chat_api.py', reloading
+2019-03-17 23:02:07,958 - INFO - werkzeug -  * Restarting with stat
+2019-03-17 23:02:08,319 - WARNING - werkzeug -  * Debugger is active!
+2019-03-17 23:02:08,320 - INFO - werkzeug -  * Debugger PIN: 297-921-390
+2019-03-17 23:02:16,458 - INFO - werkzeug -  * Detected change in '/home/gabriel/Desktop/legolas/api/module/chat_api.py', reloading
+2019-03-17 23:02:16,898 - INFO - werkzeug -  * Restarting with stat
+2019-03-17 23:02:17,288 - WARNING - werkzeug -  * Debugger is active!
+2019-03-17 23:02:17,288 - INFO - werkzeug -  * Debugger PIN: 297-921-390
+2019-03-17 23:02:32,544 - INFO - werkzeug -  * Detected change in '/home/gabriel/Desktop/legolas/api/module/chat_api.py', reloading
+2019-03-17 23:02:32,856 - INFO - werkzeug -  * Restarting with stat
+2019-03-17 23:02:33,267 - WARNING - werkzeug -  * Debugger is active!
+2019-03-17 23:02:33,267 - INFO - werkzeug -  * Debugger PIN: 297-921-390
+2019-03-17 23:03:24,019 - INFO - werkzeug -  * Detected change in '/home/gabriel/Desktop/legolas/api/module/chat_api.py', reloading
+2019-03-17 23:03:24,376 - INFO - werkzeug -  * Restarting with stat
+2019-03-17 23:03:24,804 - WARNING - werkzeug -  * Debugger is active!
+2019-03-17 23:03:24,804 - INFO - werkzeug -  * Debugger PIN: 297-921-390
+2019-03-17 23:03:30,892 - INFO - werkzeug -  * Detected change in '/home/gabriel/Desktop/legolas/api/module/chat_api.py', reloading
+2019-03-17 23:03:31,377 - INFO - werkzeug -  * Restarting with stat
+2019-03-17 23:03:31,784 - WARNING - werkzeug -  * Debugger is active!
+2019-03-17 23:03:31,785 - INFO - werkzeug -  * Debugger PIN: 297-921-390
+2019-03-17 23:03:54,162 - INFO - werkzeug -  * Detected change in '/home/gabriel/Desktop/legolas/api/module/chat_api.py', reloading
+2019-03-17 23:03:54,366 - INFO - werkzeug -  * Restarting with stat
+2019-03-17 23:03:54,779 - WARNING - werkzeug -  * Debugger is active!
+2019-03-17 23:03:54,780 - INFO - werkzeug -  * Debugger PIN: 297-921-390
+2019-03-17 23:04:02,928 - INFO - werkzeug -  * Detected change in '/home/gabriel/Desktop/legolas/api/module/chat_api.py', reloading
+2019-03-17 23:04:03,344 - INFO - werkzeug -  * Restarting with stat
+2019-03-17 23:21:16,494 - INFO - werkzeug -  * Running on http://0.0.0.0:2933/ (Press CTRL+C to quit)
+2019-03-17 23:21:16,497 - INFO - werkzeug -  * Restarting with stat
+2019-03-17 23:21:16,944 - WARNING - werkzeug -  * Debugger is active!
+2019-03-17 23:21:16,944 - INFO - werkzeug -  * Debugger PIN: 297-921-390
+2019-03-17 23:22:54,633 - INFO - werkzeug -  * Running on http://0.0.0.0:2933/ (Press CTRL+C to quit)
+2019-03-17 23:22:54,635 - INFO - werkzeug -  * Restarting with stat
+2019-03-17 23:22:55,076 - WARNING - werkzeug -  * Debugger is active!
+2019-03-17 23:22:55,077 - INFO - werkzeug -  * Debugger PIN: 297-921-390
+2019-03-17 23:24:29,157 - INFO - werkzeug -  * Running on http://0.0.0.0:2933/ (Press CTRL+C to quit)
+2019-03-17 23:24:29,160 - INFO - werkzeug -  * Restarting with stat
+2019-03-17 23:24:29,576 - WARNING - werkzeug -  * Debugger is active!
+2019-03-17 23:24:29,576 - INFO - werkzeug -  * Debugger PIN: 297-921-390
+2019-03-17 23:24:33,452 - INFO - module.chat_api - send_message: Getting parameters from request
+2019-03-17 23:24:33,454 - INFO - module.chat_api - send_message: Conversation hoadshoasd continued
+2019-03-17 23:24:33,454 - ERROR - module.chat_api - send_message: Error returning to conversation hoadshoasd
+Traceback (most recent call last):
+  File "/home/gabriel/.pyenv/versions/3.6.5/lib/python3.6/base64.py", line 517, in _input_type_check
+    m = memoryview(s)
+TypeError: memoryview: a bytes-like object is required, not 'str'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gabriel/Desktop/legolas/api/module/chat_api.py", line 98, in send
+    speech = base64.decodebytes(base_64)
+  File "/home/gabriel/.pyenv/versions/3.6.5/lib/python3.6/base64.py", line 552, in decodebytes
+    _input_type_check(s)
+  File "/home/gabriel/.pyenv/versions/3.6.5/lib/python3.6/base64.py", line 520, in _input_type_check
+    raise TypeError(msg) from err
+TypeError: expected bytes-like object, not str
+2019-03-17 23:24:33,456 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 23:24:33] "[37mPOST /chat/send_message HTTP/1.1[0m" 200 -
+2019-03-17 23:25:24,217 - INFO - werkzeug -  * Detected change in '/home/gabriel/Desktop/legolas/api/module/chat_api.py', reloading
+2019-03-17 23:25:24,709 - INFO - werkzeug -  * Restarting with stat
+2019-03-17 23:25:25,117 - WARNING - werkzeug -  * Debugger is active!
+2019-03-17 23:25:25,118 - INFO - werkzeug -  * Debugger PIN: 297-921-390
+2019-03-17 23:25:31,444 - INFO - werkzeug -  * Running on http://0.0.0.0:2933/ (Press CTRL+C to quit)
+2019-03-17 23:25:31,446 - INFO - werkzeug -  * Restarting with stat
+2019-03-17 23:25:31,861 - WARNING - werkzeug -  * Debugger is active!
+2019-03-17 23:25:31,862 - INFO - werkzeug -  * Debugger PIN: 297-921-390
+2019-03-17 23:25:37,451 - INFO - module.chat_api - send_message: Getting parameters from request
+2019-03-17 23:25:37,451 - INFO - module.chat_api - send_message: Conversation hoadshoasd continued
+2019-03-17 23:25:37,451 - ERROR - module.chat_api - send_message: Error returning to conversation hoadshoasd
+Traceback (most recent call last):
+  File "/home/gabriel/.pyenv/versions/3.6.5/lib/python3.6/base64.py", line 517, in _input_type_check
+    m = memoryview(s)
+TypeError: memoryview: a bytes-like object is required, not 'str'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gabriel/Desktop/legolas/api/module/chat_api.py", line 100, in send
+    speech = base64.decodebytes(base_64)
+  File "/home/gabriel/.pyenv/versions/3.6.5/lib/python3.6/base64.py", line 552, in decodebytes
+    _input_type_check(s)
+  File "/home/gabriel/.pyenv/versions/3.6.5/lib/python3.6/base64.py", line 520, in _input_type_check
+    raise TypeError(msg) from err
+TypeError: expected bytes-like object, not str
+2019-03-17 23:25:37,452 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 23:25:37] "[37mPOST /chat/send_message HTTP/1.1[0m" 200 -
+2019-03-17 23:26:03,309 - INFO - werkzeug -  * Detected change in '/home/gabriel/Desktop/legolas/api/module/chat_api.py', reloading
+2019-03-17 23:26:03,439 - INFO - werkzeug -  * Restarting with stat
+2019-03-17 23:26:03,836 - WARNING - werkzeug -  * Debugger is active!
+2019-03-17 23:26:03,836 - INFO - werkzeug -  * Debugger PIN: 297-921-390
+2019-03-17 23:27:12,125 - INFO - module.chat_api - send_message: Getting parameters from request
+2019-03-17 23:27:12,127 - INFO - module.chat_api - send_message: Conversation hoadshoasd continued
+2019-03-17 23:27:12,128 - ERROR - module.chat_api - send_message: Error returning to conversation hoadshoasd
+Traceback (most recent call last):
+  File "/home/gabriel/.pyenv/versions/3.6.5/lib/python3.6/base64.py", line 517, in _input_type_check
+    m = memoryview(s)
+TypeError: memoryview: a bytes-like object is required, not 'str'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gabriel/Desktop/legolas/api/module/chat_api.py", line 98, in send
+    speech = base64.decodebytes(base_64)
+  File "/home/gabriel/.pyenv/versions/3.6.5/lib/python3.6/base64.py", line 552, in decodebytes
+    _input_type_check(s)
+  File "/home/gabriel/.pyenv/versions/3.6.5/lib/python3.6/base64.py", line 520, in _input_type_check
+    raise TypeError(msg) from err
+TypeError: expected bytes-like object, not str
+2019-03-17 23:27:12,131 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 23:27:12] "[37mPOST /chat/send_message HTTP/1.1[0m" 200 -
+2019-03-17 23:27:39,330 - INFO - werkzeug -  * Detected change in '/home/gabriel/Desktop/legolas/api/module/chat_api.py', reloading
+2019-03-17 23:27:39,518 - INFO - werkzeug -  * Restarting with stat
+2019-03-17 23:27:39,888 - WARNING - werkzeug -  * Debugger is active!
+2019-03-17 23:27:39,888 - INFO - werkzeug -  * Debugger PIN: 297-921-390
+2019-03-17 23:27:47,659 - INFO - module.chat_api - send_message: Getting parameters from request
+2019-03-17 23:27:47,660 - INFO - module.chat_api - send_message: Conversation hoadshoasd continued
+2019-03-17 23:28:01,779 - ERROR - module.chat_api - send_message: Error returning to conversation hoadshoasd
+Traceback (most recent call last):
+  File "/home/gabriel/Desktop/legolas/api/module/chat_api.py", line 112, in send
+    return jsonify(data_dict)
+  File "/home/gabriel/.local/lib/python3.6/site-packages/flask/json/__init__.py", line 321, in jsonify
+    dumps(data, indent=indent, separators=separators) + '\n',
+  File "/home/gabriel/.local/lib/python3.6/site-packages/flask/json/__init__.py", line 179, in dumps
+    rv = _json.dumps(obj, **kwargs)
+  File "/home/gabriel/.pyenv/versions/3.6.5/lib/python3.6/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/home/gabriel/.pyenv/versions/3.6.5/lib/python3.6/json/encoder.py", line 201, in encode
+    chunks = list(chunks)
+  File "/home/gabriel/.pyenv/versions/3.6.5/lib/python3.6/json/encoder.py", line 430, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/home/gabriel/.pyenv/versions/3.6.5/lib/python3.6/json/encoder.py", line 404, in _iterencode_dict
+    yield from chunks
+  File "/home/gabriel/.pyenv/versions/3.6.5/lib/python3.6/json/encoder.py", line 325, in _iterencode_list
+    yield from chunks
+  File "/home/gabriel/.pyenv/versions/3.6.5/lib/python3.6/json/encoder.py", line 437, in _iterencode
+    o = _default(o)
+  File "/home/gabriel/.local/lib/python3.6/site-packages/flask/json/__init__.py", line 81, in default
+    return _json.JSONEncoder.default(self, o)
+  File "/home/gabriel/.pyenv/versions/3.6.5/lib/python3.6/json/encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'bytes' is not JSON serializable
+2019-03-17 23:28:01,780 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 23:28:01] "[37mPOST /chat/send_message HTTP/1.1[0m" 200 -
+2019-03-17 23:30:03,002 - INFO - werkzeug -  * Detected change in '/home/gabriel/Desktop/legolas/api/module/chat_api.py', reloading
+2019-03-17 23:30:03,129 - INFO - werkzeug -  * Restarting with stat
+2019-03-17 23:30:03,577 - WARNING - werkzeug -  * Debugger is active!
+2019-03-17 23:30:03,577 - INFO - werkzeug -  * Debugger PIN: 297-921-390
+2019-03-17 23:30:28,904 - INFO - werkzeug -  * Detected change in '/home/gabriel/Desktop/legolas/api/module/chat_api.py', reloading
+2019-03-17 23:30:29,164 - INFO - werkzeug -  * Restarting with stat
+2019-03-17 23:30:29,562 - WARNING - werkzeug -  * Debugger is active!
+2019-03-17 23:30:29,563 - INFO - werkzeug -  * Debugger PIN: 297-921-390
+2019-03-17 23:30:36,209 - INFO - module.chat_api - send_message: Getting parameters from request
+2019-03-17 23:30:36,210 - INFO - module.chat_api - send_message: Conversation hoadshoasd continued
+2019-03-17 23:30:49,925 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 23:30:49] "[37mPOST /chat/send_message HTTP/1.1[0m" 200 -
+2019-03-17 23:33:18,087 - INFO - werkzeug -  * Running on http://0.0.0.0:2933/ (Press CTRL+C to quit)
+2019-03-17 23:33:18,090 - INFO - werkzeug -  * Restarting with stat
+2019-03-17 23:33:18,512 - WARNING - werkzeug -  * Debugger is active!
+2019-03-17 23:33:18,512 - INFO - werkzeug -  * Debugger PIN: 297-921-390
+2019-03-17 23:33:30,283 - INFO - module.chat_api - send_message: Getting parameters from request
+2019-03-17 23:33:30,284 - INFO - module.chat_api - send_message: Conversation 2f52adb9-7cbf-4113-877f-ff45bb02f69f continued
+2019-03-17 23:33:43,792 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 23:33:43] "[37mPOST /chat/send_message HTTP/1.1[0m" 200 -
+2019-03-17 23:38:01,216 - INFO - werkzeug -  * Detected change in '/home/gabriel/Desktop/legolas/api/module/chat_api.py', reloading
+2019-03-17 23:38:01,479 - INFO - werkzeug -  * Restarting with stat
+2019-03-17 23:38:01,920 - WARNING - werkzeug -  * Debugger is active!
+2019-03-17 23:38:01,921 - INFO - werkzeug -  * Debugger PIN: 297-921-390
+2019-03-17 23:38:19,454 - INFO - module.chat_api - send_message: Getting parameters from request
+2019-03-17 23:38:19,455 - INFO - module.chat_api - send_message: Conversation 2f52adb9-7cbf-4113-877f-ff45bb02f69f continued
+2019-03-17 23:38:37,574 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 23:38:37] "[37mPOST /chat/send_message HTTP/1.1[0m" 200 -
+2019-03-17 23:38:54,726 - INFO - werkzeug -  * Detected change in '/home/gabriel/Desktop/legolas/api/module/chat_api.py', reloading
+2019-03-17 23:38:55,044 - INFO - werkzeug -  * Restarting with stat
+2019-03-17 23:38:55,482 - WARNING - werkzeug -  * Debugger is active!
+2019-03-17 23:38:55,482 - INFO - werkzeug -  * Debugger PIN: 297-921-390
+2019-03-17 23:41:16,303 - INFO - werkzeug -  * Running on http://0.0.0.0:2933/ (Press CTRL+C to quit)
+2019-03-17 23:41:16,307 - INFO - werkzeug -  * Restarting with stat
+2019-03-17 23:41:16,737 - WARNING - werkzeug -  * Debugger is active!
+2019-03-17 23:41:16,738 - INFO - werkzeug -  * Debugger PIN: 297-921-390
+2019-03-17 23:41:20,897 - INFO - module.chat_api - start_conversation: Getting parameters from request
+2019-03-17 23:41:20,898 - INFO - module.chat_api - start_conversation: Started a new conversation
+2019-03-17 23:41:32,199 - INFO - werkzeug - 127.0.0.1 - - [17/Mar/2019 23:41:32] "[37mPOST /chat/start_conversation HTTP/1.1[0m" 200 -
+2019-03-17 23:41:46,167 - INFO - werkzeug -  * Detected change in '/home/gabriel/Desktop/legolas/api/module/chat_api.py', reloading
+2019-03-17 23:41:46,324 - INFO - werkzeug -  * Restarting with stat
+2019-03-17 23:41:46,751 - WARNING - werkzeug -  * Debugger is active!
+2019-03-17 23:41:46,752 - INFO - werkzeug -  * Debugger PIN: 297-921-390

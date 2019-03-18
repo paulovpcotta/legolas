@@ -6,8 +6,11 @@
 #
 # *******************************************************************
 from watson_developer_cloud import AssistantV1
+from watson_developer_cloud import SpeechToTextV1
+from watson_developer_cloud import TextToSpeechV1
 import json
 from service.database import DataBase
+# from database import DataBase # Use only when is local test
 
 db = DataBase()
 
@@ -79,3 +82,43 @@ class Assistant():
             db.update_conversation(conversation_id, messages)
 
         return {'id': conversation_id, 'messages': messages}
+
+class Stt():
+
+    def __init__(self):
+
+        self.stt = SpeechToTextV1(
+            iam_apikey='GO7GuxJB2TUqYzmNnBO7MM4l_s6Op2eFbBOmu516Id6f',
+            url='https://stream.watsonplatform.net/speech-to-text/api'
+        )
+
+
+    def recognize(self, audio:bytes) -> dict:
+
+        response  = self.stt.recognize(
+            audio=audio,
+            content_type='audio/mp3',
+            model='pt-BR_BroadbandModel'
+            ).get_result()
+
+        return response['results'][0]['alternatives'][0]['transcript']
+
+class Tts():
+
+    def __init__(self):
+        
+        self.text_to_speech = TextToSpeechV1(
+            iam_apikey='azNQmwP6chQBX8Tm-6cp7Dmv8-4jw1B8hxq_Hky1ZAzC',
+            url='https://stream.watsonplatform.net/text-to-speech/api'
+        )
+
+    def synthesize(self, text:str) -> bytes:
+        
+        response = self.text_to_speech.synthesize(
+                        text,
+                        'audio/mp3',
+                        'pt-BR_IsabelaVoice'
+                    ).get_result().content
+
+
+        return response
