@@ -3,6 +3,9 @@ package com.legolas;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
+import com.goodatlas.audiorecord.RNAudioRecordPackage;
+import com.zmxv.RNSound.RNSoundPackage;
+import com.rnim.rn.audio.ReactNativeAudioPackage;
 import org.reactnative.camera.RNCameraPackage;
 import com.swmansion.gesturehandler.react.RNGestureHandlerPackage;
 import com.facebook.react.ReactNativeHost;
@@ -25,6 +28,9 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
+            new RNAudioRecordPackage(),
+            new RNSoundPackage(),
+            new ReactNativeAudioPackage(),
             new RNCameraPackage(),
             new RNGestureHandlerPackage()
       );

@@ -1,5 +1,6 @@
 import Login from './src/Login';
 import Photo from './src/pages/Photo';
+import Voices from './src/pages/Voices';
 import { createStackNavigator, createAppContainer } from 'react-navigation';
 
 const screens = {
@@ -8,6 +9,9 @@ const screens = {
     },
   Photo: {
     screen: Photo
+  },
+  Voices: {
+    screen: Voices
   }
 }
 
