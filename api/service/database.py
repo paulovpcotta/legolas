@@ -8,6 +8,8 @@
 from pymongo import MongoClient
 import datetime
 
+import logging
+
 class DataBase():
     #TODO: new methods and URI for dev and production with necessary 
 
@@ -27,12 +29,20 @@ class DataBase():
             - conversation_id: the id of conversation to check.
 
         """
+        logger = logging.getLogger(__name__)
 
-        collection = self.database['conversation']
-        find = collection.find_one({'conversation_id': conversation_id})
-        if find:
-            return True
-        else:
+        try:
+            logger.info(f"DataBase::check_conversation: Checking if exist {conversation_id} in the database")
+
+            collection = self.database['conversation']
+            find = collection.find_one({'conversation_id': conversation_id})
+            if find:
+                return True
+            else:
+                return False
+        except:
+            logger.error(f"DataBase::check_conversation: Error checking if exist {conversation_id} in the database", exc_info=True)
+
             return False
 
     def insert_new_conversation(self, conversation_id:str, user:str, messages:str):
@@ -45,15 +55,20 @@ class DataBase():
             - user: Person who started the conversation
 
         """
+        logger = logging.getLogger(__name__)
+        try:
+            logger.info("DataBase::insert_new_conversation: Inserting new data")
 
-        conversation = {
-            'conversation_id': conversation_id,
-            'user': user,
-            'messages': [{'message': message, 'time': datetime.datetime.today()} for message in messages]
-        }
+            conversation = {
+                'conversation_id': conversation_id,
+                'user': user,
+                'messages': [{'message': message, 'time': datetime.datetime.today()} for message in messages]
+            }
 
-        collection = self.database['conversation']
-        collection.insert_one(conversation)
+            collection = self.database['conversation']
+            collection.insert_one(conversation)
+        except:
+            logger.error("DataBase::insert_new_conversation: Error inserting new data", exc_info=True)
 
     def update_conversation(self, conversation_id : str , messages : str):
         """
@@ -64,12 +79,17 @@ class DataBase():
             - messages: New messages to update the array of messages.
 
         """
+        logger = logging.getLogger(__name__)
 
-        collection = self.database['conversation']
+        try:
+            logger.info(f"DataBase::update_conversation: Updating convesations {conversation_id}")
+            collection = self.database['conversation']
 
-        if self.check_conversation(conversation_id):
-            [collection.update({'conversation_id': conversation_id}, {'$push': {'messages': {'message': message, 'time': datetime.datetime.today()}}}) for message in messages]
-        
+            if self.check_conversation(conversation_id):
+                [collection.update({'conversation_id': conversation_id}, {'$push': {'messages': {'message': message, 'time': datetime.datetime.today()}}}) for message in messages]
+        except:
+            logger.error(f"DataBase::update_conversation: Error Updating convesations {conversation_id}", exc_info=True)          
+
     def insert_video_base64(self, base_64 : str , user : str):
         """
         Insert a video encoded in base 64 in the legola's database.
@@ -78,12 +98,19 @@ class DataBase():
             - user: the user who logged in the application.
             - base_64: a video encoded in base 64.
         """
+        logger = logging.getLogger(__name__)
 
-        collection = self.database['video']
+        try:
+            logger.info("DataBase::insert_video_base64: Saving video")
+            
+            collection = self.database['video']
 
-        video = {
-            'video': base_64,
-            'user': user
-        } 
+            video = {
+                'video': base_64,
+                'user': user
+            } 
 
-        collection.insert_one(video)
+            collection.insert_one(video)
+        except:
+            logger.error("DataBase::insert_video_base64: Error saving video", exc_info=True)          
+
