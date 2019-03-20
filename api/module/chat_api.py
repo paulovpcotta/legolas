@@ -8,6 +8,7 @@
 from flask import Flask, request, Blueprint, jsonify
 import base64
 from service.watson import Assistant, Stt, Tts
+from pydub import AudioSegment
 
 import logging
 
@@ -101,7 +102,15 @@ def send():
         logger.info(f"send_message: Conversation {conversation_id} continuing")
 
         if audio:  
-            message = stt.recognize(audio)
+            
+            with open('audio.aac', 'wb') as f:
+                f.write(audio)
+            
+            aac_audio = AudioSegment.from_file('audio.aiff', format='aac')
+            aac_audio.export("audio.mp3", "mp3")
+            
+            with open('audio.mp3', 'rb') as f:
+                message = stt.recognize(f)
 
         data_dict = assistant.continue_conversation(name, conversation_id, message, persist=persist)
 
