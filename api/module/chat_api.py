@@ -75,6 +75,7 @@ def send():
         - message: A string of the message of the user. (default = None)
         - persist: Used to persist or not the conversation in the database. (default = True) 
         - audio: Message sent from the user as audio encoded in base64. (default = None)
+        - bot_audio: Generate a audio from the text that watson return. (default = True)
     Return:
         Dict with the id of the conversation and a list of messages of the bot at the start of the conversation,
         is audio is set as True, return an audio representation of the messages.
