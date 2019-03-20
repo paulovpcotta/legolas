@@ -2368,3 +2368,30 @@ pymongo.errors.ServerSelectionTimeoutError: localhost:27017: [Errno 111] Connect
 2019-03-18 12:40:46,532 - INFO - service.watson - Assistant::start_conversation: Starting new conversation with Watson
 2019-03-18 12:40:47,206 - INFO - werkzeug - 127.0.0.1 - - [18/Mar/2019 12:40:47] "[37mPOST /chat/start_conversation HTTP/1.1[0m" 200 -
 2019-03-18 12:42:54,717 - INFO - werkzeug -  * Running on http://0.0.0.0:2931/ (Press CTRL+C to quit)
+2019-03-19 22:47:52,436 - INFO - werkzeug -  * Running on http://0.0.0.0:2931/ (Press CTRL+C to quit)
+2019-03-19 22:47:58,260 - INFO - module.chat_api - send_message: Getting parameters from request
+2019-03-19 22:47:58,261 - INFO - module.chat_api - send_message: Conversation da57ee2b-54fe-46f7-be7a-61d6560140f9 continuing
+2019-03-19 22:47:58,262 - INFO - service.watson - Assistant::continue_conversation: Continuing conversation da57ee2b-54fe-46f7-be7a-61d6560140f9
+2019-03-19 22:48:01,385 - INFO - service.watson - Tts::synthesize: Synthesizing audio from text
+2019-03-19 22:48:05,325 - INFO - service.watson - Tts::synthesize: Synthesizing audio from text
+2019-03-19 22:48:06,796 - INFO - werkzeug - 127.0.0.1 - - [19/Mar/2019 22:48:06] "[37mPOST /chat/send_message HTTP/1.1[0m" 200 -
+2019-03-19 22:49:41,931 - INFO - werkzeug -  * Running on http://0.0.0.0:2931/ (Press CTRL+C to quit)
+2019-03-19 22:49:46,505 - INFO - module.chat_api - send_message: Getting parameters from request
+2019-03-19 22:49:46,507 - INFO - module.chat_api - send_message: Conversation da57ee2b-54fe-46f7-be7a-61d6560140f9 continuing
+2019-03-19 22:49:46,508 - INFO - service.watson - Assistant::continue_conversation: Continuing conversation da57ee2b-54fe-46f7-be7a-61d6560140f9
+2019-03-19 22:49:49,942 - INFO - service.watson - Tts::synthesize: Synthesizing audio from text
+2019-03-19 22:49:51,376 - INFO - service.watson - Tts::synthesize: Synthesizing audio from text
+2019-03-19 22:49:52,398 - INFO - werkzeug - 127.0.0.1 - - [19/Mar/2019 22:49:52] "[37mPOST /chat/send_message HTTP/1.1[0m" 200 -
+2019-03-19 22:51:01,943 - INFO - werkzeug -  * Running on http://0.0.0.0:2931/ (Press CTRL+C to quit)
+2019-03-19 22:51:13,783 - INFO - module.chat_api - send_message: Getting parameters from request
+2019-03-19 22:51:13,785 - ERROR - module.chat_api - send_message: Error getting parameters from request
+2019-03-19 22:51:13,787 - INFO - werkzeug - 127.0.0.1 - - [19/Mar/2019 22:51:13] "[37mPOST /chat/send_message HTTP/1.1[0m" 200 -
+2019-03-19 22:51:16,090 - INFO - module.chat_api - send_message: Getting parameters from request
+2019-03-19 22:51:16,091 - ERROR - module.chat_api - send_message: Error getting parameters from request
+2019-03-19 22:51:16,093 - INFO - werkzeug - 127.0.0.1 - - [19/Mar/2019 22:51:16] "[37mPOST /chat/send_message HTTP/1.1[0m" 200 -
+2019-03-19 22:51:43,614 - INFO - module.chat_api - send_message: Getting parameters from request
+2019-03-19 22:51:43,615 - INFO - module.chat_api - send_message: Conversation da57ee2b-54fe-46f7-be7a-61d6560140f9 continuing
+2019-03-19 22:51:43,616 - INFO - service.watson - Assistant::continue_conversation: Continuing conversation da57ee2b-54fe-46f7-be7a-61d6560140f9
+2019-03-19 22:51:45,365 - INFO - service.watson - Tts::synthesize: Synthesizing audio from text
+2019-03-19 22:51:47,769 - INFO - service.watson - Tts::synthesize: Synthesizing audio from text
+2019-03-19 22:51:51,238 - INFO - werkzeug - 127.0.0.1 - - [19/Mar/2019 22:51:51] "[37mPOST /chat/send_message HTTP/1.1[0m" 200 -
