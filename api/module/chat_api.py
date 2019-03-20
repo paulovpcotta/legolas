@@ -74,8 +74,7 @@ def send():
         - id: Conversation id that is sent to watson to recovery the conversation already started.
         - message: A string of the message of the user. (default = None)
         - persist: Used to persist or not the conversation in the database. (default = True) 
-        - audio: Used to make a representations of messages in audio. (default = None) - Not implemented yet
-        - base64: Message sent from the user as audio encoded in base64. (default = None)
+        - audio: Message sent from the user as audio encoded in base64. (default = None)
     Return:
         Dict with the id of the conversation and a list of messages of the bot at the start of the conversation,
         is audio is set as True, return an audio representation of the messages.
@@ -89,8 +88,7 @@ def send():
         conversation_id = req['id'] 
         message = req['message'] if req.get('message') is not None else None
         persist = req['persist'] if req.get('persist') is not None else True
-        # audio = req['audio'] if req.get('audio') is not None else None
-        base_64 = req['base64'] if req.get('base64') is not None else None
+        audio = req['audio'] if req.get('audio') is not None else None
 
     except:
         logger.error("send_message: Error getting parameters from request")
@@ -100,18 +98,15 @@ def send():
     try:
         logger.info(f"send_message: Conversation {conversation_id} continuing")
 
-        if base_64:
-            
-            speech = base64.decodebytes(base_64.encode())
-            text = stt.recognize(speech)
+        if audio: 
+               
+            speech = base64.decodebytes(audio.encode())
+            message = stt.recognize(speech)
 
-            data_dict = assistant.continue_conversation(name, conversation_id, text, persist=persist)
-            data_dict['speechs'] = [base64.encodebytes(tts.synthesize(message)).decode("utf-8") for message in data_dict['messages']]
+        data_dict = assistant.continue_conversation(name, conversation_id, message, persist=persist)
+        data_dict['speechs'] = [base64.encodebytes(tts.synthesize(message)).decode("utf-8") for message in data_dict['messages']]
 
-        elif message:
-            data_dict = assistant.continue_conversation(name, conversation_id, message, persist=persist)
-        else:
-            return jsonify({'id': None, 'messages': None}) 
+        data_dict = assistant.continue_conversation(name, conversation_id, message, persist=persist)
 
         return jsonify(data_dict)
     
