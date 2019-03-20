@@ -88,7 +88,8 @@ def send():
         conversation_id = req['id'] 
         message = req['message'] if req.get('message') is not None else None
         persist = req['persist'] if req.get('persist') is not None else True
-        audio = req['audio'] if req.get('audio') is not None else None
+        audio = base64.decodebytes(req['audio'].encode()) if req.get('audio') is not None else None
+        bot_audio = req['bot_audio'] if req.get('bot_audio') is not None else True
 
     except:
         logger.error("send_message: Error getting parameters from request")
@@ -98,15 +99,13 @@ def send():
     try:
         logger.info(f"send_message: Conversation {conversation_id} continuing")
 
-        if audio: 
-               
-            speech = base64.decodebytes(audio.encode())
-            message = stt.recognize(speech)
+        if audio:  
+            message = stt.recognize(audio)
 
         data_dict = assistant.continue_conversation(name, conversation_id, message, persist=persist)
-        data_dict['speechs'] = [base64.encodebytes(tts.synthesize(message)).decode("utf-8") for message in data_dict['messages']]
 
-        data_dict = assistant.continue_conversation(name, conversation_id, message, persist=persist)
+        if audio or bot_audio:
+            data_dict['speechs'] = [base64.encodebytes(tts.synthesize(message)).decode("utf-8") for message in data_dict['messages']]
 
         return jsonify(data_dict)
     
