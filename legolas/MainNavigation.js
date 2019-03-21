@@ -17,7 +17,8 @@ const screens = {
 
 const config = {
   headerMode: 'none',
-  initialRouteName: 'Login'
+  initialRouteName: 'Photo'
+  //initialRouteName: 'Voices'
 }
 
 const MainNavigator = createStackNavigator(screens,config);

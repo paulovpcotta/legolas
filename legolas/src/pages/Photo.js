@@ -22,7 +22,9 @@ export default class Photo extends Component {
             base64: data.base64
           }
           axios.post('http://192.168.42.89:2931/api/detection_recognition', rec)
-            .then(res => this.login(res));
+            .then(res => this.login(res)).catch(error => {
+              Alert.alert('Favor tentar novamente!')
+          });;
           //Alert.alert(data.uri);
         }
       }
@@ -31,7 +33,7 @@ export default class Photo extends Component {
         if(res.data.predict == null){
             Alert.alert('Favor tentar novamente!');
         }else if(res.data.predict != null && res.data.predict[0].name != 'unknown' && res.data.predict[0].name != ''){
-            this.props.navigation.navigate('Voices');
+            this.props.navigation.navigate('Voices', {name: res.data.predict[0].name});
         }else if(res.data.predict[0].name == 'unknown' && res.data.predict[0].name == ''){
             Alert.alert('Favor tentar novamente!');
         }
@@ -48,7 +50,7 @@ export default class Photo extends Component {
                 type={RNCamera.Constants.Type.front}
                 autoFocus={RNCamera.Constants.AutoFocus.on}
                 flashMode={RNCamera.Constants.FlashMode.off}
-                permissionDialogTitle={'Permission to use camera'}
+                permissionDialogTitle={'Permissão para usar a câmera'}
                 permissionDialogMessage={'We need your permission to use your camera phone'}
             />
             <View style={{flex: 0, flexDirection: 'row', justifyContent: 'center',}}>
@@ -56,7 +58,7 @@ export default class Photo extends Component {
                 onPress={this.takePicture.bind(this)}
                 style = {styles.capture}
            >
-                <Text style={{fontSize: 14}}> Foto </Text>
+                <Text style={{fontSize: 14}}> Entrar </Text>
             </TouchableOpacity>
             </View>
           </View>
