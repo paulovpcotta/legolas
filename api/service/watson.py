@@ -27,46 +27,46 @@ class Assistant():
             url='https://gateway.watsonplatform.net/assistant/api'
         )
 
-    def start_conversation(self, user:str, persist=True) -> dict:   
-        """
-        This function start a new conversation with the user who are logged in and watson chatbot.
+    # def start_conversation(self, user:str, persist=True) -> dict:   
+    #     """
+    #     This function start a new conversation with the user who are logged in and watson chatbot.
 
-        Params:
-            - user: User who started the conversation.
-            - persist: This variable defines if the conversation will be saved in the MongoDB. (default = True)
+    #     Params:
+    #         - user: User who started the conversation.
+    #         - persist: This variable defines if the conversation will be saved in the MongoDB. (default = True)
 
-        Return:
-            - Dict with the id of the conversation and the messages of the bot at the start of the conversation.
+    #     Return:
+    #         - Dict with the id of the conversation and the messages of the bot at the start of the conversation.
 
-        TODO: Treat exceptions.
+    #     TODO: Treat exceptions.
 
-        """
-        logger = logging.getLogger(__name__)
+    #     """
+    #     logger = logging.getLogger(__name__)
 
-        try:
+    #     try:
 
-            logger.info('Assistant::start_conversation: Starting new conversation with Watson')
+    #         logger.info('Assistant::start_conversation: Starting new conversation with Watson')
 
-            response = self.assistant.message(
-                workspace_id='911ed507-9118-425c-8fd8-594b547f8583',
-                context={'cliente': user}
-            ).get_result()
+    #         response = self.assistant.message(
+    #             workspace_id='911ed507-9118-425c-8fd8-594b547f8583',
+    #             context={'cliente': user}
+    #         ).get_result()
 
-            conversation_id = response['context']['conversation_id']
-            messages = response['output']['text']
-            context = response['context']
+    #         conversation_id = response['context']['conversation_id']
+    #         messages = response['output']['text']
+    #         context = response['context']
 
-            if persist:
-                db.insert_new_conversation(conversation_id, user, messages)
+    #         if persist:
+    #             db.insert_new_conversation(conversation_id, user, messages)
 
-            return {'messages': messages, 'context':context}
+    #         return {'messages': messages, 'context':context}
         
-        except:
-            logger.error('Assistant::start_conversation: Error starting new conversation with Watson', exc_info=True)
+    #     except:
+    #         logger.error('Assistant::start_conversation: Error starting new conversation with Watson', exc_info=True)
 
-            return {'id': None, 'messages': None, 'context': None}
+    #         return {'id': None, 'messages': None, 'context': None}
 
-    def continue_conversation(self, message:str, context:str ,persist=True) -> dict:
+    def conversation(self, message:str, context:str ,persist=True) -> dict:
         """
         Continue a conversation already started with the watson chatbot.
 
@@ -83,7 +83,7 @@ class Assistant():
         logger = logging.getLogger(__name__)
 
         try:
-            logger.info(f'Assistant::continue_conversation: Continuing conversation')
+            logger.info(f'Assistant::conversation: Communicating with Watson')
 
             response = self.assistant.message(
                 workspace_id='911ed507-9118-425c-8fd8-594b547f8583',
@@ -91,18 +91,18 @@ class Assistant():
                 input={'text': message}
             ).get_result()
 
-            messages = [message] + response['output']['text']
+            answers = response['output']['text']
             context = response['context']
 
             if persist:
                 db.update_conversation(conversation_id, messages)
 
-            return {'messages': messages, 'context':context}
+            return {'answers': answers, 'context':context, 'message':message}
         
         except:
-            logger.info(f'Assistant::continue_conversation: Error continuing conversation', exc_info=True)
+            logger.info(f'Assistant::conversation: Error communicating with Watson', exc_info=True)
 
-            return { 'messages': None, 'context': None}
+            return { 'answers': None, 'context': None, 'message':None}
 
 class Stt():
 

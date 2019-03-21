@@ -2614,3 +2614,282 @@ TypeError: 'NoneType' object is not subscriptable
 2019-03-21 09:59:25,449 - INFO - service.watson - Assistant::continue_conversation: Continuing conversation
 2019-03-21 09:59:26,123 - INFO - service.watson - Tts::synthesize: Synthesizing audio from text
 2019-03-21 09:59:27,500 - INFO - werkzeug - 127.0.0.1 - - [21/Mar/2019 09:59:27] "[37mPOST /chat/send_message HTTP/1.1[0m" 200 -
+2019-03-21 15:09:15,736 - INFO - werkzeug -  * Running on http://0.0.0.0:2931/ (Press CTRL+C to quit)
+2019-03-21 15:09:15,755 - INFO - werkzeug -  * Restarting with stat
+2019-03-21 15:09:16,086 - WARNING - werkzeug -  * Debugger is active!
+2019-03-21 15:09:16,201 - INFO - werkzeug -  * Debugger PIN: 297-921-390
+2019-03-21 15:09:18,053 - INFO - module.chat_api - send_message: Getting parameters from request
+2019-03-21 15:09:18,068 - INFO - werkzeug - 127.0.0.1 - - [21/Mar/2019 15:09:18] "[1m[35mPOST /chat/send_message HTTP/1.1[0m" 500 -
+2019-03-21 15:09:32,455 - INFO - werkzeug -  * Detected change in '/home/gabriel/Desktop/legolas/api/module/chat_api.py', reloading
+2019-03-21 15:09:32,652 - INFO - werkzeug -  * Restarting with stat
+2019-03-21 15:09:33,001 - WARNING - werkzeug -  * Debugger is active!
+2019-03-21 15:09:33,002 - INFO - werkzeug -  * Debugger PIN: 297-921-390
+2019-03-21 15:09:36,051 - INFO - werkzeug -  * Detected change in '/home/gabriel/Desktop/legolas/api/module/chat_api.py', reloading
+2019-03-21 15:09:36,543 - INFO - werkzeug -  * Restarting with stat
+2019-03-21 15:09:36,937 - WARNING - werkzeug -  * Debugger is active!
+2019-03-21 15:09:36,938 - INFO - werkzeug -  * Debugger PIN: 297-921-390
+2019-03-21 15:09:37,868 - INFO - module.chat_api - send_message: Getting parameters from request
+2019-03-21 15:09:37,868 - INFO - module.chat_api - send_message: Conversation continuing
+2019-03-21 15:09:37,868 - INFO - service.watson - Assistant::continue_conversation: Continuing conversation
+2019-03-21 15:09:59,043 - INFO - service.watson - Tts::synthesize: Synthesizing audio from text
+2019-03-21 15:10:02,165 - INFO - werkzeug - 127.0.0.1 - - [21/Mar/2019 15:10:02] "[37mPOST /chat/send_message HTTP/1.1[0m" 200 -
+2019-03-21 15:10:11,215 - INFO - module.chat_api - send_message: Getting parameters from request
+2019-03-21 15:10:11,216 - INFO - module.chat_api - send_message: Conversation continuing
+2019-03-21 15:10:11,216 - INFO - service.watson - Assistant::continue_conversation: Continuing conversation
+2019-03-21 15:10:16,939 - INFO - service.watson - Tts::synthesize: Synthesizing audio from text
+2019-03-21 15:10:18,652 - INFO - service.watson - Tts::synthesize: Synthesizing audio from text
+2019-03-21 15:10:20,094 - INFO - werkzeug - 127.0.0.1 - - [21/Mar/2019 15:10:20] "[37mPOST /chat/send_message HTTP/1.1[0m" 200 -
+2019-03-21 15:11:10,293 - INFO - werkzeug -  * Detected change in '/home/gabriel/Desktop/legolas/api/module/chat_api.py', reloading
+2019-03-21 15:11:10,599 - INFO - werkzeug -  * Restarting with stat
+2019-03-21 15:11:10,970 - WARNING - werkzeug -  * Debugger is active!
+2019-03-21 15:11:10,971 - INFO - werkzeug -  * Debugger PIN: 297-921-390
+2019-03-21 15:11:24,273 - INFO - module.chat_api - send_message: Getting parameters from request
+2019-03-21 15:11:24,274 - INFO - module.chat_api - send_message: Conversation continuing
+2019-03-21 15:11:24,274 - INFO - service.watson - Assistant::continue_conversation: Continuing conversation
+2019-03-21 15:11:56,883 - INFO - service.watson - Tts::synthesize: Synthesizing audio from text
+2019-03-21 15:11:59,207 - INFO - service.watson - Tts::synthesize: Synthesizing audio from text
+2019-03-21 15:12:00,389 - INFO - werkzeug - 127.0.0.1 - - [21/Mar/2019 15:12:00] "[37mPOST /chat/conversation HTTP/1.1[0m" 200 -
+2019-03-21 15:12:00,677 - INFO - werkzeug -  * Detected change in '/home/gabriel/Desktop/legolas/api/module/chat_api.py', reloading
+2019-03-21 15:12:01,058 - INFO - werkzeug -  * Restarting with stat
+2019-03-21 15:12:01,478 - WARNING - werkzeug -  * Debugger is active!
+2019-03-21 15:12:01,479 - INFO - werkzeug -  * Debugger PIN: 297-921-390
+2019-03-21 15:12:05,543 - INFO - werkzeug -  * Detected change in '/home/gabriel/Desktop/legolas/api/module/chat_api.py', reloading
+2019-03-21 15:12:06,037 - INFO - werkzeug -  * Restarting with stat
+2019-03-21 15:12:06,431 - WARNING - werkzeug -  * Debugger is active!
+2019-03-21 15:12:06,432 - INFO - werkzeug -  * Debugger PIN: 297-921-390
+2019-03-21 15:12:11,136 - INFO - module.chat_api - send_message: Getting parameters from request
+2019-03-21 15:12:11,136 - INFO - module.chat_api - send_message: Conversation continuing
+2019-03-21 15:12:11,136 - INFO - service.watson - Assistant::continue_conversation: Continuing conversation
+2019-03-21 15:12:12,591 - INFO - service.watson - Tts::synthesize: Synthesizing audio from text
+2019-03-21 15:12:14,741 - INFO - service.watson - Tts::synthesize: Synthesizing audio from text
+2019-03-21 15:12:16,077 - INFO - werkzeug - 127.0.0.1 - - [21/Mar/2019 15:12:16] "[37mPOST /chat/conversation HTTP/1.1[0m" 200 -
+2019-03-21 15:12:58,499 - INFO - module.chat_api - send_message: Getting parameters from request
+2019-03-21 15:12:58,499 - ERROR - module.chat_api - send_message: Error getting parameters from request
+2019-03-21 15:12:58,499 - INFO - werkzeug - 127.0.0.1 - - [21/Mar/2019 15:12:58] "[37mPOST /chat/conversation HTTP/1.1[0m" 200 -
+2019-03-21 15:13:06,186 - INFO - module.chat_api - send_message: Getting parameters from request
+2019-03-21 15:13:06,187 - INFO - module.chat_api - send_message: Conversation continuing
+2019-03-21 15:13:06,187 - INFO - service.watson - Assistant::continue_conversation: Continuing conversation
+2019-03-21 15:13:06,775 - INFO - service.watson - Tts::synthesize: Synthesizing audio from text
+2019-03-21 15:13:08,328 - INFO - werkzeug - 127.0.0.1 - - [21/Mar/2019 15:13:08] "[37mPOST /chat/conversation HTTP/1.1[0m" 200 -
+2019-03-21 15:13:23,009 - INFO - module.chat_api - send_message: Getting parameters from request
+2019-03-21 15:13:23,009 - INFO - module.chat_api - send_message: Conversation continuing
+2019-03-21 15:13:23,009 - INFO - service.watson - Assistant::continue_conversation: Continuing conversation
+2019-03-21 15:13:23,928 - INFO - service.watson - Tts::synthesize: Synthesizing audio from text
+2019-03-21 15:13:25,519 - INFO - werkzeug - 127.0.0.1 - - [21/Mar/2019 15:13:25] "[37mPOST /chat/conversation HTTP/1.1[0m" 200 -
+2019-03-21 15:13:40,439 - INFO - module.chat_api - send_message: Getting parameters from request
+2019-03-21 15:13:40,439 - INFO - module.chat_api - send_message: Conversation continuing
+2019-03-21 15:13:40,439 - INFO - service.watson - Assistant::continue_conversation: Continuing conversation
+2019-03-21 15:13:44,034 - INFO - service.watson - Tts::synthesize: Synthesizing audio from text
+2019-03-21 15:13:45,335 - INFO - werkzeug - 127.0.0.1 - - [21/Mar/2019 15:13:45] "[37mPOST /chat/conversation HTTP/1.1[0m" 200 -
+2019-03-21 15:14:06,388 - INFO - module.chat_api - send_message: Getting parameters from request
+2019-03-21 15:14:06,388 - INFO - module.chat_api - send_message: Conversation continuing
+2019-03-21 15:14:06,389 - INFO - service.watson - Assistant::continue_conversation: Continuing conversation
+2019-03-21 15:14:06,959 - INFO - service.watson - Tts::synthesize: Synthesizing audio from text
+2019-03-21 15:14:08,428 - INFO - werkzeug - 127.0.0.1 - - [21/Mar/2019 15:14:08] "[37mPOST /chat/conversation HTTP/1.1[0m" 200 -
+2019-03-21 15:14:38,144 - INFO - module.chat_api - send_message: Getting parameters from request
+2019-03-21 15:14:38,144 - INFO - module.chat_api - send_message: Conversation continuing
+2019-03-21 15:14:38,144 - INFO - service.watson - Assistant::continue_conversation: Continuing conversation
+2019-03-21 15:14:38,721 - INFO - service.watson - Tts::synthesize: Synthesizing audio from text
+2019-03-21 15:14:40,322 - INFO - werkzeug - 127.0.0.1 - - [21/Mar/2019 15:14:40] "[37mPOST /chat/conversation HTTP/1.1[0m" 200 -
+2019-03-21 15:15:18,068 - INFO - werkzeug -  * Detected change in '/home/gabriel/Desktop/legolas/api/service/watson.py', reloading
+2019-03-21 15:15:18,204 - INFO - werkzeug -  * Restarting with stat
+2019-03-21 15:15:18,623 - WARNING - werkzeug -  * Debugger is active!
+2019-03-21 15:15:18,624 - INFO - werkzeug -  * Debugger PIN: 297-921-390
+2019-03-21 15:15:40,989 - INFO - werkzeug -  * Detected change in '/home/gabriel/Desktop/legolas/api/service/watson.py', reloading
+2019-03-21 15:15:41,190 - INFO - werkzeug -  * Restarting with stat
+2019-03-21 15:15:41,542 - WARNING - werkzeug -  * Debugger is active!
+2019-03-21 15:15:41,543 - INFO - werkzeug -  * Debugger PIN: 297-921-390
+2019-03-21 15:16:00,785 - INFO - werkzeug -  * Detected change in '/home/gabriel/Desktop/legolas/api/module/chat_api.py', reloading
+2019-03-21 15:16:01,117 - INFO - werkzeug -  * Restarting with stat
+2019-03-21 15:16:01,440 - WARNING - werkzeug -  * Debugger is active!
+2019-03-21 15:16:01,440 - INFO - werkzeug -  * Debugger PIN: 297-921-390
+2019-03-21 15:16:07,069 - INFO - module.chat_api - send_message: Getting parameters from request
+2019-03-21 15:16:07,070 - INFO - module.chat_api - send_message: Conversation continuing
+2019-03-21 15:16:07,070 - INFO - service.watson - Assistant::continue_conversation: Continuing conversation
+2019-03-21 15:16:08,504 - INFO - werkzeug - 127.0.0.1 - - [21/Mar/2019 15:16:08] "[37mPOST /chat/conversation HTTP/1.1[0m" 200 -
+2019-03-21 15:16:24,785 - INFO - werkzeug -  * Detected change in '/home/gabriel/Desktop/legolas/api/module/chat_api.py', reloading
+2019-03-21 15:16:25,018 - INFO - werkzeug -  * Restarting with stat
+2019-03-21 15:16:25,373 - WARNING - werkzeug -  * Debugger is active!
+2019-03-21 15:16:25,374 - INFO - werkzeug -  * Debugger PIN: 297-921-390
+2019-03-21 15:16:45,671 - INFO - werkzeug -  * Detected change in '/home/gabriel/Desktop/legolas/api/service/watson.py', reloading
+2019-03-21 15:16:45,938 - INFO - werkzeug -  * Restarting with stat
+2019-03-21 15:16:46,280 - WARNING - werkzeug -  * Debugger is active!
+2019-03-21 15:16:46,281 - INFO - werkzeug -  * Debugger PIN: 297-921-390
+2019-03-21 15:16:52,377 - INFO - werkzeug -  * Detected change in '/home/gabriel/Desktop/legolas/api/service/watson.py', reloading
+2019-03-21 15:16:52,826 - INFO - werkzeug -  * Restarting with stat
+2019-03-21 15:16:53,163 - WARNING - werkzeug -  * Debugger is active!
+2019-03-21 15:16:53,163 - INFO - werkzeug -  * Debugger PIN: 297-921-390
+2019-03-21 15:17:10,434 - INFO - werkzeug -  * Detected change in '/home/gabriel/Desktop/legolas/api/service/watson.py', reloading
+2019-03-21 15:17:10,724 - INFO - werkzeug -  * Restarting with stat
+2019-03-21 15:17:11,101 - WARNING - werkzeug -  * Debugger is active!
+2019-03-21 15:17:11,102 - INFO - werkzeug -  * Debugger PIN: 297-921-390
+2019-03-21 15:17:14,146 - INFO - werkzeug -  * Detected change in '/home/gabriel/Desktop/legolas/api/service/watson.py', reloading
+2019-03-21 15:17:14,655 - INFO - werkzeug -  * Restarting with stat
+2019-03-21 15:17:14,999 - WARNING - werkzeug -  * Debugger is active!
+2019-03-21 15:17:15,000 - INFO - werkzeug -  * Debugger PIN: 297-921-390
+2019-03-21 15:17:18,037 - INFO - werkzeug -  * Detected change in '/home/gabriel/Desktop/legolas/api/service/watson.py', reloading
+2019-03-21 15:17:18,556 - INFO - werkzeug -  * Restarting with stat
+2019-03-21 15:17:18,912 - WARNING - werkzeug -  * Debugger is active!
+2019-03-21 15:17:18,912 - INFO - werkzeug -  * Debugger PIN: 297-921-390
+2019-03-21 15:17:21,954 - INFO - werkzeug -  * Detected change in '/home/gabriel/Desktop/legolas/api/service/watson.py', reloading
+2019-03-21 15:17:22,467 - INFO - werkzeug -  * Restarting with stat
+2019-03-21 15:17:22,816 - WARNING - werkzeug -  * Debugger is active!
+2019-03-21 15:17:22,817 - INFO - werkzeug -  * Debugger PIN: 297-921-390
+2019-03-21 15:17:52,262 - INFO - werkzeug -  * Detected change in '/home/gabriel/Desktop/legolas/api/module/chat_api.py', reloading
+2019-03-21 15:17:52,400 - INFO - werkzeug -  * Restarting with stat
+2019-03-21 15:17:52,760 - WARNING - werkzeug -  * Debugger is active!
+2019-03-21 15:17:52,761 - INFO - werkzeug -  * Debugger PIN: 297-921-390
+2019-03-21 15:17:56,843 - INFO - werkzeug -  * Detected change in '/home/gabriel/Desktop/legolas/api/module/chat_api.py', reloading
+2019-03-21 15:17:57,322 - INFO - werkzeug -  * Restarting with stat
+2019-03-21 15:17:57,649 - WARNING - werkzeug -  * Debugger is active!
+2019-03-21 15:17:57,649 - INFO - werkzeug -  * Debugger PIN: 297-921-390
+2019-03-21 15:17:59,914 - INFO - module.chat_api - send_message: Getting parameters from request
+2019-03-21 15:17:59,914 - INFO - module.chat_api - send_message: Conversation continuing
+2019-03-21 15:17:59,914 - INFO - service.watson - Assistant::continue_conversation: Continuing conversation
+2019-03-21 15:18:01,655 - INFO - service.watson - Tts::synthesize: Synthesizing audio from text
+2019-03-21 15:19:03,911 - INFO - werkzeug - 127.0.0.1 - - [21/Mar/2019 15:19:03] "[37mPOST /chat/conversation HTTP/1.1[0m" 200 -
+2019-03-21 15:22:04,658 - INFO - werkzeug -  * Detected change in '/home/gabriel/Desktop/legolas/api/module/chat_api.py', reloading
+2019-03-21 15:22:05,012 - INFO - werkzeug -  * Restarting with stat
+2019-03-21 15:22:05,391 - WARNING - werkzeug -  * Debugger is active!
+2019-03-21 15:22:05,392 - INFO - werkzeug -  * Debugger PIN: 297-921-390
+2019-03-21 15:22:11,468 - INFO - werkzeug -  * Detected change in '/home/gabriel/Desktop/legolas/api/module/chat_api.py', reloading
+2019-03-21 15:22:11,953 - INFO - werkzeug -  * Restarting with stat
+2019-03-21 15:22:12,340 - WARNING - werkzeug -  * Debugger is active!
+2019-03-21 15:22:12,341 - INFO - werkzeug -  * Debugger PIN: 297-921-390
+2019-03-21 15:23:06,019 - INFO - werkzeug -  * Detected change in '/home/gabriel/Desktop/legolas/api/module/chat_api.py', reloading
+2019-03-21 15:23:06,449 - INFO - werkzeug -  * Restarting with stat
+2019-03-21 15:23:06,775 - WARNING - werkzeug -  * Debugger is active!
+2019-03-21 15:23:06,776 - INFO - werkzeug -  * Debugger PIN: 297-921-390
+2019-03-21 15:24:53,147 - INFO - werkzeug -  * Detected change in '/home/gabriel/Desktop/legolas/api/module/chat_api.py', reloading
+2019-03-21 15:24:53,450 - INFO - werkzeug -  * Restarting with stat
+2019-03-21 15:24:53,794 - WARNING - werkzeug -  * Debugger is active!
+2019-03-21 15:24:53,795 - INFO - werkzeug -  * Debugger PIN: 297-921-390
+2019-03-21 15:25:08,343 - INFO - module.chat_api - send_message: Getting parameters from request
+2019-03-21 15:25:08,344 - INFO - module.chat_api - send_message: Conversation continuing
+2019-03-21 15:25:08,344 - INFO - service.watson - Assistant::continue_conversation: Continuing conversation
+2019-03-21 15:25:11,062 - INFO - service.watson - Tts::synthesize: Synthesizing audio from text
+2019-03-21 15:25:28,391 - ERROR - module.chat_api - send_message: Error returning to conversation 
+Traceback (most recent call last):
+  File "/home/gabriel/Desktop/legolas/api/module/chat_api.py", line 125, in send
+    os.remove('audio.aiff')
+FileNotFoundError: [Errno 2] No such file or directory: 'audio.aiff'
+2019-03-21 15:25:28,392 - INFO - werkzeug - 127.0.0.1 - - [21/Mar/2019 15:25:28] "[37mPOST /chat/conversation HTTP/1.1[0m" 200 -
+2019-03-21 15:26:48,646 - INFO - werkzeug -  * Detected change in '/home/gabriel/Desktop/legolas/api/module/chat_api.py', reloading
+2019-03-21 15:26:48,979 - INFO - werkzeug -  * Restarting with stat
+2019-03-21 15:26:49,326 - WARNING - werkzeug -  * Debugger is active!
+2019-03-21 15:26:49,327 - INFO - werkzeug -  * Debugger PIN: 297-921-390
+2019-03-21 15:27:10,690 - INFO - werkzeug -  * Detected change in '/home/gabriel/Desktop/legolas/api/service/watson.py', reloading
+2019-03-21 15:27:10,886 - INFO - werkzeug -  * Restarting with stat
+2019-03-21 15:27:11,240 - WARNING - werkzeug -  * Debugger is active!
+2019-03-21 15:27:11,241 - INFO - werkzeug -  * Debugger PIN: 297-921-390
+2019-03-21 15:27:23,407 - INFO - werkzeug -  * Detected change in '/home/gabriel/Desktop/legolas/api/service/watson.py', reloading
+2019-03-21 15:27:23,808 - INFO - werkzeug -  * Restarting with stat
+2019-03-21 15:27:24,158 - WARNING - werkzeug -  * Debugger is active!
+2019-03-21 15:27:24,158 - INFO - werkzeug -  * Debugger PIN: 297-921-390
+2019-03-21 15:27:28,225 - INFO - werkzeug -  * Detected change in '/home/gabriel/Desktop/legolas/api/module/chat_api.py', reloading
+2019-03-21 15:27:28,708 - INFO - werkzeug -  * Restarting with stat
+2019-03-21 15:27:29,071 - WARNING - werkzeug -  * Debugger is active!
+2019-03-21 15:27:29,071 - INFO - werkzeug -  * Debugger PIN: 297-921-390
+2019-03-21 15:27:44,480 - INFO - module.chat_api - send: Getting parameters from request
+2019-03-21 15:27:44,480 - INFO - module.chat_api - send: Communicating with Watson
+2019-03-21 15:27:44,481 - INFO - service.watson - Assistant::conversation: Communicating with Watson
+2019-03-21 15:27:46,040 - INFO - service.watson - Tts::synthesize: Synthesizing audio from text
+2019-03-21 15:28:48,154 - INFO - service.watson - Tts::synthesize: Synthesizing audio from text
+2019-03-21 15:28:49,920 - ERROR - module.chat_api - send: Error communicating with Watson
+Traceback (most recent call last):
+  File "/home/gabriel/Desktop/legolas/api/module/chat_api.py", line 125, in send
+    os.remove('audio.aiff')
+FileNotFoundError: [Errno 2] No such file or directory: 'audio.aiff'
+2019-03-21 15:28:49,922 - INFO - werkzeug - 127.0.0.1 - - [21/Mar/2019 15:28:49] "[37mPOST /chat/conversation HTTP/1.1[0m" 200 -
+2019-03-21 15:34:32,101 - INFO - werkzeug -  * Detected change in '/home/gabriel/Desktop/legolas/api/module/chat_api.py', reloading
+2019-03-21 15:34:32,219 - INFO - werkzeug -  * Restarting with stat
+2019-03-21 15:34:32,622 - WARNING - werkzeug -  * Debugger is active!
+2019-03-21 15:34:32,622 - INFO - werkzeug -  * Debugger PIN: 297-921-390
+2019-03-21 15:34:36,097 - INFO - module.chat_api - send: Getting parameters from request
+2019-03-21 15:34:36,098 - INFO - module.chat_api - send: Communicating with Watson
+2019-03-21 15:34:36,098 - INFO - service.watson - Assistant::conversation: Communicating with Watson
+2019-03-21 15:34:38,780 - INFO - service.watson - Tts::synthesize: Synthesizing audio from text
+2019-03-21 15:34:41,490 - INFO - service.watson - Tts::synthesize: Synthesizing audio from text
+2019-03-21 15:34:43,464 - INFO - werkzeug - 127.0.0.1 - - [21/Mar/2019 15:34:43] "[37mPOST /chat/conversation HTTP/1.1[0m" 200 -
+2019-03-21 15:35:28,323 - INFO - werkzeug -  * Detected change in '/home/gabriel/Desktop/legolas/api/module/chat_api.py', reloading
+2019-03-21 15:35:28,752 - INFO - werkzeug -  * Restarting with stat
+2019-03-21 15:35:29,097 - WARNING - werkzeug -  * Debugger is active!
+2019-03-21 15:35:29,097 - INFO - werkzeug -  * Debugger PIN: 297-921-390
+2019-03-21 15:36:15,845 - INFO - module.chat_api - send: Getting parameters from request
+2019-03-21 15:36:15,845 - INFO - module.chat_api - send: Communicating with Watson
+2019-03-21 15:36:15,845 - INFO - service.watson - Assistant::conversation: Communicating with Watson
+2019-03-21 15:37:16,638 - INFO - service.watson - Assistant::conversation: Error communicating with Watson
+Traceback (most recent call last):
+  File "/home/gabriel/.local/lib/python3.6/site-packages/urllib3/connection.py", line 171, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "/home/gabriel/.local/lib/python3.6/site-packages/urllib3/util/connection.py", line 79, in create_connection
+    raise err
+  File "/home/gabriel/.local/lib/python3.6/site-packages/urllib3/util/connection.py", line 69, in create_connection
+    sock.connect(sa)
+OSError: [Errno 101] Network is unreachable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/gabriel/.local/lib/python3.6/site-packages/urllib3/connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "/home/gabriel/.local/lib/python3.6/site-packages/urllib3/connectionpool.py", line 343, in _make_request
+    self._validate_conn(conn)
+  File "/home/gabriel/.local/lib/python3.6/site-packages/urllib3/connectionpool.py", line 849, in _validate_conn
+    conn.connect()
+  File "/home/gabriel/.local/lib/python3.6/site-packages/urllib3/connection.py", line 314, in connect
+    conn = self._new_conn()
+  File "/home/gabriel/.local/lib/python3.6/site-packages/urllib3/connection.py", line 180, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x7fc9f21049b0>: Failed to establish a new connection: [Errno 101] Network is unreachable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/gabriel/.local/lib/python3.6/site-packages/requests/adapters.py", line 445, in send
+    timeout=timeout
+  File "/home/gabriel/.local/lib/python3.6/site-packages/urllib3/connectionpool.py", line 638, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/home/gabriel/.local/lib/python3.6/site-packages/urllib3/util/retry.py", line 398, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='gateway.watsonplatform.net', port=443): Max retries exceeded with url: /assistant/api/v1/workspaces/911ed507-9118-425c-8fd8-594b547f8583/message?version=2019-03-17 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fc9f21049b0>: Failed to establish a new connection: [Errno 101] Network is unreachable',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/gabriel/Desktop/legolas/api/service/watson.py", line 91, in conversation
+    input={'text': message}
+  File "/home/gabriel/.pyenv/versions/3.6.5/lib/python3.6/site-packages/watson_developer_cloud/assistant_v1.py", line 184, in message
+    accept_json=True)
+  File "/home/gabriel/.pyenv/versions/3.6.5/lib/python3.6/site-packages/watson_developer_cloud/watson_service.py", line 463, in request
+    **kwargs)
+  File "/home/gabriel/.local/lib/python3.6/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/gabriel/.local/lib/python3.6/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/gabriel/.local/lib/python3.6/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/gabriel/.local/lib/python3.6/site-packages/requests/adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='gateway.watsonplatform.net', port=443): Max retries exceeded with url: /assistant/api/v1/workspaces/911ed507-9118-425c-8fd8-594b547f8583/message?version=2019-03-17 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fc9f21049b0>: Failed to establish a new connection: [Errno 101] Network is unreachable',))
+2019-03-21 15:37:16,676 - ERROR - module.chat_api - send: Error communicating with Watson
+Traceback (most recent call last):
+  File "/home/gabriel/Desktop/legolas/api/module/chat_api.py", line 127, in send
+    data_dict['speechs'] = [base64.encodebytes(tts.synthesize(message)).decode("utf-8") for message in data_dict['answers']]
+TypeError: 'NoneType' object is not iterable
+2019-03-21 15:37:16,677 - INFO - werkzeug - 127.0.0.1 - - [21/Mar/2019 15:37:16] "[37mPOST /chat/conversation HTTP/1.1[0m" 200 -
+2019-03-21 15:38:01,683 - INFO - module.chat_api - send: Getting parameters from request
+2019-03-21 15:38:01,683 - INFO - module.chat_api - send: Communicating with Watson
+2019-03-21 15:38:01,683 - INFO - service.watson - Assistant::conversation: Communicating with Watson
+2019-03-21 15:38:02,480 - INFO - service.watson - Tts::synthesize: Synthesizing audio from text
+2019-03-21 15:38:05,131 - INFO - werkzeug - 127.0.0.1 - - [21/Mar/2019 15:38:05] "[37mPOST /chat/conversation HTTP/1.1[0m" 200 -
+2019-03-21 15:38:37,701 - INFO - module.chat_api - send: Getting parameters from request
+2019-03-21 15:38:37,702 - INFO - module.chat_api - send: Communicating with Watson
+2019-03-21 15:38:37,702 - INFO - service.watson - Assistant::conversation: Communicating with Watson
+2019-03-21 15:38:38,471 - INFO - service.watson - Tts::synthesize: Synthesizing audio from text
+2019-03-21 15:38:40,864 - INFO - werkzeug - 127.0.0.1 - - [21/Mar/2019 15:38:40] "[37mPOST /chat/conversation HTTP/1.1[0m" 200 -
+2019-03-21 15:39:02,834 - INFO - module.chat_api - send: Getting parameters from request
+2019-03-21 15:39:02,834 - INFO - module.chat_api - send: Communicating with Watson
+2019-03-21 15:39:02,834 - INFO - service.watson - Assistant::conversation: Communicating with Watson
+2019-03-21 15:39:03,440 - INFO - service.watson - Tts::synthesize: Synthesizing audio from text
+2019-03-21 15:39:04,928 - INFO - werkzeug - 127.0.0.1 - - [21/Mar/2019 15:39:04] "[37mPOST /chat/conversation HTTP/1.1[0m" 200 -
