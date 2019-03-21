@@ -87,9 +87,12 @@ class Assistant():
 
             response = self.assistant.message(
                 workspace_id='911ed507-9118-425c-8fd8-594b547f8583',
-                context={'cliente': user, 'conversation_id': conversation_id},
+                context={'cliente': user, 'conversation_id': conversation_id
+                },
                 input={'text': message}
             ).get_result()
+
+            print(json.dumps(response, indent=4))
 
             messages = [message] + response['output']['text']
 

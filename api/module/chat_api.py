@@ -5,12 +5,16 @@
 # Project Github : https://github.com/paulovpcotta/legolas
 #
 # *******************************************************************
-from flask import Flask, request, Blueprint, jsonify
+from flask import Flask, request, Blueprint, jsonify, Response, send_from_directory
 import base64
 from service.watson import Assistant, Stt, Tts
 from pydub import AudioSegment
+import subprocess
 
 import logging
+import os
+import ftplib
+import time
 
 chat = Blueprint('chat', __name__)
 assistant = Assistant()
@@ -67,9 +71,7 @@ def send():
     """
     Used to continue a conversation already started with the watson chatbot and a user.
     Uri: localhost:2931/chat/send_message
-
     CAUTION: if the conversation aren't started, the application may have some issues.
-
     Params:
         - name: The name of the person who started de conversation or logged in a app.
         - id: Conversation id that is sent to watson to recovery the conversation already started.
@@ -102,20 +104,23 @@ def send():
         logger.info(f"send_message: Conversation {conversation_id} continuing")
 
         if audio:  
-            
-            with open('audio.aac', 'wb') as f:
+            print(audio)
+            with open('audio.aiff', 'wb') as f:
                 f.write(audio)
-            
-            aac_audio = AudioSegment.from_file('audio.aiff', format='aac')
-            aac_audio.export("audio.mp3", "mp3")
-            
+
+            # aac_audio = AudioSegment.from_file('audio.aiff', format='aac')
+            # aac_audio.export("audio.mp3", "mp3")
+
+            os.remove('audio.mp3')
+            subprocess.run(['ffmpeg', '-i', 'audio.aiff', '-f', 'mp3', '-acodec', 'libmp3lame', '-ab', '320000', '-ar', '44100', 'audio.mp3'])
+
             with open('audio.mp3', 'rb') as f:
                 message = stt.recognize(f)
 
         data_dict = assistant.continue_conversation(name, conversation_id, message, persist=persist)
 
         if audio or bot_audio:
-            data_dict['speechs'] = [base64.encodebytes(tts.synthesize(message)).decode("utf-8") for message in data_dict['messages']]
+            data_dict['speechs'] = [base64.encodebytes(tts.synthesize(message)).decode("utf-8") for message in data_dict['messages'][1:]]
 
         return jsonify(data_dict)
     
@@ -123,3 +128,28 @@ def send():
         logger.error(f"send_message: Error returning to conversation {conversation_id}", exc_info=True)
 
         return jsonify({'id': None, 'messages': None})
+
+@chat.route('/audio_gambira', methods=['POST'])
+def audioGambira():
+    #static_file_dir = os.path.join(os.path.dirname(os.path.realpath(__file__)), 'serving_static')
+    objLegolas = request.json
+    print(objLegolas)
+    #os.remove('audio.mp3')
+    name = str(int(time.time())) + '.mp3'
+    with open('audio.aiff', 'wb') as f:
+        if('[' not in objLegolas['base64']):
+            f.write(base64.decodebytes(objLegolas['base64'][0].encode()))
+        else:
+            f.write(base64.decodebytes(objLegolas['base64'].encode()))
+
+    subprocess.run(['ffmpeg', '-i', 'audio.aiff', '-f', 'mp3', '-acodec', 'libmp3lame', '-ab', '320000', '-ar', '44100', name])
+
+    session = ftplib.FTP('ftp.cafofobinladen.com.br','cafofobinladen','Fabiane0912@')
+    file = open(name, 'rb')                  # file to send
+    session.storbinary('STOR ./Web/' + name, file)     # send the file
+    file.close()                                    # close file and FTP
+    session.quit()
+
+    #return send_file('audio.mp3', mimetype='audio/x-wav', attachment_filename='audio.mp3')
+    #return send_from_directory('./serving_static', 'audio.mp3', as_attachment=True)
+    return 'http://cafofobinladen.com.br/' + name
