@@ -2395,3 +2395,222 @@ pymongo.errors.ServerSelectionTimeoutError: localhost:27017: [Errno 111] Connect
 2019-03-19 22:51:45,365 - INFO - service.watson - Tts::synthesize: Synthesizing audio from text
 2019-03-19 22:51:47,769 - INFO - service.watson - Tts::synthesize: Synthesizing audio from text
 2019-03-19 22:51:51,238 - INFO - werkzeug - 127.0.0.1 - - [19/Mar/2019 22:51:51] "[37mPOST /chat/send_message HTTP/1.1[0m" 200 -
+2019-03-21 09:16:18,358 - INFO - werkzeug -  * Running on http://0.0.0.0:2931/ (Press CTRL+C to quit)
+2019-03-21 09:16:36,825 - INFO - module.chat_api - start_conversation: Getting parameters from request
+2019-03-21 09:16:36,826 - INFO - module.chat_api - start_conversation: Starting a new conversation
+2019-03-21 09:16:36,827 - INFO - service.watson - Assistant::start_conversation: Starting new conversation with Watson
+2019-03-21 09:17:12,799 - INFO - werkzeug - 127.0.0.1 - - [21/Mar/2019 09:17:12] "[37mPOST /chat/start_conversation HTTP/1.1[0m" 200 -
+2019-03-21 09:18:14,544 - INFO - werkzeug -  * Running on http://0.0.0.0:2931/ (Press CTRL+C to quit)
+2019-03-21 09:18:16,999 - INFO - module.chat_api - start_conversation: Getting parameters from request
+2019-03-21 09:18:17,000 - INFO - module.chat_api - start_conversation: Starting a new conversation
+2019-03-21 09:18:17,001 - INFO - service.watson - Assistant::start_conversation: Starting new conversation with Watson
+2019-03-21 09:18:18,811 - INFO - werkzeug - 127.0.0.1 - - [21/Mar/2019 09:18:18] "[37mPOST /chat/start_conversation HTTP/1.1[0m" 200 -
+2019-03-21 09:21:37,564 - INFO - werkzeug -  * Running on http://0.0.0.0:2931/ (Press CTRL+C to quit)
+2019-03-21 09:21:50,237 - INFO - module.chat_api - send_message: Getting parameters from request
+2019-03-21 09:21:50,240 - ERROR - flask.app - Exception on /chat/send_message [POST]
+Traceback (most recent call last):
+  File "/home/gabriel/Desktop/legolas/api/module/chat_api.py", line 101, in send
+    logger.info(f"send_message: Conversation {conversation_id} continuing")
+NameError: name 'conversation_id' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/gabriel/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/gabriel/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/gabriel/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/gabriel/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/gabriel/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/gabriel/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/gabriel/Desktop/legolas/api/module/chat_api.py", line 125, in send
+    logger.error(f"send_message: Error returning to conversation {conversation_id}", exc_info=True)
+NameError: name 'conversation_id' is not defined
+2019-03-21 09:21:50,256 - INFO - werkzeug - 127.0.0.1 - - [21/Mar/2019 09:21:50] "[1m[35mPOST /chat/send_message HTTP/1.1[0m" 500 -
+2019-03-21 09:26:04,130 - INFO - werkzeug -  * Running on http://0.0.0.0:2931/ (Press CTRL+C to quit)
+2019-03-21 09:26:06,276 - INFO - module.chat_api - send_message: Getting parameters from request
+2019-03-21 09:26:06,277 - INFO - module.chat_api - send_message: Conversation 1c0a051b-6faa-47d8-990e-fc43b8899539 continuing
+2019-03-21 09:26:06,278 - INFO - service.watson - Assistant::continue_conversation: Continuing conversation
+2019-03-21 09:26:08,670 - INFO - service.watson - Assistant::continue_conversation: Error continuing conversation
+Traceback (most recent call last):
+  File "/home/gabriel/Desktop/legolas/api/service/watson.py", line 101, in continue_conversation
+    return {'id': conversation_id, 'messages': messages, 'context':context}
+NameError: name 'conversation_id' is not defined
+2019-03-21 09:26:08,672 - ERROR - module.chat_api - send_message: Error returning to conversation 1c0a051b-6faa-47d8-990e-fc43b8899539
+Traceback (most recent call last):
+  File "/home/gabriel/Desktop/legolas/api/service/watson.py", line 101, in continue_conversation
+    return {'id': conversation_id, 'messages': messages, 'context':context}
+NameError: name 'conversation_id' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/gabriel/Desktop/legolas/api/module/chat_api.py", line 117, in send
+    data_dict = assistant.continue_conversation(message,context, persist=persist)
+  File "/home/gabriel/Desktop/legolas/api/service/watson.py", line 106, in continue_conversation
+    return {'id': conversation_id, 'messages': None, 'context': None}
+NameError: name 'conversation_id' is not defined
+2019-03-21 09:26:08,675 - INFO - werkzeug - 127.0.0.1 - - [21/Mar/2019 09:26:08] "[37mPOST /chat/send_message HTTP/1.1[0m" 200 -
+2019-03-21 09:27:50,845 - INFO - werkzeug -  * Running on http://0.0.0.0:2931/ (Press CTRL+C to quit)
+2019-03-21 09:27:53,546 - INFO - module.chat_api - send_message: Getting parameters from request
+2019-03-21 09:27:53,547 - INFO - module.chat_api - send_message: Conversation 1c0a051b-6faa-47d8-990e-fc43b8899539 continuing
+2019-03-21 09:27:53,548 - INFO - service.watson - Assistant::continue_conversation: Continuing conversation
+2019-03-21 09:27:59,441 - INFO - service.watson - Tts::synthesize: Synthesizing audio from text
+2019-03-21 09:28:06,767 - INFO - service.watson - Tts::synthesize: Synthesizing audio from text
+2019-03-21 09:28:07,862 - INFO - werkzeug - 127.0.0.1 - - [21/Mar/2019 09:28:07] "[37mPOST /chat/send_message HTTP/1.1[0m" 200 -
+2019-03-21 09:28:52,863 - INFO - module.chat_api - send_message: Getting parameters from request
+2019-03-21 09:28:52,864 - INFO - module.chat_api - send_message: Conversation 1c0a051b-6faa-47d8-990e-fc43b8899539 continuing
+2019-03-21 09:28:52,865 - INFO - service.watson - Assistant::continue_conversation: Continuing conversation
+2019-03-21 09:28:53,547 - INFO - service.watson - Tts::synthesize: Synthesizing audio from text
+2019-03-21 09:28:54,820 - INFO - service.watson - Tts::synthesize: Synthesizing audio from text
+2019-03-21 09:28:55,852 - INFO - werkzeug - 127.0.0.1 - - [21/Mar/2019 09:28:55] "[37mPOST /chat/send_message HTTP/1.1[0m" 200 -
+2019-03-21 09:29:27,358 - INFO - module.chat_api - send_message: Getting parameters from request
+2019-03-21 09:29:27,359 - INFO - module.chat_api - send_message: Conversation 1c0a051b-6faa-47d8-990e-fc43b8899539 continuing
+2019-03-21 09:29:27,360 - INFO - service.watson - Assistant::continue_conversation: Continuing conversation
+2019-03-21 09:29:28,140 - INFO - service.watson - Tts::synthesize: Synthesizing audio from text
+2019-03-21 09:29:29,201 - INFO - service.watson - Tts::synthesize: Synthesizing audio from text
+2019-03-21 09:29:30,328 - INFO - werkzeug - 127.0.0.1 - - [21/Mar/2019 09:29:30] "[37mPOST /chat/send_message HTTP/1.1[0m" 200 -
+2019-03-21 09:30:25,863 - INFO - module.chat_api - send_message: Getting parameters from request
+2019-03-21 09:30:25,864 - INFO - module.chat_api - send_message: Conversation 1c0a051b-6faa-47d8-990e-fc43b8899539 continuing
+2019-03-21 09:30:25,865 - INFO - service.watson - Assistant::continue_conversation: Continuing conversation
+2019-03-21 09:30:26,293 - INFO - service.watson - Tts::synthesize: Synthesizing audio from text
+2019-03-21 09:30:27,335 - INFO - service.watson - Tts::synthesize: Synthesizing audio from text
+2019-03-21 09:30:28,410 - INFO - werkzeug - 127.0.0.1 - - [21/Mar/2019 09:30:28] "[37mPOST /chat/send_message HTTP/1.1[0m" 200 -
+2019-03-21 09:34:06,773 - INFO - module.chat_api - start_conversation: Getting parameters from request
+2019-03-21 09:34:06,775 - INFO - module.chat_api - start_conversation: Starting a new conversation
+2019-03-21 09:34:06,776 - INFO - service.watson - Assistant::start_conversation: Starting new conversation with Watson
+2019-03-21 09:34:07,523 - INFO - werkzeug - 127.0.0.1 - - [21/Mar/2019 09:34:07] "[37mPOST /chat/start_conversation HTTP/1.1[0m" 200 -
+2019-03-21 09:34:23,487 - INFO - module.chat_api - send_message: Getting parameters from request
+2019-03-21 09:34:23,489 - INFO - module.chat_api - send_message: Conversation 99cea39d-6e89-439d-82b5-ce9b99d86996 continuing
+2019-03-21 09:34:23,490 - INFO - service.watson - Assistant::continue_conversation: Continuing conversation
+2019-03-21 09:34:23,926 - INFO - service.watson - Tts::synthesize: Synthesizing audio from text
+2019-03-21 09:34:25,253 - INFO - service.watson - Tts::synthesize: Synthesizing audio from text
+2019-03-21 09:34:26,343 - INFO - werkzeug - 127.0.0.1 - - [21/Mar/2019 09:34:26] "[37mPOST /chat/send_message HTTP/1.1[0m" 200 -
+2019-03-21 09:34:41,955 - INFO - module.chat_api - send_message: Getting parameters from request
+2019-03-21 09:34:41,956 - INFO - module.chat_api - send_message: Conversation 99cea39d-6e89-439d-82b5-ce9b99d86996 continuing
+2019-03-21 09:34:41,957 - INFO - service.watson - Assistant::continue_conversation: Continuing conversation
+2019-03-21 09:34:42,280 - INFO - service.watson - Tts::synthesize: Synthesizing audio from text
+2019-03-21 09:34:43,360 - INFO - service.watson - Tts::synthesize: Synthesizing audio from text
+2019-03-21 09:34:44,464 - INFO - werkzeug - 127.0.0.1 - - [21/Mar/2019 09:34:44] "[37mPOST /chat/send_message HTTP/1.1[0m" 200 -
+2019-03-21 09:36:06,564 - INFO - werkzeug -  * Running on http://0.0.0.0:2931/ (Press CTRL+C to quit)
+2019-03-21 09:36:33,644 - INFO - module.chat_api - start_conversation: Getting parameters from request
+2019-03-21 09:36:33,645 - INFO - module.chat_api - start_conversation: Starting a new conversation
+2019-03-21 09:36:33,646 - INFO - service.watson - Assistant::start_conversation: Starting new conversation with Watson
+2019-03-21 09:36:35,227 - INFO - werkzeug - 127.0.0.1 - - [21/Mar/2019 09:36:35] "[37mPOST /chat/start_conversation HTTP/1.1[0m" 200 -
+2019-03-21 09:36:54,576 - INFO - module.chat_api - send_message: Getting parameters from request
+2019-03-21 09:36:54,577 - INFO - module.chat_api - send_message: Conversation bdc29875-088b-48c4-bb7f-70e8a571c204 continuing
+2019-03-21 09:36:54,578 - INFO - service.watson - Assistant::continue_conversation: Continuing conversation
+2019-03-21 09:36:55,070 - INFO - service.watson - Tts::synthesize: Synthesizing audio from text
+2019-03-21 09:36:57,252 - INFO - werkzeug - 127.0.0.1 - - [21/Mar/2019 09:36:57] "[37mPOST /chat/send_message HTTP/1.1[0m" 200 -
+2019-03-21 09:38:13,926 - INFO - werkzeug -  * Running on http://0.0.0.0:2931/ (Press CTRL+C to quit)
+2019-03-21 09:38:15,867 - INFO - module.chat_api - start_conversation: Getting parameters from request
+2019-03-21 09:38:15,869 - INFO - module.chat_api - start_conversation: Starting a new conversation
+2019-03-21 09:38:15,870 - INFO - service.watson - Assistant::start_conversation: Starting new conversation with Watson
+2019-03-21 09:38:17,375 - INFO - werkzeug - 127.0.0.1 - - [21/Mar/2019 09:38:17] "[37mPOST /chat/start_conversation HTTP/1.1[0m" 200 -
+2019-03-21 09:38:34,350 - INFO - module.chat_api - send_message: Getting parameters from request
+2019-03-21 09:38:34,352 - INFO - module.chat_api - send_message: Conversation 0b01a044-bac4-4d44-9a35-11a2927810a3 continuing
+2019-03-21 09:38:34,353 - INFO - service.watson - Assistant::continue_conversation: Continuing conversation
+2019-03-21 09:38:34,714 - INFO - service.watson - Tts::synthesize: Synthesizing audio from text
+2019-03-21 09:38:36,509 - INFO - werkzeug - 127.0.0.1 - - [21/Mar/2019 09:38:36] "[37mPOST /chat/send_message HTTP/1.1[0m" 200 -
+2019-03-21 09:38:52,779 - INFO - module.chat_api - send_message: Getting parameters from request
+2019-03-21 09:38:52,780 - INFO - module.chat_api - send_message: Conversation 0b01a044-bac4-4d44-9a35-11a2927810a3 continuing
+2019-03-21 09:38:52,780 - INFO - service.watson - Assistant::continue_conversation: Continuing conversation
+2019-03-21 09:38:53,210 - INFO - service.watson - Tts::synthesize: Synthesizing audio from text
+2019-03-21 09:38:54,367 - INFO - werkzeug - 127.0.0.1 - - [21/Mar/2019 09:38:54] "[37mPOST /chat/send_message HTTP/1.1[0m" 200 -
+2019-03-21 09:39:54,943 - INFO - module.chat_api - send_message: Getting parameters from request
+2019-03-21 09:39:54,945 - INFO - module.chat_api - send_message: Conversation 0b01a044-bac4-4d44-9a35-11a2927810a3 continuing
+2019-03-21 09:39:54,946 - INFO - service.watson - Assistant::continue_conversation: Continuing conversation
+2019-03-21 09:39:55,764 - INFO - service.watson - Tts::synthesize: Synthesizing audio from text
+2019-03-21 09:39:57,341 - INFO - werkzeug - 127.0.0.1 - - [21/Mar/2019 09:39:57] "[37mPOST /chat/send_message HTTP/1.1[0m" 200 -
+2019-03-21 09:40:51,136 - INFO - module.chat_api - start_conversation: Getting parameters from request
+2019-03-21 09:40:51,138 - INFO - module.chat_api - start_conversation: Starting a new conversation
+2019-03-21 09:40:51,138 - INFO - service.watson - Assistant::start_conversation: Starting new conversation with Watson
+2019-03-21 09:40:51,446 - INFO - werkzeug - 127.0.0.1 - - [21/Mar/2019 09:40:51] "[37mPOST /chat/start_conversation HTTP/1.1[0m" 200 -
+2019-03-21 09:41:11,255 - INFO - module.chat_api - send_message: Getting parameters from request
+2019-03-21 09:41:11,256 - INFO - module.chat_api - send_message: Conversation 20e5fb7a-af7c-41ab-b884-831ae75a629c continuing
+2019-03-21 09:41:11,257 - INFO - service.watson - Assistant::continue_conversation: Continuing conversation
+2019-03-21 09:41:11,599 - INFO - service.watson - Tts::synthesize: Synthesizing audio from text
+2019-03-21 09:41:12,852 - INFO - werkzeug - 127.0.0.1 - - [21/Mar/2019 09:41:12] "[37mPOST /chat/send_message HTTP/1.1[0m" 200 -
+2019-03-21 09:41:36,251 - INFO - module.chat_api - send_message: Getting parameters from request
+2019-03-21 09:41:36,252 - INFO - module.chat_api - send_message: Conversation 20e5fb7a-af7c-41ab-b884-831ae75a629c continuing
+2019-03-21 09:41:36,253 - INFO - service.watson - Assistant::continue_conversation: Continuing conversation
+2019-03-21 09:41:36,672 - INFO - service.watson - Tts::synthesize: Synthesizing audio from text
+2019-03-21 09:41:37,674 - INFO - werkzeug - 127.0.0.1 - - [21/Mar/2019 09:41:37] "[37mPOST /chat/send_message HTTP/1.1[0m" 200 -
+2019-03-21 09:41:57,621 - INFO - module.chat_api - send_message: Getting parameters from request
+2019-03-21 09:41:57,623 - INFO - module.chat_api - send_message: Conversation 20e5fb7a-af7c-41ab-b884-831ae75a629c continuing
+2019-03-21 09:41:57,624 - INFO - service.watson - Assistant::continue_conversation: Continuing conversation
+2019-03-21 09:41:58,071 - INFO - service.watson - Tts::synthesize: Synthesizing audio from text
+2019-03-21 09:41:59,325 - INFO - werkzeug - 127.0.0.1 - - [21/Mar/2019 09:41:59] "[37mPOST /chat/send_message HTTP/1.1[0m" 200 -
+2019-03-21 09:44:53,099 - INFO - werkzeug -  * Running on http://0.0.0.0:2931/ (Press CTRL+C to quit)
+2019-03-21 09:44:54,944 - INFO - module.chat_api - start_conversation: Getting parameters from request
+2019-03-21 09:44:54,946 - INFO - module.chat_api - start_conversation: Starting a new conversation
+2019-03-21 09:44:54,947 - INFO - service.watson - Assistant::start_conversation: Starting new conversation with Watson
+2019-03-21 09:44:56,784 - INFO - service.watson - Tts::synthesize: Synthesizing audio from text
+2019-03-21 09:44:58,458 - INFO - service.watson - Tts::synthesize: Synthesizing audio from text
+2019-03-21 09:44:59,512 - INFO - werkzeug - 127.0.0.1 - - [21/Mar/2019 09:44:59] "[37mPOST /chat/start_conversation HTTP/1.1[0m" 200 -
+2019-03-21 09:51:15,639 - INFO - werkzeug -  * Running on http://0.0.0.0:2931/ (Press CTRL+C to quit)
+2019-03-21 09:53:05,481 - INFO - module.chat_api - send_message: Getting parameters from request
+2019-03-21 09:53:05,483 - ERROR - flask.app - Exception on /chat/send_message [POST]
+Traceback (most recent call last):
+  File "/home/gabriel/Desktop/legolas/api/module/chat_api.py", line 102, in send
+    logger.info(f"send_message: Conversation {context['conversation_id']} continuing")
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/gabriel/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/gabriel/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/gabriel/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/gabriel/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/gabriel/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/gabriel/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/gabriel/Desktop/legolas/api/module/chat_api.py", line 131, in send
+    logger.error(f"send_message: Error returning to conversation {context['conversation_id']}", exc_info=True)
+TypeError: 'NoneType' object is not subscriptable
+2019-03-21 09:53:05,486 - INFO - werkzeug - 127.0.0.1 - - [21/Mar/2019 09:53:05] "[1m[35mPOST /chat/send_message HTTP/1.1[0m" 500 -
+2019-03-21 09:54:03,435 - INFO - werkzeug -  * Running on http://0.0.0.0:2931/ (Press CTRL+C to quit)
+2019-03-21 09:54:04,341 - INFO - module.chat_api - send_message: Getting parameters from request
+2019-03-21 09:54:04,343 - INFO - module.chat_api - send_message: Conversation continuing
+2019-03-21 09:54:04,344 - INFO - service.watson - Assistant::continue_conversation: Continuing conversation
+2019-03-21 09:54:07,863 - INFO - werkzeug - 127.0.0.1 - - [21/Mar/2019 09:54:07] "[37mPOST /chat/send_message HTTP/1.1[0m" 200 -
+2019-03-21 09:55:20,501 - INFO - werkzeug -  * Running on http://0.0.0.0:2931/ (Press CTRL+C to quit)
+2019-03-21 09:55:22,120 - INFO - module.chat_api - send_message: Getting parameters from request
+2019-03-21 09:55:22,121 - INFO - module.chat_api - send_message: Conversation continuing
+2019-03-21 09:55:22,123 - INFO - service.watson - Assistant::continue_conversation: Continuing conversation
+2019-03-21 09:55:24,112 - INFO - werkzeug - 127.0.0.1 - - [21/Mar/2019 09:55:24] "[37mPOST /chat/send_message HTTP/1.1[0m" 200 -
+2019-03-21 09:57:22,093 - INFO - werkzeug -  * Running on http://0.0.0.0:2931/ (Press CTRL+C to quit)
+2019-03-21 09:57:23,574 - INFO - module.chat_api - start_conversation: Getting parameters from request
+2019-03-21 09:57:23,576 - INFO - module.chat_api - start_conversation: Starting a new conversation
+2019-03-21 09:57:23,577 - INFO - service.watson - Assistant::start_conversation: Starting new conversation with Watson
+2019-03-21 09:57:27,362 - INFO - service.watson - Tts::synthesize: Synthesizing audio from text
+2019-03-21 09:57:29,706 - INFO - service.watson - Tts::synthesize: Synthesizing audio from text
+2019-03-21 09:57:30,812 - INFO - werkzeug - 127.0.0.1 - - [21/Mar/2019 09:57:30] "[37mPOST /chat/start_conversation HTTP/1.1[0m" 200 -
+2019-03-21 09:58:25,316 - INFO - werkzeug -  * Running on http://0.0.0.0:2931/ (Press CTRL+C to quit)
+2019-03-21 09:58:30,122 - INFO - module.chat_api - start_conversation: Getting parameters from request
+2019-03-21 09:58:30,123 - INFO - module.chat_api - start_conversation: Starting a new conversation
+2019-03-21 09:58:30,124 - INFO - service.watson - Assistant::start_conversation: Starting new conversation with Watson
+2019-03-21 09:58:31,910 - INFO - service.watson - Tts::synthesize: Synthesizing audio from text
+2019-03-21 09:58:33,591 - INFO - service.watson - Tts::synthesize: Synthesizing audio from text
+2019-03-21 09:58:36,526 - INFO - werkzeug - 127.0.0.1 - - [21/Mar/2019 09:58:36] "[37mPOST /chat/start_conversation HTTP/1.1[0m" 200 -
+2019-03-21 09:59:02,150 - INFO - module.chat_api - send_message: Getting parameters from request
+2019-03-21 09:59:02,151 - INFO - module.chat_api - send_message: Conversation 422e5000-cfe2-4912-9bb9-03334a94880c continuing
+2019-03-21 09:59:02,152 - INFO - service.watson - Assistant::continue_conversation: Continuing conversation
+2019-03-21 09:59:02,624 - INFO - service.watson - Tts::synthesize: Synthesizing audio from text
+2019-03-21 09:59:03,773 - INFO - werkzeug - 127.0.0.1 - - [21/Mar/2019 09:59:03] "[37mPOST /chat/send_message HTTP/1.1[0m" 200 -
+2019-03-21 09:59:25,446 - INFO - module.chat_api - send_message: Getting parameters from request
+2019-03-21 09:59:25,448 - INFO - module.chat_api - send_message: Conversation 422e5000-cfe2-4912-9bb9-03334a94880c continuing
+2019-03-21 09:59:25,449 - INFO - service.watson - Assistant::continue_conversation: Continuing conversation
+2019-03-21 09:59:26,123 - INFO - service.watson - Tts::synthesize: Synthesizing audio from text
+2019-03-21 09:59:27,500 - INFO - werkzeug - 127.0.0.1 - - [21/Mar/2019 09:59:27] "[37mPOST /chat/send_message HTTP/1.1[0m" 200 -

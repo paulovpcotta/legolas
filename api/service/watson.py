@@ -54,24 +54,24 @@ class Assistant():
 
             conversation_id = response['context']['conversation_id']
             messages = response['output']['text']
+            context = response['context']
 
             if persist:
                 db.insert_new_conversation(conversation_id, user, messages)
 
-            return {'id': conversation_id, 'messages': messages}
+            return {'messages': messages, 'context':context}
         
         except:
             logger.error('Assistant::start_conversation: Error starting new conversation with Watson', exc_info=True)
 
-            return {'id': None, 'messages': None}
+            return {'id': None, 'messages': None, 'context': None}
 
-    def continue_conversation(self, user:str, conversation_id:str, message:str, persist=True) -> dict:
+    def continue_conversation(self, message:str, context:str ,persist=True) -> dict:
         """
         Continue a conversation already started with the watson chatbot.
 
         Params:
-            - user: User who started the conversation.
-            - conversation_id: needed to know what chatbot conversation to recover.
+            - context: 
             - message: A string with the messages to sendo to watson.
             - persist: This variable defines if the conversation will be saved in the MongoDB. (default = True)
 
@@ -83,25 +83,26 @@ class Assistant():
         logger = logging.getLogger(__name__)
 
         try:
-            logger.info(f'Assistant::continue_conversation: Continuing conversation {conversation_id}')
+            logger.info(f'Assistant::continue_conversation: Continuing conversation')
 
             response = self.assistant.message(
                 workspace_id='911ed507-9118-425c-8fd8-594b547f8583',
-                context={'cliente': user, 'conversation_id': conversation_id},
+                context=context,
                 input={'text': message}
             ).get_result()
 
             messages = [message] + response['output']['text']
+            context = response['context']
 
             if persist:
                 db.update_conversation(conversation_id, messages)
 
-            return {'id': conversation_id, 'messages': messages}
+            return {'messages': messages, 'context':context}
         
         except:
-            logger.info(f'Assistant::continue_conversation: Error continuing conversation {conversation_id}', exc_info=True)
+            logger.info(f'Assistant::continue_conversation: Error continuing conversation', exc_info=True)
 
-            return {'id': conversation_id, 'messages': None}
+            return { 'messages': None, 'context': None}
 
 class Stt():
 
