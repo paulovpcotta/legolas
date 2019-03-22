@@ -190,26 +190,14 @@ export default class Voices extends Component {
       name: this.nameCap,
       persist: false
     }
-    axios.post('http://192.168.42.89:2931/chat/start_conversation', speak)
+    axios.post('http://192.168.42.89:2931/chat/conversation', speak)
       .then(res => this.receivedName(res));
     
   }
 
-  soundInitalConversation = function(messages){
-    const speak = {
-      name: this.nameCap,
-      id: this.dataPeople.id,
-      message: messages,
-      persist: false,
-      bot_audio: true
-    }
-    axios.post('http://192.168.42.89:2931/chat/send_message', speak)
-      .then(res => this.playSound(res.data.speechs));
-  }
-
   receivedName = function(res){
     this.dataPeople = res.data;
-    //this.soundInitalConversation(res.data.messages);
+    this.playSound(res.data.speechs);
     this.setState({
       messages: [
         {
@@ -226,12 +214,12 @@ export default class Voices extends Component {
     })
   }
 
-  onSend(messages = [], user=true) {
+  onSend(messages = [], user=true, context) {
     this.setState(previousState => ({
       messages: GiftedChat.append(previousState.messages, messages),
     }));
     if(user){
-      this.mensageBot(messages);
+      this.mensageBot(messages, context);
     }
   }
 
@@ -240,8 +228,7 @@ export default class Voices extends Component {
       base64:base64P
     }
     axios.post('http://192.168.42.89:2931/chat/audio_gambira', obj)
-      .then(res => this.soundLegolas(res.data))
-    //this.soundLegolas('http://cafofobinladen.com.br/audio.mp3');
+      .then(res => this.soundLegolas(res.data));
   }
 
   soundLegolas = function(audio){
@@ -255,39 +242,38 @@ export default class Voices extends Component {
       });
   }
 
-  mensageBot = function(messages = []){
+  mensageBot = function(messages = [], context){
     const speak = {
-      name: this.nameCap,
-      id: this.dataPeople.id,
       message: messages[0].text,
-      persist: false
+      persist: false,
+      context: context
     }
-    axios.post('http://192.168.42.89:2931/chat/send_message', speak)
-      .then(res => this.onSend(this.bot(res.data.messages), false))
+    axios.post('http://192.168.42.89:2931/chat/conversation', speak)
+      .then(res => this.onSend(this.bot(res.data.messages, res), false))
   }
 
   audioBot = function(audioBase64){
     const speak = {
-      name: this.nameCap,
-      id: this.dataPeople.id,
       audio: audioBase64,
-      persist: false
+      persist: false,
+      context: this.dataPeople.context
     }
     
-    axios.post('http://192.168.42.89:2931/chat/send_message', speak)
-      .then(res => this.mensageSTT(res.data));
-    // axios.post('http://192.168.42.89:2931/chat/send_message', speak)
-    //   .then(res => console.warn(res.data));
+    axios.post('http://192.168.42.89:2931/chat/conversation', speak)
+      .then(res => this.mensageSTT(res));
   }
 
   mensageSTT = function(mes){
     //   console.warn(mes.speechs);
-      this.playSound(mes.speechs);
-      this.onSend(this.userMenss(mes.messages[0]), false);
-      this.onSend(this.bot(mes.messages), false)
+      this.dataPeople = mes.data;
+      this.playSound(mes.data.speechs);
+      this.onSend(this.userMenss(mes.data.messages[0], mes), false, mes.context);
+      this.onSend(this.bot(mes.data.messages, mes), false, mes.context);
   }
 
-  bot = function(resMesages){
+  bot = function(resMesages, res){
+    this.dataPeople = res.data;
+    this.playSound(res.data.speechs);
     this.messages = null;
     this.messages = [
       {
@@ -305,8 +291,9 @@ export default class Voices extends Component {
     return this.messages;
   }
 
-  userMenss = function(resMesages){
+  userMenss = function(resMesages, res){
     this.messages = null;
+    this.dataPeople = res.data;
     this.messages = [
       {
         _id:  Math.round(Math.random() * 1000000),
@@ -345,7 +332,7 @@ export default class Voices extends Component {
     if (!this.state.messages.length && !this.state.fetchChats) {
         return (
             <View style={{ marginTop: 100 }}>
-                <ActivityIndicator color="black" animating size="large" />
+                <ActivityIndicator color="blue" animating size="large" />
             </View>
         );
     }
@@ -403,7 +390,7 @@ export default class Voices extends Component {
         {this.renderAndroidMicrophone()}
         <GiftedChat
             messages={this.state.messages}
-            onSend={messages => this.onSend(messages)}
+            onSend={messages => this.onSend(messages, true, this.dataPeople.context)}
             alwaysShowSend
             showUserAvatar
             isAnimated
