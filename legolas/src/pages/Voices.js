@@ -190,7 +190,7 @@ export default class Voices extends Component {
       name: this.nameCap,
       persist: false
     }
-    axios.post('http://192.168.42.89:2931/chat/conversation', speak)
+    axios.post('http://40.114.36.222:2931/chat/conversation', speak)
       .then(res => this.receivedName(res));
     
   }
@@ -227,7 +227,7 @@ export default class Voices extends Component {
     const obj = {
       base64:base64P
     }
-    axios.post('http://192.168.42.89:2931/chat/audio_gambira', obj)
+    axios.post('http://40.114.36.222:2931/chat/audio_gambira', obj)
       .then(res => this.soundLegolas(res.data));
   }
 
@@ -248,7 +248,7 @@ export default class Voices extends Component {
       persist: false,
       context: context
     }
-    axios.post('http://192.168.42.89:2931/chat/conversation', speak)
+    axios.post('http://40.114.36.222:2931/chat/conversation', speak)
       .then(res => this.onSend(this.bot(res.data.messages, res), false))
   }
 
@@ -259,7 +259,7 @@ export default class Voices extends Component {
       context: this.dataPeople.context
     }
     
-    axios.post('http://192.168.42.89:2931/chat/conversation', speak)
+    axios.post('http://40.114.36.222:2931/chat/conversation', speak)
       .then(res => this.mensageSTT(res));
   }
 

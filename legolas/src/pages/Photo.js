@@ -21,7 +21,7 @@ export default class Photo extends Component {
           const rec = {
             base64: data.base64
           }
-          axios.post('http://192.168.42.89:2931/api/detection_recognition', rec)
+          axios.post('http://40.114.36.222:2931/api/detection_recognition', rec)
             .then(res => this.login(res)).catch(error => {
               Alert.alert('Favor tentar novamente!')
           });;
